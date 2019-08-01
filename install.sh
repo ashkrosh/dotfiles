@@ -205,6 +205,12 @@ if [[ "$CURRENTSHELL" != "/usr/local/bin/zsh" ]]; then
   ok
 fi
 
+# Clone oh-my-zsh if doesn't exist
+if [[ ! -d "./oh-my-zsh/oh-my-zsh.sh" ]]; then
+	git clone https://github.com/robbyrussell/oh-my-zsh.git oh-my-zsh
+fi
+
+# Install PowerLevel10K if not already installed.
 if [[ ! -d "./oh-my-zsh/custom/themes/powerlevel10k" ]]; then
   git clone https://github.com/romkatv/powerlevel10k.git oh-my-zsh/custom/themes/powerlevel10k
 fi
@@ -266,6 +272,7 @@ if [[ $response =~ (y|yes|Y) ]];then
   require_cask font-roboto-mono
   require_cask font-roboto-mono-for-powerline
   require_cask font-source-code-pro
+  require_cask font-iosevka
   ok
 fi
 
@@ -902,8 +909,8 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true;ok
 running "Make Safari’s search banners default to Contains instead of Starts With"
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false;ok
 
-running "Remove useless icons from Safari’s bookmarks bar"
-defaults write com.apple.Safari ProxiesInBookmarksBar "()";ok
+# running "Remove useless icons from Safari’s bookmarks bar"
+# defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
 running "Enable the Develop menu and the Web Inspector in Safari"
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
