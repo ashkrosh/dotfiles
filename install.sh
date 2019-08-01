@@ -205,8 +205,8 @@ if [[ "$CURRENTSHELL" != "/usr/local/bin/zsh" ]]; then
   ok
 fi
 
-if [[ ! -d "./oh-my-zsh/custom/themes/powerlevel9k" ]]; then
-  git clone https://github.com/bhilburn/powerlevel9k.git oh-my-zsh/custom/themes/powerlevel9k
+if [[ ! -d "./oh-my-zsh/custom/themes/powerlevel10k" ]]; then
+  git clone https://github.com/romkatv/powerlevel10k.git oh-my-zsh/custom/themes/powerlevel10k
 fi
 
 bot "Dotfiles Setup"
