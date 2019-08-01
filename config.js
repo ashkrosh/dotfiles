@@ -1,6 +1,8 @@
 module.exports = {
   brew: [
-    // http://conqueringthecommandline.com/book/ack_ag
+    // Antibody - a shell plugin manager made from the ground up thinking about performance.
+	'getantibody/tap/antibody',
+    // Ack - http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
     // https://github.com/wting/autojump
@@ -41,43 +43,70 @@ module.exports = {
     // better/more recent version of screen
     'homebrew/dupes/screen',
     'tmux',
-    'todo-txt',
     'tree',
     'ttyrec',
     // better, more recent vim
-    'vim --with-client-server --with-override-system-vi',
+    //'vim --with-client-server --with-override-system-vi',
+	// neovim - faster vim with vim-plugs
+	'neovim',
     'watch',
     // Install wget with IRI support
-    'wget --enable-iri'
+    'wget --enable-iri',
+	// GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols
+	'gnutls',
+	'thefuck',
+	'curl',
+	// Ctags: http://ctags.sourceforge.net/whatis.html
+	'ctags',
+	// pv ~ pipeviewer : https://www.ivarch.com/programs/pv.shtml
+	'pv',
+	'ssh-copy-id',
+	'tree',
+	// gibo: access github gitignore templates https://github.com/simonwhitaker/gibo
+	'gibo',
+	// dnsmasq: Lightweight DNS forwarder and DHCP server https://formulae.brew.sh/formula/dnsmasq
+	'dnsmasq',
+	// ngrok : Public URLs for exposing your local web server.
+	// 'ngrok',
+	// z tracks most-used directories to make cd smarter
+	'z',
+	// nmap Port scanning utility for large networks
+	'nmap',
+	'mackup',
+	'awscli',
+	// skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
+	'skhd',
   ],
   cask: [
-    //'adium',
     //'amazon-cloud-drive',
-    //'atom',
-    // 'box-sync',
-    //'comicbooklover',
-    //'diffmerge',
-    'docker', // docker for mac
-    //'dropbox',
-    //'evernote',
-    'flux',
-    'gpg-suite',
-    //'ireadfast',
+    'docker',
+    'dropbox',
+    'appcleaner',
     'iterm2',
     'little-snitch',
-    'macbreakz',
-    'micro-snitch',
-    'signal',
-    //'macvim',
-    'sizeup',
-    //'sketchup',
-    'slack',
+    'cardhop',
+    'textmate',
+    'fantastical',
+    'atext',
     'the-unarchiver',
-    //'torbrowser',
-    //'transmission',
-    'visual-studio-code',
-    //'vlc',
-    'xquartz'
+    'launchbar',
+    'kaleidoscope',
+	'moom',
+	'cronnix',
+	'Snagit',
+	'1password',
+	'bartender',
+	'vimr',
+	'httpie',
+	// Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
+	'qlcolorcode',
+	'qlstephen',
+	'qlmarkdown',
+	'quicklook-json',
+	'qlimagesize',
+	'suspicious-package',
+	'quicklookase',
+	'qlvideo'
   ],
   gem: [
   ],
