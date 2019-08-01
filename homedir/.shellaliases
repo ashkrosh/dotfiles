@@ -59,8 +59,8 @@ alias oconn='lsof -l -i +L -R -V | grep ESTABLISHED'
 # -l Long format
 # -h Short size suffixes (B, K, M, G, P)
 # -p Postpend slash to folders
-alias ls='ls -G -h -p '
-alias ll='ls -l -G -h -p '
+# alias ls='ls -G -h -p '
+# alias ll='ls -l -G -h -p '
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
@@ -69,9 +69,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias pbcopynn='tr -d "\n" | pbcopy'
 
 # firewall management
-alias port-forward-enable="echo 'rdr pass inet proto tcp from any to any port 2376 -> 127.0.0.1 port 2376' | sudo pfctl -ef -"
-alias port-forward-disable="sudo pfctl -F all -f /etc/pf.conf"
-alias port-forward-list="sudo pfctl -s nat"
+# alias port-forward-enable="echo 'rdr pass inet proto tcp from any to any port 2376 -> 127.0.0.1 port 2376' | sudo pfctl -ef -"
+# alias port-forward-disable="sudo pfctl -F all -f /etc/pf.conf"
+# alias port-forward-list="sudo pfctl -s nat"
 
 # push git repo, but first, use git-up to make sure you are in sync and rebased with the remote
 alias pushup="git-up && git push"
@@ -110,17 +110,25 @@ alias jsonfix="pbpaste | jq . | pbcopy"
 ##############################################################################################
 ## TKTK move these personal settings to a different branch
 ##############################################################################################
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+alias vim='nvim'
+
+# Keep it clean.
+alias c="clear"
 # Clean up LaunchServices to remove duplicates in the “Open With” menu
 alias dupclean="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
 
 # OS X has no `md5sum`, so use `md5` as a fallback
 command -v md5sum > /dev/null || alias md5sum="md5"
 
 # OS X has no `sha1sum`, so use `shasum` as a fallback
 command -v sha1sum > /dev/null || alias sha1sum="shasum"
-
-# Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 
 # Merge PDF files
@@ -138,8 +146,57 @@ alias loud="osascript -e 'set volume 7'"
 alias b='brew'
 alias bs='brew search'
 alias bi='brew info'
-alias cdb='cd $(brew --prefix)'
 
-alias cdp='cd ~/Projects/'
+
+# Directories and asier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias cdb='cd $(brew --prefix)'
+alias cdd="cd $DOTFILES"
+alias cdl="cd $HOME/Library"
+alias cdp="cd $HOME/Projects/"
+alias dl="cd $HOME/Downloads"
+alias dt="cd $HOME/Desktop"
+
+
+# Git
+alias commit="git add . && git commit -m"
+alias gcommit="git add . && git commit"
+alias amend="git commit --amend --no-edit"
+alias amendall="git add . && amend"
+alias wip="commit wip"
+alias gst="git status"
+alias gb="git branch"
+alias gc="git checkout"
+alias gd="git diff"
+alias gl="git log --oneline --decorate --color"
+alias gnuke="git clean -df && git reset --hard"
+
+
+# Listing files
+alias ls="gls -F --color"
+alias l="gls -lAh --color"
+alias ll="gls -l --color"
+alias lll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
+alias la='gls -A --color'
+
+
+# Always enable colored `grep` output
+# Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+
+alias pubkey="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias mate='mate "`pwd`"'
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias zbundle="antibody bundle < $DOTFILES/.zsh_plugins.txt > $DOTFILES/.zplugins"
+# Kill all the tabs in Chrome to free up memory
+# [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
+alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
 
 
