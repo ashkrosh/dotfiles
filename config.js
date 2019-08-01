@@ -1,6 +1,6 @@
 module.exports = {
   brew: [
-    // Antibody - a shell plugin manager made from the ground up thinking about performance.
+    // Antibody - fastest zsh plugin manager
 	'getantibody/tap/antibody',
     // Ack - http://conqueringthecommandline.com/book/ack_ag
     'ack',
@@ -15,7 +15,7 @@ module.exports = {
     'dos2unix',
     // Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
     'findutils',
-    // 'fortune',
+    'fortune',
     'fzf',
     'readline', // ensure gawk gets good readline
     'gawk',

@@ -2,7 +2,7 @@
 export ZSH=$HOME/.dotfiles/oh-my-zsh
 # if you want to use this, change your non-ascii font to Droid Sans Mono for Awesome
 # POWERLEVEL10K_MODE='awesome-patched'
-export ZSH_THEME="powerlevel10k/powerlevel10k"
+# export ZSH_THEME="powerlevel10k/powerlevel10k"
 # export ZSH_THEME="agnoster"
 POWERLEVEL10K_SHORTEN_DIR_LENGTH=2
 # https://github.com/bhilburn/powerlevel9k#customizing-prompt-segments
@@ -14,7 +14,7 @@ POWERLEVEL10K_RIGHT_PROMPT_ELEMENTS=(status history time)
 POWERLEVEL10K_NVM_FOREGROUND='000'
 POWERLEVEL10K_NVM_BACKGROUND='072'
 POWERLEVEL10K_SHOW_CHANGESET=true
-#export ZSH_THEME="random"
+export ZSH_THEME="random"
 
 # Set to this to use case-sensitive completion
 export CASE_SENSITIVE="true"

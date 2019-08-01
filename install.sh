@@ -210,10 +210,11 @@ if [[ ! -d "./oh-my-zsh/oh-my-zsh.sh" ]]; then
 	git clone https://github.com/robbyrussell/oh-my-zsh.git oh-my-zsh
 fi
 
+# UPDATE: I use antibody to install this custome theme so there is no need to clone it directly like below.
 # Install PowerLevel10K if not already installed.
-if [[ ! -d "./oh-my-zsh/custom/themes/powerlevel10k" ]]; then
-  git clone https://github.com/romkatv/powerlevel10k.git oh-my-zsh/custom/themes/powerlevel10k
-fi
+# if [[ ! -d "./oh-my-zsh/custom/themes/powerlevel10k" ]]; then
+#   git clone https://github.com/romkatv/powerlevel10k.git oh-my-zsh/custom/themes/powerlevel10k
+# fi
 
 bot "Dotfiles Setup"
 read -r -p "symlink ./homedir/* files in ~/ (these are the dotfiles)? [y|N] " response
