@@ -909,9 +909,6 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true;ok
 running "Make Safari’s search banners default to Contains instead of Starts With"
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false;ok
 
-# running "Remove useless icons from Safari’s bookmarks bar"
-# defaults write com.apple.Safari ProxiesInBookmarksBar "()"
-
 running "Enable the Develop menu and the Web Inspector in Safari"
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
@@ -1182,8 +1179,10 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 
 ###############################################################################
-# Flush the perferences cache.                                                #
+# Clean ups - fix npm issues and flush the perferences cache.                                                #
 ###############################################################################
+
+npm audit fix
 
 killall cfprefsd
 

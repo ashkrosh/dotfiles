@@ -1,5 +1,5 @@
 ##############################################################################
-#Import the shell-agnostic (Bash or Zsh) environment config
+# Import the shell-agnostic (Bash or Zsh) environment config
 ##############################################################################
 source ~/.profile
 
@@ -17,7 +17,7 @@ setopt    incappendhistory  #Immediately append to the history file, not just wh
 ##############################################################################
 # z-zsh setup
 ##############################################################################
-. ~/.dotfiles/z-zsh/z.sh
-function precmd () {
-  z --add "$(pwd -P)"
-}
+# . ~/.dotfiles/z-zsh/z.sh
+# function precmd () {
+#   z --add "$(pwd -P)"
+# }
