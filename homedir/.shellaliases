@@ -156,7 +156,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias cdb='cd $(brew --prefix)'
-alias cdd="cd $DOTFILES"
+alias cdd="cd $HOME/.dotfiles"
 alias cdl="cd $HOME/Library"
 alias cdp="cd $HOME/Projects/"
 alias dl="cd $HOME/Downloads"
@@ -194,7 +194,7 @@ alias egrep='egrep --color=auto'
 alias pubkey="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias mate='mate "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
-alias zbundle="antibody bundle < $DOTFILES/.zsh_plugins.txt > $DOTFILES/.zplugins"
+alias zbundle="antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zplugins"
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias killch="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"

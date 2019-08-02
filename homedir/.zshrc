@@ -16,15 +16,11 @@ POWERLEVEL10K_NVM_FOREGROUND='000'
 POWERLEVEL10K_NVM_BACKGROUND='072'
 POWERLEVEL10K_SHOW_CHANGESET=true
 
-# export ZSH_THEME="subnixr/minimal"
-# export MNML_INSERT_CHAR="$"
-# export MNML_PROMPT=(mnml_git mnml_keymap)
-# export MNML_RPROMPT=('mnml_cwd 20')
 
 # export ZSH_THEME="random"
 
 # Set to this to use case-sensitive completion
-export CASE_SENSITIVE="false"
+# export CASE_SENSITIVE="true"
 
 # disable weekly auto-update checks
 # export DISABLE_AUTO_UPDATE="true"
@@ -35,19 +31,20 @@ export CASE_SENSITIVE="false"
 # disable autosetting terminal title.
 export DISABLE_AUTO_TITLE="true"
 
-# Use C-x C-e to edit the current command line
-autoload -U edit-command-line
-zle -N edit-command-line
-bindkey '\C-x\C-e' edit-command-line
+# Dynamic loading plugins
+# source <(antibody init)
+# antibody bundle < $HOME/.zsh_plugins.txt
 
-
-# By default, ^S freezes terminal output and ^Q resumes it. Disable that so
-# that those keys can be used for other things.
-unsetopt flowcontrol
-
-
+# Static loading plugins is faster.
 source $HOME/.zplugins
 
+# Makes sure the auto-completions are case insensitive - http://tinyurl.com/y286kgcp
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
+
+
+##########################################################
+# NVM
+##########################################################
 source /usr/local/opt/nvm/nvm.sh
 
 autoload -U add-zsh-hook
@@ -61,11 +58,31 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-# Customize to your needs...
+##########################################################
+# Misc settings
+##########################################################
+# Use C-x C-e to edit the current command line
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey '\C-x\C-e' edit-command-line
+
+
+# By default, ^S freezes terminal output and ^Q resumes it. Disable that so
+# that those keys can be used for other things.
+unsetopt flowcontrol
+
+
+eval $(thefuck --alias)
+
+
+##########################################################
+# Last touches on Zsh before going...
+##########################################################
+# Unset annoying auto-corrects by zsh
 unsetopt correct
 
 # run fortune on new terminal :)
-fortune
+# fortune
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 source ~/.p10k.zsh

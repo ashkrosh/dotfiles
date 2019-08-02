@@ -369,9 +369,9 @@ sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 sudo defaults write /Library/Preferences/com.apple.driver.AppleIRController DeviceEnabled -bool false
 
 # Turn Bluetooth off completely
-sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 0
-sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist
-sudo launchctl load /System/Library/LaunchDaemons/com.apple.blued.plist
+# sudo defaults write /Library/Preferences/com.apple.Bluetooth ControllerPowerState -int 0
+# sudo launchctl unload /System/Library/LaunchDaemons/com.apple.bluetoothd.plist
+# sudo launchctl load /System/Library/LaunchDaemons/com.apple.bluetoothd.plist
 
 # Disable wifi captive portal
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -bool false
