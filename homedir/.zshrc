@@ -2,22 +2,18 @@
 export ZSH=$HOME/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh
 
 
-# if you want to use this, change your non-ascii font to Droid Sans Mono for Awesome
-# POWERLEVEL10K_MODE='awesome-patched'
-# export ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL10K_SHORTEN_DIR_LENGTH=2
-# https://github.com/bhilburn/powerlevel9k#customizing-prompt-segments
-# https://github.com/bhilburn/powerlevel9k/wiki/Stylizing-Your-Prompt
-POWERLEVEL10K_LEFT_PROMPT_ELEMENTS=(dir nvm vcs)
-POWERLEVEL10K_RIGHT_PROMPT_ELEMENTS=(status history time)
+# Set powerlevel10k prompt
+POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator aws dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history ssh time)
 # colorcode test
 # for code ({000..255}) print -P -- "$code: %F{$code}This is how your text would look like%f"
-POWERLEVEL10K_NVM_FOREGROUND='000'
-POWERLEVEL10K_NVM_BACKGROUND='072'
-POWERLEVEL10K_SHOW_CHANGESET=true
+# POWERLEVEL9K_NVM_FOREGROUND='000'
+# POWERLEVEL9K_NVM_BACKGROUND='072'
+POWERLEVEL9K_SHOW_CHANGESET=true
+POWERLEVEL9K_TIME_FOREGROUND='208'
 
-
-# export ZSH_THEME="random"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -45,32 +41,38 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 ##########################################################
 # NVM
 ##########################################################
-source /usr/local/opt/nvm/nvm.sh
-
-autoload -U add-zsh-hook
-load-nvmrc() {
-  if [[ -f .nvmrc && -r .nvmrc ]]; then
-    nvm use &> /dev/null
-  elif [[ $(nvm version) != $(nvm version default)  ]]; then
-    nvm use default &> /dev/null
-  fi
-}
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+# source /usr/local/opt/nvm/nvm.sh
+#
+# autoload -U add-zsh-hook
+# load-nvmrc() {
+#   if [[ -f .nvmrc && -r .nvmrc ]]; then
+#     nvm use &> /dev/null
+#   elif [[ $(nvm version) != $(nvm version default)  ]]; then
+#     nvm use default &> /dev/null
+#   fi
+# }
+# add-zsh-hook chpwd load-nvmrc
+# load-nvmrc
 
 ##########################################################
 # Misc settings
 ##########################################################
 # Use C-x C-e to edit the current command line
-autoload -U edit-command-line
-zle -N edit-command-line
-bindkey '\C-x\C-e' edit-command-line
+# autoload -U edit-command-line
+# zle -N edit-command-line
+# bindkey '\C-x\C-e' edit-command-line
 
 
 # By default, ^S freezes terminal output and ^Q resumes it. Disable that so
 # that those keys can be used for other things.
-unsetopt flowcontrol
+# unsetopt flowcontrol
 
+# autoload -Uz compinit
+# if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
+#   compinit
+# else
+#   compinit -C
+# fi
 
 eval $(thefuck --alias)
 
@@ -86,3 +88,4 @@ unsetopt correct
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 source ~/.p10k.zsh
+

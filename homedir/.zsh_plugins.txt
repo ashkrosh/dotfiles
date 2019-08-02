@@ -1,14 +1,15 @@
-zsh-users/zsh-autosuggestions
-zsh-users/zsh-completions
-zsh-users/zsh-history-substring-search
-zsh-users/zsh-syntax-highlighting
-
-
 robbyrussell/oh-my-zsh
 robbyrussell/oh-my-zsh path:plugins/git
+
+# zsh-users/zsh-autosuggestions
+# zsh-users/zsh-completions
+# zsh-users/zsh-history-substring-search
+# zsh-users/zsh-syntax-highlighting
 
 
 # Themes
 romkatv/powerlevel10k
+# hiroru/senpai-zsh
 # subnixr/minimal
+# jackharrisonsherlock/common
 # random

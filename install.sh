@@ -273,16 +273,16 @@ if [[ $response =~ (y|yes|Y) ]];then
   require_cask font-roboto-mono
   require_cask font-roboto-mono-for-powerline
   require_cask font-source-code-pro
-  require_cask font-iosevka
+  require_cask font-profont-nerd-font
   ok
 fi
 
 
-# if [[ -d "/Library/Ruby/Gems/2.0.0" ]]; then
-#   running "Fixing Ruby Gems Directory Permissions"
-#   sudo chown -R $(whoami) /Library/Ruby/Gems/2.0.0
-#   ok
-# fi
+if [[ -d "/Library/Ruby/Gems/2.0.0" ]]; then
+  running "Fixing Ruby Gems Directory Permissions"
+  sudo chown -R $(whoami) /Library/Ruby/Gems/2.0.0
+  ok
+fi
 
 # node version manager
 require_brew nvm
@@ -1185,11 +1185,9 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 npm audit fix
 
-killall cfprefsd
+find /private/var/folders/ -name com.apple.iconservices -exec rm -rf {} ;
+rm -rf /Library/Caches/com.apple.iconservices.store
 
-open /Applications/iTerm.app
-
-mackup backup -f
 
 ###############################################################################
 # Kill affected applications                                                  #
@@ -1201,5 +1199,8 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
   killall "${app}" > /dev/null 2>&1
 done
 
+open /Applications/iTerm.app
+
+mackup backup -f
 
 bot "Woot! All done"
