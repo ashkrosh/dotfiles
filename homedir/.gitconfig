@@ -1,5 +1,5 @@
 [user]
-  name = Roshanayi, Ashkan
+  name = Ashkan Roshanayi
   email = ashkan.roshanayi@gmail.com
 [github]
   # https://github.com/blog/180-local-github-config
@@ -56,7 +56,7 @@
   d = diff --color-words
   cam = commit -a -m
   upm = !git fetch upstream && git merge upstream/master
-  # new standard to replace the deprecated git-up gem package:
+  # new standard to replace the deprecated git-up gem package - http://aanandprasad.com/git-up/
   up = pull --rebase --autostash
 
   # least used

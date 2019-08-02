@@ -10,10 +10,6 @@ alias g=git
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-# buzzphrase commit
-# used for my presentation decks when I have nothing to say about the commit
-alias bpc='git add -A . && git cam "$(buzzphrase 2)" && git push'
-
 # recursive dos2unix in current directory
 alias dos2lf='dos2unix `find ./ -type f`'
 
@@ -34,15 +30,12 @@ alias fuusage='sudo fs_usage -e -f filesystem|grep -v CACHE_HIT|grep -v grep|gre
 
 # alias game.seek='txt="";for i in {1..20};do txt=$txt"$i. ";done;txt=$txt" Ready or not, here I come";say $txt'
 
-# Git Tools
-# assumes git-up is installed (gem install git-up)
-# switches to 'develop' branch, updates all local branches (nicely using git-up), removes all local branches already merged into 'develop'
-alias gitdev='git checkout develop; git-up; git branch --merged develop | grep -v "\* develop" | xargs -n 1 git branch -d; git branch;'
-
-# IP addresses
+# External IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias iplocal="ipconfig getifaddr en0"
-alias ipext='curl -s http://checkip.dyndns.org/ | sed "s/[a-zA-Z<>/ :]//g"'
+# alias ip='curl -s http://checkip.dyndns.org/ | sed "s/[a-zA-Z<>/ :]//g"'
+# Local IP address
+alias ipl="ipconfig getifaddr en0"
+# All IP addresses
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
 # Show active network interfaces
@@ -50,7 +43,7 @@ alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'
 
 # Show network connections
 # Often useful to prefix with SUDO to see more system level network usage
-alias allconn='lsof -l -i +L -R -V'
+alias aconn='lsof -l -i +L -R -V'
 alias oconn='lsof -l -i +L -R -V | grep ESTABLISHED'
 
 # Directory listings
@@ -59,10 +52,14 @@ alias oconn='lsof -l -i +L -R -V | grep ESTABLISHED'
 # -l Long format
 # -h Short size suffixes (B, K, M, G, P)
 # -p Postpend slash to folders
-# alias ls='ls -G -h -p '
-# alias ll='ls -l -G -h -p '
+alias ls="gls -h -F -p --color"
+alias la='gls -A -h -p --color'
+alias ll="gls -h -l -p --color"
+alias lll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
+alias duf="du -sh * | sort -hr"
 
-# Print each PATH entry on a separate line
+
+# Print each $PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
 # Copy and paste and prune the usless newline
@@ -116,6 +113,11 @@ alias sudo='sudo '
 
 alias vim='nvim'
 
+alias less="less -r"
+
+# quick hack to make watch work with aliases
+alias watch='watch '
+
 # Keep it clean.
 alias c="clear"
 # Clean up LaunchServices to remove duplicates in the “Open With” menu
@@ -159,6 +161,8 @@ alias cdl="cd $HOME/Library"
 alias cdp="cd $HOME/Projects/"
 alias dl="cd $HOME/Downloads"
 alias dt="cd $HOME/Desktop"
+alias croot='cd "$(git rev-parse --show-toplevel)"'
+
 
 
 # Git
@@ -173,14 +177,11 @@ alias gc="git checkout"
 alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
 alias gnuke="git clean -df && git reset --hard"
+# buzzphrase commit : used for my presentation decks when I have nothing to say about the commit
+alias bpc='git add -A . && git cam "$(buzzphrase 2)" && git push'
+# switches to 'develop' branch, updates all local branches (nicely using git-up), removes all local branches already merged into 'develop'
+alias gitdev='git checkout develop; git up; git branch --merged develop | grep -v "\* develop" | xargs -n 1 git branch -d; git branch;'
 
-
-# Listing files
-alias ls="gls -F --color"
-alias l="gls -lAh --color"
-alias ll="gls -l --color"
-alias lll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
-alias la='gls -A --color'
 
 
 # Always enable colored `grep` output
@@ -196,7 +197,7 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias zbundle="antibody bundle < $DOTFILES/.zsh_plugins.txt > $DOTFILES/.zplugins"
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
-alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+alias killch="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
 
 

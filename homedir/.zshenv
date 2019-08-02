@@ -1,2 +1,2 @@
-fpath=($fpath $HOME/.zsh/func)
-typeset -U fpath
+# fpath=($fpath $HOME/.zsh/func)
+# typeset -U fpath

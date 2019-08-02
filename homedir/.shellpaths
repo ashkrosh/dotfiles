@@ -1,16 +1,10 @@
-#My Scripts
-export PATH=$PATH:.
-#export PATH=$PATH:~/.dotfiles/scripts
-
 #Brew
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 
+# My Scripts at .bin/ or current directory
+export PATH=$PATH:$HOME/.bin:.
+
 # GO
 #export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
-# The next line updates PATH for the Google Cloud SDK.
-#source "/Users/$(whoami)/Downloads/google-cloud-sdk/path.zsh.inc"
-
-# The next line enables shell command completion for gcloud.
-#source "/Users/$(whoami)/Downloads/google-cloud-sdk/completion.zsh.inc"
