@@ -71,10 +71,11 @@ module.exports = {
 	'z',
 	// nmap Port scanning utility for large networks
 	'nmap',
-	'mackup',
+	'mackup --HEAD',
 	'awscli',
 	// skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
 	'skhd',
+	'httpie'
   ],
   cask: [
     //'amazon-cloud-drive',
@@ -96,7 +97,6 @@ module.exports = {
 	'1password',
 	'bartender',
 	'vimr',
-	'httpie',
 	// Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
 	'qlcolorcode',
 	'qlstephen',
