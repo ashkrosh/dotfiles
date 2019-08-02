@@ -10,7 +10,6 @@ module.exports = {
     // alternative to `cat`: https://github.com/sharkdp/bat
     'bat',
     // Install GNU core utilities (those that come with macOS are outdated)
-    // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
     'dos2unix',
     // Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
