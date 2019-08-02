@@ -11,7 +11,7 @@ TM_GIT              = "/usr/local/bin/git"
 showInvisibles      = false
 spellChecking       = true
 fontName = "Monaco" 
-fontSize = 15
+fontSize = 14
 
 [ text ]
 softWrap            = true

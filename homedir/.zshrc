@@ -46,7 +46,6 @@ bindkey '\C-x\C-e' edit-command-line
 unsetopt flowcontrol
 
 
-# source $ZSH/oh-my-zsh.sh
 source $HOME/.zplugins
 
 source /usr/local/opt/nvm/nvm.sh
