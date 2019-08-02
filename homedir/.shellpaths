@@ -2,8 +2,8 @@
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 
-# My Scripts at .bin/ or current directory
-export PATH=$PATH:$HOME/.bin:.
+# My Scripts at current directory
+export PATH=.:$PATH
 
 # GO
 #export PATH=$PATH:/usr/local/opt/go/libexec/bin
