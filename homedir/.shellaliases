@@ -45,8 +45,7 @@ alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'
 alias aconn='lsof -l -i +L -R -V'
 alias oconn='lsof -l -i +L -R -V | grep ESTABLISHED'
 
-# Directory listings
-# LS_COLORS='no=01;37:fi=01;37:di=07;96:ln=01;36:pi=01;32:so=01;35:do=01;35:bd=01;33:cd=01;33:ex=01;31:mi=00;05;37:or=00;05;37:'
+# Directory listings:
 # -G Add colors to ls
 # -l Long format
 # -h Short size suffixes (B, K, M, G, P)
@@ -54,7 +53,7 @@ alias oconn='lsof -l -i +L -R -V | grep ESTABLISHED'
 alias ls="gls -h -F -p --color"
 alias la='gls -A -h -p --color'
 alias ll="gls -h -l -p --color"
-alias lll="/usr/local/opt/coreutils/libexec/gnubin/ls -ahlF --color --group-directories-first"
+alias lll="gls -ahlF --color --group-directories-first"
 alias duf="du -sh * | sort -hr"
 
 
@@ -111,6 +110,8 @@ alias jsonfix="pbpaste | jq . | pbcopy"
 alias sudo='sudo '
 
 alias vim='nvim'
+# run vim without any plugin or bundle, ... --> nice when vim doesn't run after installing a plugin...
+alias nakedvim="vim -u NONE -U NONE"
 
 alias less="less -r"
 
@@ -192,6 +193,56 @@ alias zbundle="antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zplugins"
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias killch="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+# Gzip-enabled `curl`
+alias gurl='curl --compressed'
+# Get week number
+alias week='date +%V'
 
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+# Enhanced WHOIS lookups
+alias whois="whois -h whois-servers.net"
 
+# View HTTP traffic
+alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
+alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
+# Canonical hex dump; some systems have this symlinked
+command -v hd > /dev/null || alias hd="hexdump -C"
+
+# ROT13-encode text. Works for decoding, too! ;)
+alias rot13='tr a-zA-Z n-za-mN-ZA-M'
+
+# URL-encode strings
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+
+# Intuitive map function
+# For example, to list all directories that contain a certain file:
+# find . -name .gitattributes | map dirname
+alias map="xargs -n1"
+
+# One of @janmoesen’s ProTip™s
+for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
+    alias "$method"="lwp-request -m '$method'"
+done
+
+alias where='pwd'  
+alias p='pwd'
+alias bzip='bzip2'
+alias topc='top -o cpu'
+alias topm='top -o vsize'
+alias ping='ping -a'
+alias ps='ps auxc'
+alias edit='$EDITOR $@'
+alias oports='netstat -anlt -p TCP | grep LISTEN'
+alias sl="screen -ls"
+# alias fuck='eval $(thefuck $(fc -ln -1))'
+alias FUCK='fuck'
+alias shit='fuck'
+
+# https://github.com/Xfennec/progress
+# launch and monitor any heavy command like this: "cp bigfile newfile & prog"
+alias prog="progress -mp $!"
+
+# alias rimg='curl -o random.jpg https://unsplash.it/3000/3000/?random'
+# alias rimg='http https://unsplash.it/3000/3000/?random > random.jpg'"

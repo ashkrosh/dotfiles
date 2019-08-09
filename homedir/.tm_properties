@@ -8,13 +8,13 @@ exclude             = "{$exclude,*.tmproj,Gemfile.lock}"
 TM_GIT              = "/usr/local/bin/git"
 
 # General settings.
-showInvisibles      = false
+showInvisibles      = true
 spellChecking       = true
 fontName = "Monaco" 
 fontSize = 14
 
 [ text ]
-softWrap            = true
+softWrap            = false
 wrapColumn          = 80
 softTabs            = true
 tabSize             = 2

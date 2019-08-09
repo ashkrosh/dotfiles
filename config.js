@@ -74,8 +74,7 @@ module.exports = {
 	'mackup --HEAD',
 	'awscli',
 	// skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
-	'skhd',
-	'httpie'
+	'skhd'
   ],
   cask: [
     //'amazon-cloud-drive',
@@ -91,12 +90,16 @@ module.exports = {
     'the-unarchiver',
     'launchbar',
     'kaleidoscope',
-	'moom',
+	  'moom',
+	  'witch',
+	  'istat-menus',
+	  'marked2',
 	'cronnix',
 	'Snagit',
 	'1password',
 	'bartender',
 	'vimr',
+	'vscodium',
 	// Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
 	'qlcolorcode',
 	'qlstephen',

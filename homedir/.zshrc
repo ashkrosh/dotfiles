@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh configuration.
-export ZSH=$HOME/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh
-
+export ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
 # Set powerlevel10k prompt
 POWERLEVEL9K_MODE='awesome-fontconfig'
@@ -18,8 +17,8 @@ POWERLEVEL9K_TIME_FOREGROUND='208'
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
 
-# disable weekly auto-update checks
-# export DISABLE_AUTO_UPDATE="true"
+# disable weekly auto-update checks. Antibody can do this for us.
+export DISABLE_AUTO_UPDATE="true"
 
 # disable colors in ls
 # export DISABLE_LS_COLORS="true"

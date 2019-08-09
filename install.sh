@@ -1220,6 +1220,6 @@ done
 
 open /Applications/iTerm.app
 
-mackup backup -f
+# mackup backup -f
 
 bot "Woot! All done"

@@ -13,18 +13,22 @@ else
 endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Vundle
+" vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin() 
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin() 
 
 " Keep Plugin commands between vundle#begin/end.
 " let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'
+" Plugin 'VundleVim/Vundle.vim'
+
+" use vim-plug
+Plug 'connorholyday/vim-snazzy'
+
 " Plugin 'Valloric/YouCompleteMe'
 " Navigation (IDE frame)
 " Plugin 'scrooloose/nerdtree'
