@@ -274,6 +274,11 @@ if [[ $response =~ (y|yes|Y) ]];then
   require_cask font-roboto-mono-for-powerline
   require_cask font-source-code-pro
   require_cask font-profont-nerd-font
+  require_cask font-droid-sans-mono-for-powerline
+  require_cask font-meslo-for-powerline
+  require_cask font-meslo-nerd-font
+  require_cask font-meslo-nerd-font-mono
+  
   ok
 fi
 
@@ -494,7 +499,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 # running "Wipe all (default) app icons from the Dock"
 # # This is only really useful when setting up a new Mac, or if you don’t use
 # # the Dock to launch apps.
-defaults write com.apple.dock persistent-apps -array "";ok
+# defaults write com.apple.dock persistent-apps -array "";ok
 
 #running "Enable the 2D Dock"
 #defaults write com.apple.dock no-glass -bool true;ok
@@ -511,8 +516,8 @@ defaults write com.apple.dock persistent-apps -array "";ok
 ################################################
 bot "Standard System Changes"
 ################################################
-running "always boot in verbose mode (not MacOS GUI mode)"
-sudo nvram boot-args="-v";ok
+# running "always boot in verbose mode (not MacOS GUI mode)"
+# sudo nvram boot-args="-v";ok
 
 running "allow 'locate' command"
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist > /dev/null 2>&1;ok
@@ -650,7 +655,7 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10;ok
 running "Set timezomne" # see `systemsetup -listtimezones` for other values
 systemsetup -settimezone "Europe/Amsterdam" > /dev/null
 
-running "Set language and text formats (english/GB)"
+running "Set language and text formats (english/NL)"
 defaults write NSGlobalDomain AppleLanguages -array "en" "nl"
 defaults write NSGlobalDomain AppleLocale -string "en_NL@currency=EUR"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
@@ -1178,9 +1183,23 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 
 
+# TKTK
+###############################################################################
+# Customized Keyboard Shortcuts
+# Use: @ for Command, $ for Shift, ~ for Alt and ^ for Ctrl                   
+# For Application-specific commands, use the following: 
+# defaults write com.developer.app NSUserKeyEquivalents -dict-add "Menu Item"
+# -string "@$~^k" 
+# For system-wide shortcuts, you can use -g instead of the app identifier, e.g.
+# defaults write -g NSUserKeyEquivalents -dict-add "Menu Item" -string "@$~^k"
+###############################################################################
+
+
+
+
 
 ###############################################################################
-# Clean ups - fix npm issues and flush the perferences cache.                                                #
+# Clean ups - fix npm issues and flush the perferences cache.                 #
 ###############################################################################
 
 npm audit fix
