@@ -1,7 +1,7 @@
 module.exports = {
   brew: [
     // Antibody - fastest zsh plugin manager
-	'getantibody/tap/antibody',
+    'getantibody/tap/antibody',
     // Ack - http://conqueringthecommandline.com/book/ack_ag
     'ack',
     'ag',
@@ -46,35 +46,33 @@ module.exports = {
     'ttyrec',
     // better, more recent vim
     //'vim --with-client-server --with-override-system-vi',
-	// neovim - faster vim with vim-plugs
-	'neovim',
     'watch',
     // Install wget with IRI support
     'wget --enable-iri',
-	// GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols
-	'gnutls',
-	'thefuck',
-	'curl',
-	// Ctags: http://ctags.sourceforge.net/whatis.html
-	'ctags',
-	// pv ~ pipeviewer : https://www.ivarch.com/programs/pv.shtml
-	'pv',
-	'ssh-copy-id',
-	'tree',
-	// gibo: access github gitignore templates https://github.com/simonwhitaker/gibo
-	'gibo',
-	// dnsmasq: Lightweight DNS forwarder and DHCP server https://formulae.brew.sh/formula/dnsmasq
-	'dnsmasq',
-	// ngrok : Public URLs for exposing your local web server.
-	// 'ngrok',
-	// z tracks most-used directories to make cd smarter
-	'z',
-	// nmap Port scanning utility for large networks
-	'nmap',
-	'mackup --HEAD',
-	'awscli',
-	// skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
-	'skhd'
+    // GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols
+    'gnutls',
+    'thefuck',
+    'curl',
+    // Ctags: http://ctags.sourceforge.net/whatis.html
+    'ctags',
+    // pv ~ pipeviewer : https://www.ivarch.com/programs/pv.shtml
+    'pv',
+    'ssh-copy-id',
+    'tree',
+    // gibo: access github gitignore templates https://github.com/simonwhitaker/gibo
+    'gibo',
+    // dnsmasq: Lightweight DNS forwarder and DHCP server https://formulae.brew.sh/formula/dnsmasq
+    'dnsmasq',
+    // ngrok : Public URLs for exposing your local web server.
+    // 'ngrok',
+    // z tracks most-used directories to make cd smarter
+    'z',
+    // nmap Port scanning utility for large networks
+    'nmap',
+    'mackup --HEAD',
+    'awscli',
+    // skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
+    'skhd'
   ],
   cask: [
     //'amazon-cloud-drive',
@@ -84,31 +82,34 @@ module.exports = {
     'iterm2',
     'little-snitch',
     'cardhop',
-    'textmate',
     'fantastical',
     'atext',
     'the-unarchiver',
     'launchbar',
     'kaleidoscope',
-	  'moom',
-	  'witch',
-	  'istat-menus',
-	  'marked2',
-	'cronnix',
-	'Snagit',
-	'1password',
-	'bartender',
-	'vimr',
-	'vscodium',
-	// Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
-	'qlcolorcode',
-	'qlstephen',
-	'qlmarkdown',
-	'quicklook-json',
-	'qlimagesize',
-	'suspicious-package',
-	'quicklookase',
-	'qlvideo'
+    'moom',
+    'witch',
+    'istat-menus',
+    'marked',
+    'cronnix',
+    'Snagit',
+    '1password',
+    'bartender',
+    'yoink',
+    'karabiner-elements',
+    // vim GUI for macos based on neovim
+    'vimr',
+    // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
+    'vscodium',
+    // Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
+    'qlcolorcode',
+    'qlstephen',
+    'qlmarkdown',
+    'quicklook-json',
+    'qlimagesize',
+    'suspicious-package',
+    'quicklookase',
+    'qlvideo'
   ],
   gem: [
   ],

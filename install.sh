@@ -191,6 +191,8 @@ fi
 require_brew git
 # update zsh to latest
 require_brew zsh
+# replace vim with neovim : a faster vim with vim-plugs
+require_brew neovim
 # update ruby to latest
 # use versions of packages installed with homebrew
 RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline` --with-libyaml-dir=`brew --prefix libyaml`"
@@ -205,12 +207,12 @@ if [[ "$CURRENTSHELL" != "/usr/local/bin/zsh" ]]; then
   ok
 fi
 
+# UPDATE: I use antibody to install oh-my-zsh and poowerlevel10k thenno need to clone these repoositories directly.
 # Clone oh-my-zsh if doesn't exist
-if [[ ! -d "./oh-my-zsh/oh-my-zsh.sh" ]]; then
-	git clone https://github.com/robbyrussell/oh-my-zsh.git oh-my-zsh
-fi
+# if [[ ! -d "./oh-my-zsh/oh-my-zsh.sh" ]]; then
+# 	git clone https://github.com/robbyrussell/oh-my-zsh.git oh-my-zsh
+# fi
 
-# UPDATE: I use antibody to install this custome theme so there is no need to clone it directly like below.
 # Install PowerLevel10K if not already installed.
 # if [[ ! -d "./oh-my-zsh/custom/themes/powerlevel10k" ]]; then
 #   git clone https://github.com/romkatv/powerlevel10k.git oh-my-zsh/custom/themes/powerlevel10k
@@ -250,7 +252,7 @@ if [[ $response =~ (y|yes|Y) ]];then
   bot "Installing vim plugins"
   # cmake is required to compile vim bundle YouCompleteMe
   # require_brew cmake
-  vim +PluginInstall +qall > /dev/null 2>&1
+  vim +PlugInstall +qall > /dev/null 2>&1
   ok
 else
   ok "skipped. Install by running :PluginInstall within vim"
@@ -1204,8 +1206,13 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 npm audit fix
 
-find /private/var/folders/ -name com.apple.iconservices -exec rm -rf {} ;
-rm -rf /Library/Caches/com.apple.iconservices.store
+# Fix for macos app icons not appearing correctly - http://tinyurl.com/y3gdp3bz
+sudo find /private/var/folders/ -name com.apple.dock.iconcache -exec rm {} \;
+sudo find /private/var/folders/ -name com.apple.iconservices -exec rm -rf {} \;
+sudo rm -rf /Library/Caches/com.apple.iconservices.store
+rm -rf $HOME/Library/Preferences/com.apple.dock.plist
+killall -KILL Dock
+
 
 
 ###############################################################################
@@ -1215,7 +1222,7 @@ bot "OK. Note that some of these changes require a logout/restart to take effect
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
   "Dock" "Finder" "Mail" "Messages" "Safari" "Firefox" "SystemUIServer" \
   "Terminal"; do
-  killall "${app}" > /dev/null 2>&1
+  killall -KILL "${app}" > /dev/null 2>&1
 done
 
 open /Applications/iTerm.app

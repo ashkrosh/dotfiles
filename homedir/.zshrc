@@ -66,12 +66,12 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 # that those keys can be used for other things.
 # unsetopt flowcontrol
 
-# autoload -Uz compinit
-# if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
-#   compinit
-# else
-#   compinit -C
-# fi
+autoload -Uz compinit
+if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
+  compinit
+else
+  compinit -C
+fi
 
 eval $(thefuck --alias)
 
