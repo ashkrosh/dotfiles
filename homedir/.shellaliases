@@ -112,6 +112,7 @@ alias sudo='sudo '
 alias vim='nvim'
 # run vim without any plugin or bundle, ... --> nice when vim doesn't run after installing a plugin...
 alias nakedvim="vim -u NONE -U NONE"
+alias cat='bat'
 
 alias less="less -r"
 
@@ -187,7 +188,7 @@ alias egrep='egrep --color=auto'
 
 
 alias pubkey="pbcopy < $HOME/.ssh/id_rsa.pub"
-alias mate='mate "`pwd`"'
+# alias mate='mate "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias zbundle="antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zplugins"
 # Kill all the tabs in Chrome to free up memory
@@ -244,5 +245,5 @@ alias shit='fuck'
 # launch and monitor any heavy command like this: "cp bigfile newfile & prog"
 alias prog="progress -mp $!"
 
-# alias rimg='curl -o random.jpg https://unsplash.it/3000/3000/?random'
-# alias rimg='http https://unsplash.it/3000/3000/?random > random.jpg'"
+# alias rimg="curl -o random.jpg -L 'https://unsplash.it/3000/3000/?random'"
+alias rimg="http -d --follow --all 'https://unsplash.it/3000/3000/?random' -o random.jpg"

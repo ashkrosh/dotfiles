@@ -1,0 +1,291 @@
+" ===================================================
+" Vundle stuff
+" ===================================================
+
+" call pathogen#infect()
+set nocompatible  " Required by Vundle
+filetype off 	  " Required by Vundle
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+
+" original repos on GitHub
+Plugin 'altercation/vim-colors-solarized'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'wincent/command-t'
+" Plugin 'mattr555/vim-instacode'
+" Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Plugin 'tpope/vim-rails.git'
+" Plugin 'thoughtbot/vim-rspec'
+" Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'itspriddle/vim-marked'
+Plugin 'kchmck/vim-coffee-script'
+" Plugin 'junegunn/vim-xmark'
+Plugin 'wakatime/vim-wakatime'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'mustache/vim-mustache-handlebars'
+
+" vim-scripts repos
+" Plugin 'L9'
+
+" non-GitHub repos
+" Plugin 'git://git.wincent.com/command-t.git'
+
+" Git repos on your local machine (i.e. when working on your own plugin)
+" Plugin 'file:///Users/$USER/path/to/plugin'
+
+" All of your Plugins must be added before the following line
+
+call vundle#end()         	 " required 
+filetype plugin indent on    " required
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" COLOR
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" :color codeschool
+" colorscheme railscast
+set background=dark
+colorscheme solarized
+" let g:solarized_termcolors=256
+
+runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
+
+syntax enable
+if has('gui_running')
+  set background=light
+else
+  set background=dark
+endif
+
+set synmaxcol=800           " don't try to highlight long lines
+set encoding=utf-8
+set exrc          " load vimrc from current directory
+set ruler       " show the cursor position all the time
+set cursorline  " highlight the line of the cursor
+set showcmd     " show partial commands below the status line
+set shell=bash  " avoids munging PATH under zsh
+let g:is_bash=1 " default shell syntax
+set history=500 " remember more Ex commands
+set scrolloff=3 " have some context around the current line always on screen
+set relativenumber
+
+
+" Allow backgrounding buffers without writing them, and remember marks/undo
+" for backgrounded buffers
+set hidden
+
+" Auto-reload buffers when file changed on disk
+set autoread
+
+" Disable swap files; systems don't crash that often these days
+set updatecount=0
+
+" Make Vim able to edit crontab files again.
+set backupskip=/tmp/*,/private/tmp/*"
+
+"" Whitespace
+" Complience with PEP8 http://docs.python-guide.org/en/latest/dev/env
+set textwidth=79  " lines longer than 79 columns will be broken
+set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4     " a hard TAB displays as 4 columns
+set expandtab     " insert spaces when hitting TABs
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
+set shiftround    " round indent to multiple of 'shiftwidth'
+set autoindent    " align the new line indent with the previous line
+set nowrap                        " don't wrap lines
+" set tabstop=2                     " a tab is two spaces
+" set shiftwidth=2                  " an autoindent (with <<) is two spaces
+set list                          " Show invisible characters
+set backspace=indent,eol,start    " backspace through everything in insert mode
+" Joining lines
+if v:version > 703 || v:version == 703 && has("patch541")
+  set formatoptions+=j            " Delete comment char when joining commented lines
+endif
+set nojoinspaces                  " Use only 1 space after "." when joining lines, not 2
+" Indicator chars
+set listchars=tab:▸\ ,trail:•,extends:❯,precedes:❮
+set showbreak=↪\ 
+
+"" Searching
+set hlsearch                      " highlight matches
+set incsearch                     " incremental searching
+set ignorecase                    " searches are case insensitive...
+set smartcase                     " ... unless they contain at least one capital letter
+set gdefault                      " have :s///g flag by default on
+
+" Time out on key codes but not mappings.
+" Basically this makes terminal Vim work sanely.
+set notimeout
+set ttimeout
+set ttimeoutlen=100
+
+" #################  setting leadder ###############
+let mapleader=","
+
+
+" Ragel syntax (default to ruby as host language)
+let g:ragel_default_subtype='ruby'
+
+function! s:setupWrapping()
+  set wrap
+  set wrapmargin=2
+  set textwidth=80
+endfunction
+
+augroup vimrcEx
+  " Clear all autocmds in the group
+  autocmd!
+
+  " Avoid showing trailing whitespace when in insert mode
+  au InsertEnter * :set listchars-=trail:•
+  au InsertLeave * :set listchars+=trail:•
+
+  " Some file types use real tabs
+  au FileType {make,gitconfig} set noexpandtab
+
+  " Make sure all markdown files have the correct filetype set and setup wrapping
+  au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | call s:setupWrapping()
+
+  " Treat JSON files like JavaScript
+  au BufNewFile,BufRead *.json setf javascript
+
+  " https://github.com/sstephenson/bats
+  au BufNewFile,BufRead *.bats setf sh
+
+  au BufNewFile,BufRead *.rl setfiletype ragel
+
+  " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
+  au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
+
+  " Format xml files
+  au FileType xml exe ":silent 1,$!xmllint --format --recover - 2>/dev/null"
+
+  " Remember last location in file, but not for commit messages.
+  " see :help last-position-jump
+  au BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"") <= line("$")
+    \| exe "normal! g`\"" | endif
+
+  " mark Jekyll YAML frontmatter as comment
+  au BufNewFile,BufRead *.{md,markdown,html,xml} sy match Comment /\%^---\_.\{-}---$/
+
+  " magic markers: enable using `H/S/J/C to jump back to
+  " last HTML, stylesheet, JS or Ruby code buffer
+  au BufLeave *.{erb,html}      exe "normal! mH"
+  au BufLeave *.{css,scss,sass} exe "normal! mS"
+  au BufLeave *.{js,coffee}     exe "normal! mJ"
+  au BufLeave *.{rb}            exe "normal! mC"
+augroup END
+
+" don't use Ex mode, use Q for formatting
+map Q gq
+
+" clear the search buffer when hitting return
+:nnoremap <CR> :nohlsearch<cr>
+
+" toggle the current fold
+:nnoremap <Space> za
+
+" yank to system clipboard
+map <leader>y "*y
+
+" paste lines from unnamed register and fix indentation
+nmap <leader>p pV`]=
+nmap <leader>P PV`]=
+
+" expand %% to current directory in command-line mode
+" http://vimcasts.org/e/14
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
+map <leader>gl :CommandT lib<cr>
+map <leader>gt :CommandTTag<cr>
+map <leader>f :CommandT<cr>
+map <leader>F :CommandT %%<cr>
+
+let g:CommandTMatchWindowAtTop=1
+let g:CommandTMaxHeight=10
+let g:CommandTMinHeight=2
+
+let g:turbux_command_test_unit = 'ruby -Ilib:test'
+" let g:turbux_command_cucumber = 'cucumber -f progress'
+
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" In command-line mode, C-a jumps to beginning (to match C-e)
+cnoremap <C-a> <Home>
+
+" <Tab> indents if at the beginning of a line; otherwise does completion
+function! InsertTabWrapper()
+  let col = col('.') - 1
+  if !col || getline('.')[col - 1] !~ '\k'
+    return "\<tab>"
+  else
+    return "\<c-p>"
+  endif
+endfunction
+inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+inoremap <s-tab> <c-n>
+
+" ignore Rubinius, Sass cache files
+set wildignore+=tmp/**,*.rbc,.rbx,*.scssc,*.sassc
+" ignore Bundler standalone/vendor installs & gems
+set wildignore+=bundle/**,vendor/bundle/**,vendor/cache/**,vendor/gems/**
+set wildignore+=node_modules/**
+
+" toggle between last open buffers
+nnoremap <leader><leader> <c-^>
+
+command! GdiffInTab tabedit %|vsplit|Gdiff
+nnoremap <leader>d :GdiffInTab<cr>
+nnoremap <leader>D :tabclose<cr>
+
+command! KillWhitespace :normal :%s/ *$//g<cr><c-o><cr>
+
+" populate arglist with files from the quickfix list
+command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
+function! QuickfixFilenames()
+  " Building a hash ensures we get each buffer only once
+  let buffer_numbers = {}
+  for quickfix_item in getqflist()
+    let buffer_numbers[quickfix_item['bufnr']] = bufname(quickfix_item['bufnr'])
+  endfor
+  return join(map(values(buffer_numbers), 'fnameescape(v:val)'))
+endfunction
+
+set splitright
+set splitbelow
+set clipboard=unnamed
+
+" disable cursor keys in normal mode
+map <Left>  :echo "no!"<cr>
+map <Right> :echo "no!"<cr>
+map <Up>    :echo "no!"<cr>
+map <Down>  :echo "no!"<cr>
+
+if has("statusline") && !&cp
+  set laststatus=2                   " always show the status bar
+  set statusline=%<%1*\ %f\ %*       " filename
+  set statusline+=%2*%m%r%*          " modified, readonly
+  set statusline+=\ %3*%y%*          " filetype
+"  set statusline+=\ %4*%{fugitive#head()}%0*
+  set statusline+=%=                 " left-right separation point
+  set statusline+=\ %5*%l%*/%L[%p%%] " current line/total lines
+  set statusline+=\ %5*%v%*[0x%B]    " current column [hex char]
+endif
+
+hi StatusLine term=inverse,bold cterm=NONE ctermbg=24 ctermfg=189
+hi StatusLineNC term=inverse,bold cterm=NONE ctermbg=24 ctermfg=153
+hi User1 term=inverse,bold cterm=NONE ctermbg=29 ctermfg=159
+hi User2 term=inverse,bold cterm=NONE ctermbg=29 ctermfg=16
+hi User3 term=inverse,bold cterm=NONE ctermbg=24
+hi User4 term=inverse,bold cterm=NONE ctermbg=24 ctermfg=221
+hi User5 term=inverse,bold cterm=NONE ctermbg=24 ctermfg=209
+
