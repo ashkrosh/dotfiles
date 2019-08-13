@@ -87,7 +87,6 @@ module.exports = {
     'atext',
     'the-unarchiver',
     'launchbar',
-    'kaleidoscope',
     'fork',
     'witch',
     'istat-menus',
