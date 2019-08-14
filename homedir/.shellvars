@@ -26,6 +26,9 @@ export LC_ALL='en_US.UTF-8';
 #export GOPATH=/usr/local/bin
 #export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export ANTIBODY_HOME=$HOME/Library/Caches/antibody
+# For NVIM
+export XDG_CONFIG_HOME=$HOME/.config
+export MYVIMRC=$HOME/.vimrc
 
 #########################################################################
 # Tool settings

@@ -8,6 +8,9 @@ export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 # My Scripts at current directory
 export PATH=.:$PATH
 
+# NVIM
+export XDG_CONFIG_HOME=$HOME/.config
+
 # GO
 #export PATH=$PATH:/usr/local/opt/go/libexec/bin
 

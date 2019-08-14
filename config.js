@@ -45,7 +45,9 @@ module.exports = {
     'tree',
     'ttyrec',
     // better, more recent vim
-    //'vim --with-client-server --with-override-system-vi',
+    'vim --with-client-server --with-override-system-vi',
+    // neovim is a faster vim
+    'nvim',
     'watch',
     // Install wget with IRI support
     'wget --enable-iri',
@@ -95,6 +97,7 @@ module.exports = {
     'marked',
     'cronnix',
     'Snagit',
+    'rescuetime',
     '1password',
     'bartender',
     'yoink',

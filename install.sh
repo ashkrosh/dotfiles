@@ -191,8 +191,6 @@ fi
 require_brew git
 # update zsh to latest
 require_brew zsh
-# replace vim with neovim : a faster vim with vim-plugs
-require_brew neovim
 # update ruby to latest
 # use versions of packages installed with homebrew
 RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-dir=`brew --prefix readline` --with-libyaml-dir=`brew --prefix libyaml`"
@@ -246,15 +244,15 @@ if [[ $response =~ (y|yes|Y) ]]; then
   popd > /dev/null 2>&1
 fi
 
-bot "VIM Setup"
+bot "(N)VIM Setup"
 read -r -p "Do you want to install vim plugins now? [y|N] " response
 if [[ $response =~ (y|yes|Y) ]];then
   bot "Installing vim plugins"
   # cmake is required to compile vim bundle YouCompleteMe
-  # require_brew cmake
+  require_brew cmake
   vim +PlugInstall +qall > /dev/null 2>&1
   ok
-else
+else 
   ok "skipped. Install by running :PluginInstall within vim"
 fi
 

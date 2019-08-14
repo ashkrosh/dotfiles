@@ -109,9 +109,12 @@ alias jsonfix="pbpaste | jq . | pbcopy"
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-alias vim='nvim'
-# run vim without any plugin or bundle, ... --> nice when vim doesn't run after installing a plugin...
-alias nakedvim="vim -u NONE -U NONE"
+if type nvim > /dev/null 2>&1; then
+  alias vim='nvim'
+  # run vim without any plugin or bundle, ... --> nice when vim doesn't run after installing a plugin...
+  # alias nakedvim="vim -u NONE -U NONE"
+  alias nakedvim="nvim -u NORC -u NONE -es"
+fi
 alias cat='bat'
 alias less="less -r"
 
