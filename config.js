@@ -101,6 +101,8 @@ module.exports = {
     '1password',
     'bartender',
     'yoink',
+    'zoomus',
+    'krisp',
     'karabiner-elements',
     // vim GUI for macos based on neovim
     'vimr',
