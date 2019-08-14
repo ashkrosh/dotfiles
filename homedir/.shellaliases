@@ -113,7 +113,6 @@ alias vim='nvim'
 # run vim without any plugin or bundle, ... --> nice when vim doesn't run after installing a plugin...
 alias nakedvim="vim -u NONE -U NONE"
 alias cat='bat'
-
 alias less="less -r"
 
 # quick hack to make watch work with aliases
@@ -247,3 +246,7 @@ alias prog="progress -mp $!"
 
 # alias rimg="curl -o random.jpg -L 'https://unsplash.it/3000/3000/?random'"
 alias rimg="http -d --follow --all 'https://unsplash.it/3000/3000/?random' -o random.jpg"
+
+# File browser based on vim.
+alias r='ranger'
+alias rr='ranger -r "$(git rev-parse --show-toplevel)"'

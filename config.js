@@ -72,7 +72,9 @@ module.exports = {
     'mackup --HEAD',
     'awscli',
     // skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
-    'skhd'
+    'skhd',
+    // file browser with vim keybindings. https://ranger.github.io/
+    'ranger'
   ],
   cask: [
     //'amazon-cloud-drive',
