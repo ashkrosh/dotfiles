@@ -104,6 +104,8 @@ module.exports = {
     'zoomus',
     'krisp',
     'karabiner-elements',
+    // replaced dropbox with imgur for hosting screenshots because dropbox urls are not embeddable in Notion.so
+    'mac2imgur',
     // vim GUI for macos based on neovim
     'vimr',
     // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
