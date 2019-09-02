@@ -34,6 +34,8 @@ module.exports = {
     'jq',
     // Mac App Store CLI: https://github.com/mas-cli/mas
     'mas',
+    //  Swiss Army Knife for macOS
+    'm-cli',
     // Install some other useful utilities like `sponge`
     'moreutils',
     'nmap',
@@ -76,7 +78,11 @@ module.exports = {
     // skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
     'skhd',
     // file browser with vim keybindings. https://ranger.github.io/
-    'ranger'
+    'ranger',
+    'screenfetch',
+    'asciinema',
+    'lolcat',
+    'pstree'
   ],
   cask: [
     //'amazon-cloud-drive',
