@@ -108,6 +108,7 @@ module.exports = {
     'vimr',
     // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
     'vscodium',
+    'spectacle',
     // Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
     'qlcolorcode',
     'qlstephen',
