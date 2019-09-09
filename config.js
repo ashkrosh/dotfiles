@@ -34,6 +34,8 @@ module.exports = {
     'jq',
     // Mac App Store CLI: https://github.com/mas-cli/mas
     'mas',
+    //  Swiss Army Knife for macOS
+    'm-cli',
     // Install some other useful utilities like `sponge`
     'moreutils',
     'nmap',
@@ -76,7 +78,11 @@ module.exports = {
     // skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
     'skhd',
     // file browser with vim keybindings. https://ranger.github.io/
-    'ranger'
+    'ranger',
+    'screenfetch',
+    'asciinema',
+    'lolcat',
+    'pstree'
   ],
   cask: [
     //'amazon-cloud-drive',
@@ -104,6 +110,8 @@ module.exports = {
     'zoomus',
     'krisp',
     'karabiner-elements',
+    // replaced dropbox with imgur for hosting screenshots because dropbox urls are not embeddable in Notion.so
+    'mac2imgur',
     // vim GUI for macos based on neovim
     'vimr',
     // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
