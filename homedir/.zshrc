@@ -1,3 +1,6 @@
+# Uncomment for profiling:
+# zmodload zsh/zprof
+
 # Path to your oh-my-zsh configuration.
 export ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
@@ -30,7 +33,7 @@ export DISABLE_AUTO_TITLE="true"
 # source <(antibody init)
 # antibody bundle < $HOME/.zsh_plugins.txt
 
-# Static loading plugins is faster.
+# Static loading plugins is faster. Just remember to run 'zubndle' after adding your plugin to .zsh_plugins.txt
 source $HOME/.zplugins
 
 # Makes sure the auto-completions are case insensitive - http://tinyurl.com/y286kgcp
@@ -66,14 +69,6 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 # that those keys can be used for other things.
 # unsetopt flowcontrol
 
-autoload -Uz compinit
-if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
-  compinit
-else
-  compinit -C
-fi
-
-eval $(thefuck --alias)
 
 
 ##########################################################
@@ -82,9 +77,37 @@ eval $(thefuck --alias)
 # Unset annoying auto-corrects by zsh
 unsetopt correct
 
-# run fortune on new terminal :)
-# fortune
+# stop these errors https://github.com/asdf-vm/asdf/issues/266
+# ...but make it faster https://carlosbecker.com/posts/speeding-up-zsh/
+autoload -Uz compinit 
+if [ $(/bin/date +'%j') != $(/usr/bin/stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
+	compinit;
+else
+	compinit -C;
+fi;
+
+
+#zsh-completions
+# fpath=(/usr/local/share/zsh-completions $fpath)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 source ~/.p10k.zsh
 
+#https://github.com/asdf-vm/asdf
+# brew cask install asdf
+. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+
+# fuzzy search by z
+. /usr/local/opt/z/etc/profile.d/z.sh
+
+#https://github.com/nvbn/thefuck
+# brew cask install thefuck
+eval "$(thefuck --alias)"
+
+
+# run fortune on new terminal :)
+# fortune
+
+# Uncomment for profiling:
+# zprof

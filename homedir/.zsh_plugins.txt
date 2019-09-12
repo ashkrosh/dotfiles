@@ -1,11 +1,18 @@
 robbyrussell/oh-my-zsh
 robbyrussell/oh-my-zsh path:plugins/git
+robbyrussell/oh-my-zsh path:plugins/asdf
+robbyrussell/oh-my-zsh path:plugins/fzf
+robbyrussell/oh-my-zsh path:plugins/vi-mode
 
-zsh-users/zsh-autosuggestions
+zsh-users/zsh-autosuggestions branch:develop
 zsh-users/zsh-completions
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-syntax-highlighting
 
+mafredri/zsh-async
+caarlos0/ports
+# rupa/z
+Tarrasch/zsh-bd
 
 
 # Themes

@@ -1,88 +1,78 @@
 module.exports = {
   brew: [
-    // Antibody - fastest zsh plugin manager
-    'getantibody/tap/antibody',
-    // Ack - http://conqueringthecommandline.com/book/ack_ag
-    'ack',
+    'mackup --HEAD',
+    'getantibody/tap/antibody',  // Antibody - fastest zsh plugin manager
+    'awscli',
+
+    // Better altenatives for `find` 
+    'ack',  // Ack - http://conqueringthecommandline.com/book/ack_ag
     'ag',
-    // https://github.com/wting/autojump
-    'autojump',
-    // alternative to `cat`: https://github.com/sharkdp/bat
-    'bat',
-    // Install GNU core utilities (those that come with macOS are outdated)
-    'coreutils',
-    'dos2unix',
-    // Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
-    'findutils',
-    'fortune',
-    'fzf',
+    'fzf',  // Command-line fuzzy finder written in Go . https://github.com/junegunn/fzf
+    'findutils',  // Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
+    'ctags',      // Ctags: http://ctags.sourceforge.net/whatis.html
+
+    // Better alternatives for `cd`
+    'autojump',    // https://github.com/wting/autojump
+    'fd',  // https://github.com/sharkdp/fd
+    'z',   // https://github.com/rupa/z
+
+    // Productive file and process listing and traversal
+    'ranger',      // file browser with vim keybindings. https://ranger.github.io/
+    'tree',
+    'pstree',
+
+    // Other GNU tools for macOS
+    'coreutils',     // Install GNU core utilities (those that come with macOS are outdated)
+    'moreutils',     // useful utilities like `sponge`. https://joeyh.name/code/moreutils/
+    'gnupg',
+    'dos2unix',  // Convert text between DOS, UNIX, and Mac formats
     'readline', // ensure gawk gets good readline
     'gawk',
-    // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
-    'gifsicle',
-    'gnupg',
-    // Install GNU `sed`, overwriting the built-in `sed`
-    // so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
-    'gnu-sed --with-default-names',
-    // upgrade grep so we can get things like inverted match (-v)
-    'grep --with-default-names',
-    // better, more recent grep
-    'homebrew/dupes/grep',
-    // https://github.com/jkbrzt/httpie
-    'httpie',
-    // jq is a sort of JSON grep
-    'jq',
-    // Mac App Store CLI: https://github.com/mas-cli/mas
-    'mas',
-    //  Swiss Army Knife for macOS
-    'm-cli',
-    // Install some other useful utilities like `sponge`
-    'moreutils',
-    'nmap',
+    'gnu-sed --with-default-names',     // GNU `sed`, overwriting the built-in `sed`, so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
+    'grep --with-default-names',  // upgrade grep so we can get things like inverted match (-v)
+    'homebrew/dupes/grep',     // better, more recent grep
+    'jq',      // jq is a sort of JSON grep
+
+    // Rule your MacOS 
+    'mas',      // Mac App Store CLI: https://github.com/mas-cli/mas
+    'm-cli',    //  Swiss Army Knife for macOS
+    'skhd',     // skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
+
+    // Remote work
     'openconnect',
-    'reattach-to-user-namespace',
-    // better/more recent version of screen
-    'homebrew/dupes/screen',
     'tmux',
-    'tree',
-    'ttyrec',
-    // better, more recent vim
-    'vim --with-client-server --with-override-system-vi',
-    // neovim is a faster vim
-    'nvim',
-    'watch',
-    // Install wget with IRI support
-    'wget --enable-iri',
-    // GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols
-    'gnutls',
-    'thefuck',
-    'curl',
-    // Ctags: http://ctags.sourceforge.net/whatis.html
-    'ctags',
-    // pv ~ pipeviewer : https://www.ivarch.com/programs/pv.shtml
-    'pv',
+    'reattach-to-user-namespace',  //  Access the macOS pasteboard in tmux sessions
+    'homebrew/dupes/screen',      // better/more recent version of screen
     'ssh-copy-id',
-    'tree',
-    // gibo: access github gitignore templates https://github.com/simonwhitaker/gibo
-    'gibo',
-    // dnsmasq: Lightweight DNS forwarder and DHCP server https://formulae.brew.sh/formula/dnsmasq
-    'dnsmasq',
-    // ngrok : Public URLs for exposing your local web server.
-    // 'ngrok',
-    // z tracks most-used directories to make cd smarter
-    'z',
-    // nmap Port scanning utility for large networks
-    'nmap',
-    'mackup --HEAD',
-    'awscli',
-    // skhd - simple hotkey daemon for macOS. https://github.com/koekeishiya/skhd
-    'skhd',
-    // file browser with vim keybindings. https://ranger.github.io/
-    'ranger',
+
+    // Record and Demo
+    'ttyrec',  // Terminal interaction recorder and player
     'screenfetch',
     'asciinema',
+    // 'ngrok',    // ngrok : Public URLs for exposing your local web server.
+
+    // View and edit files 
+    'vim --with-client-server --with-override-system-vi', // Replace the system `vim` with newer vim
+    'nvim',      // neovim is a faster vim
+    'bat',    // alternative to `cat`: https://github.com/sharkdp/bat
+
+    // Network tools
+    'gnutls',  // secure communications library implementing the SSL, TLS and DTLS protocols
+    'wget --enable-iri',      // Install wget with IRI support
+    'curl',
+    'httpie',  // https://github.com/jkbrzt/httpie
+    'dnsmasq',     // dnsmasq: Lightweight DNS forwarder and DHCP server https://formulae.brew.sh/formula/dnsmasq
+    'nmap',     // nmap Port scanning utility for large networks
+
+    // Test, debug and performance monitor tools
+    'watch', // Execute a program periodically, showing output fullscreen
+    'pv',    // pv ~ pipeviewer : https://www.ivarch.com/programs/pv.shtml
+
+    // Fun stuff
+    'thefuck',
+    'fortune',
     'lolcat',
-    'pstree'
+    'gifsicle'  // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
   ],
   cask: [
     //'amazon-cloud-drive',
@@ -110,12 +100,9 @@ module.exports = {
     'zoomus',
     'krisp',
     'karabiner-elements',
-    // replaced dropbox with imgur for hosting screenshots because dropbox urls are not embeddable in Notion.so
-    'mac2imgur',
-    // vim GUI for macos based on neovim
-    'vimr',
-    // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
-    'vscodium',
+    'mac2imgur',  // replaced dropbox with imgur for hosting screenshots because dropbox urls are not embeddable in Notion.so
+    'vimr',       // vim GUI for macos based on neovim
+    'vscodium',   // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
     'spectacle',
     // Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
     'qlcolorcode',
@@ -128,6 +115,7 @@ module.exports = {
     'qlvideo'
   ],
   gem: [
+    'neovim'
   ],
   npm: [
     'antic',

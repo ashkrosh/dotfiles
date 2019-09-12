@@ -1199,7 +1199,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 
 ###############################################################################
-# Clean ups - fix npm issues and flush the perferences cache.                 #
+# Clean ups - fix npm issues, flush the perferences cache, speed up macOS     #
 ###############################################################################
 
 npm audit fix
@@ -1211,7 +1211,8 @@ sudo rm -rf /Library/Caches/com.apple.iconservices.store
 rm -rf $HOME/Library/Preferences/com.apple.dock.plist
 killall -KILL Dock
 
-
+# Speed up slow terminal by clearing ASL files - http://tinyurl.com/2dy9kmd
+sudo rm -rf /private/var/log/asl/*.asl
 
 ###############################################################################
 # Kill affected applications                                                  #
