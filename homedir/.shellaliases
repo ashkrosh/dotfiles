@@ -36,10 +36,9 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias ipl="ipconfig getifaddr en0"
 # All IP addresses
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
-
 # Show active network interfaces
 alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
-
+alias oports='netstat -anlt -p TCP | grep LISTEN'
 # Show network connections
 # Often useful to prefix with SUDO to see more system level network usage
 alias aconn='lsof -l -i +L -R -V'
@@ -113,7 +112,10 @@ if type nvim > /dev/null 2>&1; then
   alias vim='nvim'
   # run vim without any plugin or bundle, ... --> nice when vim doesn't run after installing a plugin...
   # alias nakedvim="vim -u NONE -U NONE"
-  alias nakedvim="nvim -u NORC -u NONE -es"
+  alias noplugvim="nvim --noplugin"
+  alias norcvim="nvim -u NORC"
+  alias nakedvim="nvim -u NONE"
+  alias vimdiff="nvim -d"
 fi
 alias cat='bat'
 alias less="less -r"
@@ -236,8 +238,7 @@ alias topc='top -o cpu'
 alias topm='top -o vsize'
 alias ping='ping -a'
 alias ps='ps auxc'
-alias edit='$EDITOR $@'
-alias oports='netstat -anlt -p TCP | grep LISTEN'
+alias e='$EDITOR $@'
 alias sl="screen -ls"
 # alias fuck='eval $(thefuck $(fc -ln -1))'
 alias FUCK='fuck'

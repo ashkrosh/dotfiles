@@ -300,7 +300,10 @@ function yo(){
   open -a Yoink "$1"
 }
 
-// TODO
+function vf() { fzf | xargs -r -I % $EDITOR % ;}
+
+
+# TODO
 function fuz(){
   # inspired by http://tinyurl.com/y2hzct9e . add quick notes to Notion.so page.
 }

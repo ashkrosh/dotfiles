@@ -9,8 +9,8 @@ export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export PATH=.:$PATH
 
 # Standardizing user config & data files location. See :help xdg in nvim.
-export XDG_CONFIG_HOME=$HOME/.config
-export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config/
+export XDG_DATA_HOME=$HOME/.local/share/
 
 # GO
 #export PATH=$PATH:/usr/local/opt/go/libexec/bin
