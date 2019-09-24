@@ -12,7 +12,7 @@ zsh-users/zsh-syntax-highlighting
 mafredri/zsh-async
 caarlos0/ports
 # rupa/z
-Tarrasch/zsh-bd
+# Tarrasch/zsh-bd
 
 
 # Themes
