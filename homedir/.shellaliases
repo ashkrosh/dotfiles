@@ -191,7 +191,9 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 
-alias pubkey="pbcopy < $HOME/.ssh/id_rsa.pub"
+# alias pubkey="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias ppubkey="pbcopy < $HOME/.ssh/personal.pub"
+alias apubkey="pbcopy < $HOME/.ssh/amazon.pub"
 # alias mate='mate "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias zbundle="antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zplugins"
