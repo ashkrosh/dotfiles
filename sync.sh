@@ -5,8 +5,7 @@ for dotfile in "$HOME/.dotfiles/homedir/"*; do
   if [[ $dotfile == "." || $dotfile == ".." ]]; then
     continue
   fi
-
-  f="$HOME/Dropbox/Mackup/${dotfile##*/}"
+  f=$(find "$HOME/Dropbox/Mackup/" -name ${dotfile##*/})
   if [[ -f $f ]]; then
     [[ $dotfile -nt $f ]] && cat $dotfile > $f || cat $f > $dotfile
   fi 
