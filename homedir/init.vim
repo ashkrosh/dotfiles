@@ -42,20 +42,11 @@ silent! if plug#begin("$XDG_DATA_HOME/nvim/site/plugin")
   "Plug 'connorholyday/vim-snazzy'
   "Plug 'jacoborus/tender.vim'
   "Plug 'patstockwell/vim-monokai-tasty'
-  Plug 'nikitavoloboev/vim-monokai-night' 
-
-
-  " ignore these on older versions of vim
-  if v:version >= 703
-   
-  endif
-  if v:version >= 704
-  endif
+  Plug 'nikitavoloboev/vim-monokai-night'
 
   if has('mac')
     Plug 'junegunn/vim-xmark'
   endif
-
 
   call plug#end()
 endif
@@ -305,8 +296,6 @@ autocmd FileType gitcommit setlocal spell
 
 " in COC plugin: Close the preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
-
-
 
 " -----------------------------------------------------------------
 " ABBREVIATIONS {{{

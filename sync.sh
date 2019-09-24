@@ -13,4 +13,4 @@ for dotfile in "$HOME/.dotfiles/homedir/"*; do
 
 done
 
-# run mackup backup -f at end....
+mackup backup -f
