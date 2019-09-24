@@ -1,4 +1,3 @@
-
 " -----------------------------------------------------------------
 " SYSTEM INSPECTION {{{
 " -----------------------------------------------------------------
@@ -36,14 +35,14 @@ silent! if plug#begin("$XDG_DATA_HOME/nvim/site/plugin")
   set rtp+=/usr/local/opt/fzf
   Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
   Plug 'junegunn/vim-easy-align'
-  Plug 'Raimondi/delimitMate'       " Provides insert mode auto-completion for quotes, parens, brackets, etc.
+  Plug 'jiangmiao/auto-pairs'       " Provides insert mode auto-completion for quotes, parens, brackets, etc.
 
   " Colors
-  " Plug 'connorholyday/vim-snazzy'
-  " Plug 'jacoborus/tender.vim'
-  " Plug 'patstockwell/vim-monokai-tasty'
+  "Plug 'itchyny/lightline.vim'
+  "Plug 'connorholyday/vim-snazzy'
+  "Plug 'jacoborus/tender.vim'
+  "Plug 'patstockwell/vim-monokai-tasty'
   Plug 'nikitavoloboev/vim-monokai-night' 
-  " Plug 'itchyny/lightline.vim'
 
 
   " ignore these on older versions of vim
@@ -127,7 +126,9 @@ set updatetime=1000               " Write swap files to disk and trigger CursorH
 " set updatecount=0               " Disable swap files; systems don't crash that often these days
 set completeopt=menu,preview      " Completion options: menu -> use a popup menu and preview -> show more info in menu
 " Useful status information at bottom of screen
-set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+if &rtp =~ 'fugitive'
+    set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+endif
 " Clipboard settings
 if has("clipboard")
   set clipboard=unnamed " copy to the system clipboard
@@ -137,7 +138,7 @@ if has("clipboard")
 endif
 " Global enable spell check
 "set spell spelllang=en_us        " spell check go to highlighted word and "z=" to see list. To turn off set nospell
-setlocal spell spelllang=en_us
+"setlocal spell spelllang=en_us
 setlocal spellfile=$HOME/.vim-spell-en.utf-8.add
 
 
@@ -146,9 +147,9 @@ setlocal spellfile=$HOME/.vim-spell-en.utf-8.add
 " colorscheme tender
 colorscheme monokai-night
 
-" let g:vim_monokai_tasty_italic = 1                    " allow italics, set this before the colorscheme
-" let g:lightline = { 'colorscheme': 'monokai_tasty' }  " Optional lightline theme
-" colorscheme vim-monokai-tasty                         " set the colorscheme
+"let g:vim_monokai_tasty_italic = 1                    " allow italics, set this before the colorscheme
+"let g:lightline = { 'colorscheme': 'monokai_tasty' }  " Optional lightline theme
+"colorscheme vim-monokai-tasty                         " set the colorscheme
 
 
 " }}}
@@ -236,12 +237,23 @@ nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gp :Gpush<CR>
 vnoremap <leader>gb :Gblame<CR>
 
-" ==================== delimitMate ====================
-let g:delimitMate_expand_cr = 1
-let g:delimitMate_expand_space = 1
-let g:delimitMate_smart_quotes = 1
-let g:delimitMate_expand_inside_quotes = 0
-let g:delimitMate_smart_matchpairs = '^\%(\w\|\$\)'
+" ==================== coc ====================
+" use <tab> for trigger completion and navigate to the next complete item:
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction
+inoremap <silent><expr> <Tab>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<Tab>" :
+      \ coc#refresh()
+" Use <Tab> and <S-Tab> to navigate the completion list and <cr> to confirm completion:
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+" To make coc.nvim format your code on <cr>, use keymap:
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 
 cnoremap <expr> %% expand('%:h').'/' " Expand %% to current directory in command-line mode. http://vimcasts.org/e/14
 map <leader>ew :e %%                 " ,ew open in window. expands to ':e path/to/directory/of/current/file/'
@@ -261,7 +273,7 @@ map <leader>tl :tablast<cr>
 map <leader>tm :tabmov
 
 
-
+let g:python3_host_prog="$HOME/.asdf/shims/python"
 let g:omni_sql_no_default_maps = 1  " Stop SQL language files from doing unholy things to the C-c key
 
 " }}}
@@ -290,6 +302,10 @@ autocmd  FileType fzf set laststatus=0 noshowmode noruler
 
 " spell check for git commits
 autocmd FileType gitcommit setlocal spell
+
+" in COC plugin: Close the preview window when completion is done.
+autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+
 
 
 " -----------------------------------------------------------------
