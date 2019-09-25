@@ -35,14 +35,14 @@ export LESSCHARSET=utf-8
 #export GOPATH=/usr/local/bin
 #export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export ANTIBODY_HOME=$HOME/Library/Caches/antibody
-# export MYVIMRC=$HOME/.vimrc
+export NVM_DIR=~/.nvm/
 
 #########################################################################
 # Tool settings
 #########################################################################
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 export TERM=xterm-256color
-export NVM_DIR=~/.nvm/
+export MYVIMRC=$XDG_CONFIG_HOME/nvim/init.vim
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
@@ -67,4 +67,11 @@ export WORDCHARS='*?[]~&;!$%^<>'
 # Highlight search results in ack.
 export ACK_COLOR_MATCH='red'
 
+# AWS CLI settings
 export AWS_DEFAULT_PROFILE="$USER"
+
+# FZF settings
+FZF_DEFAULT_COMMAND="nvim $(fzf)"
+FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=header,grid --line-range :300 {}'"

@@ -118,6 +118,7 @@ if type nvim > /dev/null 2>&1; then
   alias vimdiff="nvim -d"
 fi
 alias cat='bat'
+alias prev="fzf --preview 'bat --color \"always\" {}'"
 alias less="less -r"
 
 # quick hack to make watch work with aliases
