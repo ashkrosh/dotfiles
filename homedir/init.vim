@@ -28,21 +28,20 @@ silent! if plug#begin("$XDG_DATA_HOME/nvim/site/plugin")
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-fugitive'
 	Plug 'tpope/vim-repeat'
-	Plug 'wincent/command-t', {
-    \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
-    \ }
-  Plug 'junegunn/fzf'
-  set rtp+=/usr/local/opt/fzf
-  Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
+	Plug 'tpope/vim-commentary'
+	" Plug 'wincent/command-t', {
+    " \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
+    " \ }
+	" If you already installed fzf using Homebrew, the following should suffice for using fzf in vim:
+	Plug '/usr/local/opt/fzf'
+  Plug 'junegunn/fzf.vim'
   Plug 'junegunn/vim-easy-align'
+  Plug 'junegunn/goyo.vim'
+  Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
   Plug 'jiangmiao/auto-pairs'       " Provides insert mode auto-completion for quotes, parens, brackets, etc.
 
   " Colors
-  "Plug 'itchyny/lightline.vim'
-  "Plug 'connorholyday/vim-snazzy'
-  "Plug 'jacoborus/tender.vim'
-  "Plug 'patstockwell/vim-monokai-tasty'
-  Plug 'nikitavoloboev/vim-monokai-night'
+  Plug 'sickill/vim-monokai'
 
   if has('mac')
     Plug 'junegunn/vim-xmark'
@@ -60,11 +59,11 @@ endif
 set nocompatible                    " Must come first because it changes other options.
 " Prevent Vim from clobbering the scrollback buffer. See
 " http://www.shallowsky.com/linux/noaltscreen.html
-set t_ti= t_te= 
+set t_ti= t_te=
 " lets enjoy $TERM = xterm-256color :~)
 if !has('gui_running')
   set t_Co=256
-endif             
+endif
 
 " The following settings are commented since I inherit them from Sensible Plugin: http://tinyurl.com/cynv6s6
 " syntax enable                     " Turn on syntax highlighting.
@@ -111,10 +110,10 @@ set nofoldenable
 set autoread                      " If a file is changed outside of vim, automatically reload it without asking.
 set diffopt=vertical              " Diffs are shown side-by-side not above/below
 set signcolumn=no                 " Always show the sign column
-set termguicolors                 " True color mode! (Requires a fancy modern terminal, but iTerm works.) 
-set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
-set updatetime=1000               " Write swap files to disk and trigger CursorHold event faster (default is after 4000 ms of inactivity)
-" set updatecount=0               " Disable swap files; systems don't crash that often these days
+set termguicolors                 " True color mode! (Requires a fancy modern terminal, but iTerm works.)
+" set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
+" set updatetime=1000               " Write swap files to disk and trigger CursorHold event faster (default is after 4000 ms of inactivity)
+set updatecount=0               " Disable swap files; systems don't crash that often these days
 set completeopt=menu,preview      " Completion options: menu -> use a popup menu and preview -> show more info in menu
 " Useful status information at bottom of screen
 if &rtp =~ 'fugitive'
@@ -134,14 +133,7 @@ setlocal spellfile=$HOME/.vim-spell-en.utf-8.add
 
 
 " Set color scheme
-" colorscheme snazzy
-" colorscheme tender
-colorscheme monokai-night
-
-"let g:vim_monokai_tasty_italic = 1                    " allow italics, set this before the colorscheme
-"let g:lightline = { 'colorscheme': 'monokai_tasty' }  " Optional lightline theme
-"colorscheme vim-monokai-tasty                         " set the colorscheme
-
+colorscheme monokai
 
 " }}}
 
@@ -178,14 +170,6 @@ function! RemoveFancyCharacters()
 endfunction
 command! RemoveFancyCharacters :call RemoveFancyCharacters()
 
-" Strip trailing whitespace (<leader>ss)
-function! StripWhitespace()
-	let save_cursor = getpos(".")
-	let old_query = getreg('/')
-	:%s/\s\+$//e
-	call setpos('.', save_cursor)
-	call setreg('/', old_query)
-endfunction
 
 " Controversial...swap colon and semicolon for easier commands
 "nnoremap ; :
@@ -199,6 +183,11 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
+" Center search results
+nnoremap n nzvzz
+nnoremap N Nzvzz
+nnoremap * *zvzz
+nnoremap # #zvzz
 
 noremap <leader>y "*y                " Yank text to the macOS clipboard
 noremap <leader>yy "*Y               " Yank text to the macOS clipboard
@@ -211,16 +200,14 @@ nnoremap <leader><leader> <c-^>      " toggle between last open buffers. <leader
 vnoremap <leader>ib :!align<cr>      " Align selected lines
 nnoremap <leader>o :only<cr>         " Close all other splits
 map <leader>n :call RenameFile()<cr> " <leader>n renames the current open file
-noremap <leader>ss :call StripWhitespace()<CR>
 noremap <leader>W :w !sudo tee % > /dev/null<CR>  " Save a file as root (,W)
+nmap <leader>u ji<CR><ESC>k
 
 " ==================== vim.plug ====================
 nmap <leader>uu :PlugUpgrade<cr>:PlugUpdate<cr>  " shortcut for updating all vim plugins and also upgrading vim.plug itself.
 
 
 " ==================== FZF ====================
-nmap <C-b> :FZF<cr>
-imap <C-b> <esc>:FZF<cr>
 
 " ==================== Fugitive ====================
 nnoremap <leader>ga :Git add %:p<CR><CR>
@@ -246,11 +233,12 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 
 
+" Editing files in the current directory
 cnoremap <expr> %% expand('%:h').'/' " Expand %% to current directory in command-line mode. http://vimcasts.org/e/14
 map <leader>ew :e %%                 " ,ew open in window. expands to ':e path/to/directory/of/current/file/'
 map <leader>es :sp %%                " ,es open in split
 map <leader>ev :vsp %%               " ,ev open in vertical split
-map <leader>et :tabe %%              " ,et open in tab  
+map <leader>et :tabe %%              " ,et open in tab
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
@@ -263,7 +251,7 @@ map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmov
 
-
+let g:search_ignore_dirs = ['.git', 'node_modules']
 let g:python3_host_prog="$HOME/.asdf/shims/python"
 let g:omni_sql_no_default_maps = 1  " Stop SQL language files from doing unholy things to the C-c key
 
@@ -279,23 +267,35 @@ autocmd BufReadPost *
   \ if line("'\"") > 0 && line("'\"") <= line("$") |
   \   exe "normal g`\"" |
   \ endif
-    
-" }}}
 
 " Enable spell check for certain files
 autocmd BufRead,BufNewFile *.md,*.txt setlocal spell
+" spell check for git commits
+autocmd FileType gitcommit setlocal spell
+
+" in COC plugin: Close the preview window when completion is done.
+autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " FZF stuff
 autocmd! FileType fzf
 autocmd  FileType fzf set laststatus=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
 
+function! s:fzf_statusline()
+  " Override statusline as you like
+  highlight fzf1 ctermfg=161 ctermbg=251
+  highlight fzf2 ctermfg=23 ctermbg=251
+  highlight fzf3 ctermfg=237 ctermbg=251
+  setlocal statusline=%#fzf1#\ >\ %#fzf2#fz%#fzf3#f
+endfunction
 
-" spell check for git commits
-autocmd FileType gitcommit setlocal spell
+autocmd! User FzfStatusLine call <SID>fzf_statusline()
 
-" in COC plugin: Close the preview window when completion is done.
-autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+" Commentary stuff
+" autocmd FileType apache setlocal commentstring=#\ %s
+
+
+" }}}
 
 " -----------------------------------------------------------------
 " ABBREVIATIONS {{{
