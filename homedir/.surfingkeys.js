@@ -7,8 +7,10 @@ mapkey('<Ctrl-y>', 'Show me the money', function() {
 map('gt', 'T');
 
 // an example to remove mapkey `Ctrl-i`
-unmap('<Ctrl-i>');
-
+// unmap('<Ctrl-i>');
+unmapAllExcept(['`', 'E', 'R'], /gmail.com|mail.google.com|twitter.com/);
+unmap('t', /github.com/);
+unmapAllExcept([], /notion.so/);
 // set theme
 settings.theme = `
 .sk_theme {
