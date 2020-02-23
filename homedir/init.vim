@@ -39,6 +39,8 @@ silent! if plug#begin("$XDG_DATA_HOME/nvim/site/plugin")
   Plug 'junegunn/goyo.vim'
   Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
   Plug 'jiangmiao/auto-pairs'       " Provides insert mode auto-completion for quotes, parens, brackets, etc.
+  Plug 'wakatime/vim-wakatime'
+	Plug 'matze/vim-move'
 
   " Colors
   Plug 'sickill/vim-monokai'

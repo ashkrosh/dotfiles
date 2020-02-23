@@ -112,3 +112,4 @@ eval "$(thefuck --alias)"
 # Uncomment for profiling:
 # zprof
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fpath+=${ZDOTDIR:-~}/.zsh_functions
