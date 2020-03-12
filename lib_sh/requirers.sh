@@ -5,7 +5,7 @@
 # @author Adam Eivy
 ###
 
-# source ./echos.sh
+# source echos.sh
 
 function require_cask() {
     running "brew cask $1"

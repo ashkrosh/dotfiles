@@ -350,7 +350,6 @@ sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
 
 # Enable firewall stealth mode (no response to ICMP / ping requests)
 # Source: https://support.apple.com/kb/PH18642
-#sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 
 # Enable firewall logging
@@ -365,10 +364,10 @@ sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 
 # Reload the firewall
 # (uncomment if above is not commented out)
-#launchctl unload /System/Library/LaunchAgents/com.apple.alf.useragent.plist
-#sudo launchctl unload /System/Library/LaunchDaemons/com.apple.alf.agent.plist
-#sudo launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plist
-#launchctl load /System/Library/LaunchAgents/com.apple.alf.useragent.plist
+launchctl unload /System/Library/LaunchAgents/com.apple.alf.useragent.plist
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.alf.agent.plist
+sudo launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plist
+launchctl load /System/Library/LaunchAgents/com.apple.alf.useragent.plist
 
 # Disable IR remote control
 sudo defaults write /Library/Preferences/com.apple.driver.AppleIRController DeviceEnabled -bool false
@@ -385,7 +384,7 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.c
 sudo systemsetup -setremoteappleevents off
 
 # Disable remote login
-# sudo systemsetup -setremotelogin off
+sudo systemsetup -setremotelogin off
 
 # Disable wake-on modem
 sudo systemsetup -setwakeonmodem off
@@ -407,7 +406,7 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.smbd.plist
 sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool false
 
 # Automatically lock the login keychain for inactivity after 6 hours
-security set-keychain-settings -t 21600 -l ~/Library/Keychains/login.keychain
+# security set-keychain-settings -t 21600 -l ~/Library/Keychains/login.keychain
 
 # Destroy FileVault key when going into standby mode, forcing a re-auth.
 # Source: https://web.archive.org/web/20160114141929/http://training.apple.com/pdf/WP_FileVault2.pdf
@@ -444,7 +443,7 @@ running "Disable local Time Machine snapshots"
 sudo tmutil disablelocal;ok
 
 # running "Disable hibernation (speeds up entering sleep mode)"
-# sudo pmset -a hibernatemode 0;ok
+sudo pmset -a hibernatemode 0;ok
 
 # running "Remove the sleep image file to save disk space"
 # sudo rm -rf /Private/var/vm/sleepimage;ok
@@ -461,10 +460,10 @@ sudo pmset -a sms 0;ok
 ################################################
 
 # running "Set computer name (as done via System Preferences → Sharing)"
-# sudo scutil --set ComputerName "antic"
-# sudo scutil --set HostName "antic"
-# sudo scutil --set LocalHostName "antic"
-# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "antic"
+sudo scutil --set ComputerName "amazon-mbp"
+sudo scutil --set HostName "amazon-mbp"
+sudo scutil --set LocalHostName "amazon-map"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "amazon-mbp"
 
 # running "Disable smooth scrolling"
 # (Uncomment if you’re on an older Mac that messes up the animation)
@@ -481,7 +480,7 @@ sudo pmset -a sms 0;ok
 # echo "0x08000100:0" > ~/.CFUserTextEncoding;ok
 
 # running "Stop iTunes from responding to the keyboard media keys"
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null;ok
+#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null;ok
 
 # running "Show icons for hard drives, servers, and removable media on the desktop"
 # defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -490,7 +489,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 # defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true;ok
 
 # running "Enable the MacBook Air SuperDrive on any Mac"
-# sudo nvram boot-args="mbasd=1";ok
+sudo nvram boot-args="mbasd=1";ok
 
 # running "Remove Dropbox’s green checkmark icons in Finder"
 # file=/Applications/Dropbox.app/Contents/Resources/emblem-dropbox-uptodate.icns
@@ -525,8 +524,8 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist > /d
 running "Set standby delay to 24 hours (default is 1 hour)"
 sudo pmset -a standbydelay 86400;ok
 
-running "Disable the sound effects on boot"
-sudo nvram SystemAudioVolume=" ";ok
+# running "Disable the sound effects on boot"
+#sudo nvram SystemAudioVolume=" ";ok
 
 # running "Menu bar: disable transparency"
 # defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false;ok
@@ -567,7 +566,7 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true;ok
 
 # running "Save to disk (not to iCloud) by default"
-# defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false;ok
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false;ok
 
 running "Automatically quit printer app once the print jobs complete"
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true;ok
@@ -595,8 +594,8 @@ defaults write com.apple.helpviewer DevMode -bool true;ok
 running "Reveal IP, hostname, OS, etc. when clicking clock in login window"
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName;ok
 
-running "Restart automatically if the computer freezes"
-sudo systemsetup -setrestartfreeze on;ok
+# running "Restart automatically if the computer freezes"
+#sudo systemsetup -setrestartfreeze on;ok
 
 # running "Never go into computer sleep mode"
 # sudo systemsetup -setcomputersleep Off > /dev/null;ok
@@ -632,8 +631,8 @@ defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryCli
 # running "Disable 'natural' (Lion-style) scrolling"
 # defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false;ok
 
-running "Increase sound quality for Bluetooth headphones/headsets"
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40;ok
+# running "Increase sound quality for Bluetooth headphones/headsets"
+# defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40;ok
 
 running "Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)"
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3;ok
@@ -644,8 +643,8 @@ defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144;o
 running "Follow the keyboard focus while zoomed in"
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true;ok
 
-running "Disable press-and-hold for keys in favor of key repeat"
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false;ok
+# running "Disable press-and-hold for keys in favor of key repeat"
+# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false;ok
 
 running "Set a blazingly fast keyboard repeat rate"
 defaults write NSGlobalDomain KeyRepeat -int 1 
@@ -669,9 +668,9 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false;o
 bot "Configuring the Screen"
 ###############################################################################
 
-running "Require password immediately after sleep or screen saver begins"
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0;ok
+# running "Require password immediately after sleep or screen saver begins"
+# defaults write com.apple.screensaver askForPassword -int 1
+# defaults write com.apple.screensaver askForPasswordDelay -int 0;ok
 
 # TK replace with more secure cloud storage like S3
 running "Save screenshots to the Dropbox business"
@@ -680,14 +679,14 @@ defaults write com.apple.screencapture location -string "${HOME}/Dropbox\\ (Busi
 # running "Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)"
 # defaults write com.apple.screencapture type -string "png";ok
 
-running "Disable shadow in screenshots"
-defaults write com.apple.screencapture disable-shadow -bool true;ok
+# running "Disable shadow in screenshots"
+# defaults write com.apple.screencapture disable-shadow -bool true;ok
 
-running "Enable subpixel font rendering on non-Apple LCDs"
-defaults write NSGlobalDomain AppleFontSmoothing -int 2;ok
+# running "Enable subpixel font rendering on non-Apple LCDs"
+# defaults write NSGlobalDomain AppleFontSmoothing -int 2;ok
 
-running "Enable HiDPI display modes (requires restart)"
-sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true;ok
+# running "Enable HiDPI display modes (requires restart)"
+# sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true;ok
 
 ###############################################################################
 bot "Finder Configs"
@@ -695,11 +694,11 @@ bot "Finder Configs"
 running "Keep folders on top when sorting by name (Sierra only)"
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
-# running "Allow quitting via ⌘ + Q; doing so will also hide desktop icons"
-# defaults write com.apple.finder QuitMenuItem -bool true;ok
+running "Allow quitting via ⌘ + Q; doing so will also hide desktop icons"
+defaults write com.apple.finder QuitMenuItem -bool true;ok
 
-running "Disable window animations and Get Info animations"
-defaults write com.apple.finder DisableAllAnimations -bool true;ok
+# running "Disable window animations and Get Info animations"
+#defaults write com.apple.finder DisableAllAnimations -bool true;ok
 
 running "Set Downloads as the default location for new Finder windows"
 # For other paths, use 'PfLo' and 'file:///full/path/here/'
@@ -730,11 +729,11 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf";ok
 running "Disable the warning when changing a file extension"
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false;ok
 
-running "Enable spring loading for directories"
-defaults write NSGlobalDomain com.apple.springing.enabled -bool true;ok
+# running "Enable spring loading for directories"
+# defaults write NSGlobalDomain com.apple.springing.enabled -bool true;ok
 
-running "Remove the spring loading delay for directories"
-defaults write NSGlobalDomain com.apple.springing.delay -float 0;ok
+# running "Remove the spring loading delay for directories"
+# defaults write NSGlobalDomain com.apple.springing.delay -float 0;ok
 
 running "Avoid creating .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true;ok
@@ -759,8 +758,8 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false;ok
 running "Empty Trash securely by default"
 defaults write com.apple.finder EmptyTrashSecurely -bool true;ok
 
-running "Enable AirDrop over Ethernet and on unsupported Macs running Lion"
-defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true;ok
+# running "Enable AirDrop over Ethernet and on unsupported Macs running Lion"
+# defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true;ok
 
 running "Show the ~/Library folder"
 chflags nohidden ~/Library;ok
@@ -844,9 +843,9 @@ defaults write com.apple.Dock autohide-delay -float 1000 && killall Dock
 running "Speed up Mission Control animations"
 defaults write com.apple.dock expose-animation-duration -float 0.1;ok
 
-running "Don’t group windows by application in Mission Control"
+# running "Don’t group windows by application in Mission Control"
 # (i.e. use the old Exposé behavior instead)
-defaults write com.apple.dock expose-group-by-app -bool false;ok
+# defaults write com.apple.dock expose-group-by-app -bool false;ok
 
 running "Disable Dashboard"
 defaults write com.apple.dashboard mcx-disabled -bool true;ok
@@ -962,10 +961,10 @@ bot "Configuring Firefox"
 ###############################################################################
 
 # Policies for Firefox are actively under development. https://github.com/mozilla/policy-templates/tree/master/mac
-running "Enable policies for Firefox"
-defaults write org.mozilla.firefox EnterprisePoliciesEnabled -bool true;ok
+# running "Enable policies for Firefox"
+# defaults write org.mozilla.firefox EnterprisePoliciesEnabled -bool true;ok
 
-running "Set Firefox’s home page to ‘Inside Amazon’ for keepign up with all news."
+running "Set Firefox’s home page to ‘Inside Amazon’ for keeping up with all news."
 defaults write org.mozilla.firefox Homepage__URL -string "https://inside.amazon.com/";ok
 
 
@@ -981,9 +980,9 @@ running "Disable the all too sensitive backswipe on Magic Mouse"
 defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false;ok
 defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false;ok
 
-running "Use the system-native print preview dialog"
-defaults write com.google.Chrome DisablePrintPreview -bool true;ok
-defaults write com.google.Chrome.canary DisablePrintPreview -bool true;ok
+# running "Use the system-native print preview dialog"
+# defaults write com.google.Chrome DisablePrintPreview -bool true;ok
+# defaults write com.google.Chrome.canary DisablePrintPreview -bool true;ok
 
 running "Expand the print dialog by default"
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true;ok
@@ -1042,29 +1041,29 @@ defaults write com.apple.terminal StringEncodings -array 4;ok
 # 	defaults write com.apple.terminal 'Startup Window Settings' -string "${TERM_PROFILE}";
 # fi;
 
-#running "Enable “focus follows mouse” for Terminal.app and all X11 apps"
+running "Enable “focus follows mouse” for Terminal.app and all X11 apps"
 # i.e. hover over a window and start `typing in it without clicking first
 defaults write com.apple.terminal FocusFollowsMouse -bool true
-#defaults write org.x.X11 wm_ffm -bool true;ok
-running "Installing the Solarized Light theme for iTerm (opening file)"
-open "./configs/Solarized Light.itermcolors";ok
-running "Installing the Patched Solarized Dark theme for iTerm (opening file)"
-open "./configs/Solarized Dark Patch.itermcolors";ok
+defaults write org.x.X11 wm_ffm -bool true;ok
+#running "Installing the Solarized Light theme for iTerm (opening file)"
+# open "./configs/Solarized Light.itermcolors";ok
+# running "Installing the Patched Solarized Dark theme for iTerm (opening file)"
+# open "./configs/Solarized Dark Patch.itermcolors";ok
 
 running "Don’t display the annoying prompt when quitting iTerm"
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false;ok
-running "hide tab title bars"
-defaults write com.googlecode.iterm2 HideTab -bool true;ok
+#running "hide tab title bars"
+#defaults write com.googlecode.iterm2 HideTab -bool true;ok
 running "set system-wide hotkey to show/hide iterm with ^\`"
 defaults write com.googlecode.iterm2 Hotkey -bool true;ok
-running "hide pane titles in split panes"
-defaults write com.googlecode.iterm2 ShowPaneTitles -bool false;ok
-running "animate split-terminal dimming"
-defaults write com.googlecode.iterm2 AnimateDimming -bool true;ok
-defaults write com.googlecode.iterm2 HotkeyChar -int 96;
-defaults write com.googlecode.iterm2 HotkeyCode -int 50;
-defaults write com.googlecode.iterm2 FocusFollowsMouse -int 1;
-defaults write com.googlecode.iterm2 HotkeyModifiers -int 262401;
+#running "hide pane titles in split panes"
+#defaults write com.googlecode.iterm2 ShowPaneTitles -bool false;ok
+#running "animate split-terminal dimming"
+#defaults write com.googlecode.iterm2 AnimateDimming -bool true;ok
+#defaults write com.googlecode.iterm2 HotkeyChar -int 96;
+#defaults write com.googlecode.iterm2 HotkeyCode -int 50;
+#defaults write com.googlecode.iterm2 FocusFollowsMouse -int 1;
+#defaults write com.googlecode.iterm2 HotkeyModifiers -int 262401;
 running "Make iTerm2 load new tabs in the same directory"
 /usr/libexec/PlistBuddy -c "set \"New Bookmarks\":0:\"Custom Directory\" Recycle" ~/Library/Preferences/com.googlecode.iterm2.plist
 running "setting fonts"
@@ -1150,8 +1149,8 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1;ok
 running "Turn on app auto-update"
 defaults write com.apple.commerce AutoUpdate -bool true;ok
 
-# running "Allow the App Store to reboot machine on macOS updates"
-# defaults write com.apple.commerce AutoUpdateRestartRequired -bool true;ok
+running "Allow the App Store to reboot machine on macOS updates"
+defaults write com.apple.commerce AutoUpdateRestartRequired -bool true;ok
 
 
 ###############################################################################
@@ -1169,8 +1168,8 @@ bot "Messages"
 running "Disable automatic emoji substitution (i.e. use plain text smileys)"
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticEmojiSubstitutionEnablediMessage" -bool false;ok
 
-running "Disable smart quotes as it’s annoying for messages that contain code"
-defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false;ok
+#running "Disable smart quotes as it’s annoying for messages that contain code"
+#defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false;ok
 
 # running "Disable continuous spell checking"
 # defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false;ok
@@ -1180,7 +1179,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-# cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 
 
 # TKTK
