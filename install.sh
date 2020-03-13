@@ -1225,6 +1225,8 @@ done
 
 open /Applications/iTerm.app
 
+cp synk.sh $HOME && mv $HOME/synk.sh synk && chmod +x $HOME/synk
+
 # mackup backup -f
 
 bot "Woot! All done"

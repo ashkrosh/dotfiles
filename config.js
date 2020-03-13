@@ -95,6 +95,7 @@ module.exports = {
     'vscodium',   // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
     'spectacle',
 		'transmit',
+		'kitty',
     // Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
     'qlcolorcode',
     'qlstephen',
