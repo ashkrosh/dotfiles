@@ -301,6 +301,36 @@ function yo(){
 
 function vf() { fzf | xargs -r -I % $EDITOR % ;}
 
+function synk(){
+  # shopt -s nullglob dotglob     # To include hidden files
+  for dotfile in "$HOME/.dotfiles/homedir/"*; do
+    if [[ $dotfile == "." || $dotfile == ".." ]]; then
+      continue
+    fi
+    f=$(find "$HOME/Dropbox/Mackup/" -name ${dotfile##*/})
+    if [[ -f $f ]]; then
+      [[ $dotfile -nt $f ]] && cat $dotfile > $f || cat $f > $dotfile
+    fi
+  done
+  mackup backup -f
+  mackup restore -f
+}
+
+function zir(){
+  #enter input encoding here
+  FROM_ENCODING="WINDOWS-1256"
+  #output encoding(UTF-8)
+  TO_ENCODING="UTF-8//TRANSLIT"
+  #convert
+  CONVERT="iconv -f $FROM_ENCODING -t $TO_ENCODING"
+  #loop to convert multiple files 
+  for  file  in  $(find . -type f -name "*.srt"); do
+    encoding=`file -b --mime-encoding $file`
+    if [[ $encoding == "unknown-8bit" ]]; then
+      iconv -f $FROM_ENCODING -t $TO_ENCODING $file > "${file%.srt}.utf8.srt"
+    fi
+  done
+}
 
 # TODO
 function fuz(){
