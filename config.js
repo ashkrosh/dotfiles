@@ -96,6 +96,7 @@ module.exports = {
     'spectacle',
 		'transmit',
 		'kitty',
+		'switchaudio-osx',
     // Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
     'qlcolorcode',
     'qlstephen',
