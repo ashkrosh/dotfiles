@@ -258,3 +258,13 @@ alias rimg="http -d --follow --all 'https://unsplash.it/3000/3000/?random' -o ra
 # File browser based on vim.
 alias r='ranger'
 alias rr='ranger -r "$(git rev-parse --show-toplevel)"'
+
+# inspired by Brett Terpstra
+# copy the working directory path
+alias cpwd='pwd|tr -d "\n"|pbcopy'
+# Toggle wifi (add on or off after command)
+alias wifi="networksetup -setairportpower en0"
+# Use ack to locate TOD* and FIXM* lines in current folder tree
+alias todos='ack --nobreak --nocolor "(TODO|FIXME):"|sed -E "s/(.*:[[:digit:]]+):.*((TODO|FIXME):.*)/\2 :>> \1/"|grep -E --color=always ":>>.*:\d+"'
+# Quick Look a file from Terminal
+alias ql="qlmanage -px &>/dev/null"
