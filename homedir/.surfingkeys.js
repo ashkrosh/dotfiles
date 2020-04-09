@@ -14,39 +14,35 @@ unmapAllExcept([], /notion.so/);
 // set theme
 settings.theme = `
 .sk_theme {
-    font-family: Input Sans Condensed, Charcoal, sans-serif;
-    font-size: 10pt;
-    background: #24272e;
-    color: #abb2bf;
+	background: #392A25;
+	color: #C0C1B0;
 }
 .sk_theme tbody {
-    color: #fff;
+	color: #392A25;
 }
 .sk_theme input {
-    color: #d0d0d0;
+	color: #d9dce0;
 }
 .sk_theme .url {
-    color: #61afef;
+	color: #2d9574;
 }
 .sk_theme .annotation {
-    color: #56b6c2;
+	color: #F7E5CA;
 }
 .sk_theme .omnibar_highlight {
-    color: #528bff;
+	color: #333;
+	background: #ffff00aa;
 }
-.sk_theme .omnibar_timestamp {
-    color: #e5c07b;
+.sk_theme #sk_omnibarSearchResult ul>li:nth-child(odd) {
+	background: #88A48D;
 }
-.sk_theme .omnibar_visitcount {
-    color: #98c379;
+.sk_theme #sk_omnibarSearchResult ul>li.focused {
+	background: #5d4d7aaa;
 }
-.sk_theme #sk_omnibarSearchResult>ul>li:nth-child(odd) {
-    background: #303030;
+.sk_theme #sk_omnibarSearchResult .omnibar_folder {
+	color: #a31db1;
 }
-.sk_theme #sk_omnibarSearchResult>ul>li.focused {
-    background: #3e4452;
-}
-#sk_status, #sk_find {
-    font-size: 20pt;
-}`;
+`;
+
+
 // click `Save` button to make above settings to take effect.
