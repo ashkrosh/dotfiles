@@ -268,3 +268,6 @@ alias wifi="networksetup -setairportpower en0"
 alias todos='ack --nobreak --nocolor "(TODO|FIXME):"|sed -E "s/(.*:[[:digit:]]+):.*((TODO|FIXME):.*)/\2 :>> \1/"|grep -E --color=always ":>>.*:\d+"'
 # Quick Look a file from Terminal
 alias ql="qlmanage -px &>/dev/null"
+
+# Send attachments via MailPlane. example: mp file1 file2 [...]
+alias mp='open -a Mailplane'
