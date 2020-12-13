@@ -64,49 +64,6 @@ module.exports = {
     'lolcat',
     'gifsicle'  // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
   ],
-  cask: [
-    //'amazon-cloud-drive',
-    'docker',
-    'dropbox',
-    'appcleaner',
-    'iterm2',
-    'lepton',
-    'little-snitch',
-    'cardhop',
-    'fantastical',
-    'atext',
-    'the-unarchiver',
-    'launchbar',
-    'fork',
-    'witch',
-    'istat-menus',
-    'marked',
-    'cronnix',
-    'Snagit',
-    'rescuetime',
-    '1password',
-    'bartender',
-    'yoink',
-    'zoomus',
-    'krisp',
-    'karabiner-elements',
-    'mac2imgur',  // replaced dropbox with imgur for hosting screenshots because dropbox urls are not embeddable in Notion.so
-    'vimr',       // vim GUI for macos based on neovim
-    'vscodium',   // binary releases of VS Code without MS branding/telemetry/licensing - https://github.com/VSCodium/vscodium
-    'spectacle',
-		'transmit',
-		'kitty',
-		'switchaudio-osx',
-    // Quick-look plugins for developers - https://github.com/sindresorhus/quick-look-plugins
-    'qlcolorcode',
-    'qlstephen',
-    'qlmarkdown',
-    'quicklook-json',
-    'qlimagesize',
-    'suspicious-package',
-    'quicklookase',
-    'qlvideo'
-  ],
   gem: [
     'neovim'
   ],

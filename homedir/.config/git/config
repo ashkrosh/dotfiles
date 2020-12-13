@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/ashkrosh/.config/git/ignore
+[merge]
+	tool = vimdiff
+	conflictStyle = diff3
+[mergetool]
+	prompt = false
+[user]
+	name = Ashkan Roshanayi
+	email = ashkan.roshanayi@gmail.com

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.renaghan.launchbar.Dismiss</string>
+	<key>CFBundleName</key>
+	<string>Dismiss Notifications</string>
+	<key>CFBundleVersion</key>
+	<string>2.4</string>
+	<key>CFBundleIconFile</key>
+	<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Notifications.icns</string>
+	<key>LBDebugLogEnabled</key>
+	<false/>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>dismiss.js</string>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<false/>
+			<key>LBReturnsResult</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>Dismiss all notifications from Notification Center. Will &quot;Snooze&quot; calendar items, &quot;Close&quot; on all others. Adjust preferences for other languages.</string>
+		<key>LBAuthor</key>
+		<string>Padraic Renaghan</string>
+		<key>LBEmail</key>
+		<string>prenagha@renaghan.com</string>
+		<key>LBWebsiteURL</key>
+		<string>https://prenagha.github.io/launchbar/dismiss.html</string>
+		<key>LBTwitter</key>
+		<string>@prenagha</string>
+	  <key>LBUpdateURL</key>
+	  <string>https://raw.githubusercontent.com/prenagha/launchbar/master/Dismiss%20Notifications.lbaction/Contents/Info.plist</string>
+	  <key>LBDownloadURL</key>
+	  <string>https://s3.amazonaws.com/public-launchbar-download/Dismiss%20Notifications.lbaction</string>
+	  <key>LBChangelog</key>
+	  <string>
+	    2.3: Support other languages via preferences
+	  </string>
+	</dict>
+</dict>
+</plist>

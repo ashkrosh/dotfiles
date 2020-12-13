@@ -1,0 +1,49 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "REPO",
+        "repoName": "es-diag-automation",
+        "repoPath": "/Users/ashkrosh/Projects/es-diag-automation/"
+      },
+      {
+        "id": "aa8c12e3-a2e1-4a0c-ac6c-0f7b2b510823",
+        "type": "REPO",
+        "repoName": "alfred-workflow",
+        "repoPath": "/Users/ashkrosh/Projects/alfred-workflow/"
+      }
+    ],
+    "selectedTabId": "aa8c12e3-a2e1-4a0c-ac6c-0f7b2b510823"
+  },
+  "profileIcon": "gravatar",
+  "profileName": "DataChef",
+  "userEmail": "ashkan@datachef.co",
+  "userName": "Ashkan Roshanayi",
+  "externalEditor": "Visual Studio Code",
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "defaultTerminal": "iTerm2",
+  "useCustomTerminalCmd": false,
+  "ssh": {
+    "privateKey": "/Users/ashkrosh/.ssh/gitkraken_rsa",
+    "publicKey": "/Users/ashkrosh/.ssh/gitkraken_rsa.pub",
+    "useLocalAgent": false
+  },
+  "repoInit": {
+    "lastRepoInitPath": "/Users/ashkrosh/Projects"
+  },
+  "hostingServiceFrecencyMetadata": {
+    "bitbucket": {
+      "id": "bitbucket",
+      "timestamps": [
+        1595844833023
+      ],
+      "total": 1
+    }
+  },
+  "projectGroupNamesByDirectory": {
+    "/Users/ashkrosh/Projects": "Projects"
+  }
+}

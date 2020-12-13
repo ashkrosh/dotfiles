@@ -29,6 +29,9 @@ export DISABLE_AUTO_UPDATE="true"
 # disable autosetting terminal title.
 export DISABLE_AUTO_TITLE="true"
 
+# fix permission issues - see https://github.com/ohmyzsh/ohmyzsh/issues/6835#issuecomment-390216875
+export ZSH_DISABLE_COMPFIX="true"
+
 # Dynamic loading plugins
 # source <(antibody init)
 # antibody bundle < $HOME/.zsh_plugins.txt
@@ -95,8 +98,8 @@ source ~/.p10k.zsh
 
 #https://github.com/asdf-vm/asdf
 # brew cask install asdf
-. /usr/local/opt/asdf/asdf.sh
-. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+# . /usr/local/opt/asdf/asdf.sh
+# . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 # fuzzy search by z
 . /usr/local/opt/z/etc/profile.d/z.sh
@@ -114,5 +117,5 @@ eval "$(thefuck --alias)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
