@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aliasNames</key>
+	<dict>
+		<key>ODLBAddToThingsAction</key>
+		<string>Add to Things (multi-line)</string>
+		<key>ODLBPathItem:/</key>
+		<string>Root /</string>
+		<key>ODLBPathItem:/Volumes</key>
+		<string>Mounted Volumes</string>
+		<key>ODLBPathItem:/usr/bin</key>
+		<string>usr/bin</string>
+		<key>ODLBPathItem:/usr/local</key>
+		<string>usr/local</string>
+		<key>ODLBPathItem:/usr/local/bin</key>
+		<string>usr/local/bin</string>
+		<key>ODLBPathItem:/usr/sbin</key>
+		<string>usr/sbin</string>
+		<key>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/facetime.applescript</key>
+		<string>Facetime</string>
+		<key>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/iterm&amp;chrome.scpt</key>
+		<string>iterm</string>
+		<key>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/sdfasdfadfsafasdfa.txt</key>
+		<string>TEST</string>
+	</dict>
+	<key>disabledItems</key>
+	<array>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.8.0_1/libexec/qml-qt5.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/logo &amp; stationary/lamp logo (final version by Stelian)</string>
+		<string>ODLBPathItem:/usr/local/Cellar/python3/3.6.1/Python Launcher 3.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Irisa/Exir-favicons/extra</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/internal docs/jira help</string>
+		<string>ODLBPathItem:/Applications/ZoomOutlookPlugin/Uninstall.app</string>
+		<string>ODLBPathItem:/Applications/Utilities/Adobe AIR Application Installer.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/tic/financial</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Upload Center.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/Print Window With Subfolders.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/Proofer</string>
+		<string>ODLBServiceItem:cx.c3.theunarchiver - The Unarchiver/Unarchive To Desktop</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Rule Actions/ Help With Rule Actions.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Font Book/Activate fonts from list.scpt</string>
+		<string>ODLBPathItem:~/Pictures</string>
+		<string>ODLBCalendarItem:55C50C63-209F-4730-BEE3-84E95B612AAD</string>
+		<string>ODLBServiceItem:cx.c3.theunarchiver - The Unarchiver/Unarchive To Current Folder</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/String Comparison/Ignoring Clause.scpt</string>
+		<string>ODLBSearchTemplateItem:E65CD1E6-9A02-403A-A45E-8A912A9E40D5</string>
+		<string>ODLBPathItem:~/Dropbox</string>
+		<string>ODLBServiceItem:com.goagentx.GoAgentX - Add to GoAgentX Rules using Direct Connection</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/group buying for Turkey</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Boodschapp</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Thank you very much.txt</string>
+		<string>ODLBPathItem:/Applications/Paragon NTFS for Mac OS X/Uninstall NTFS for Mac OS X.app</string>
+		<string>ODLBJobTitleGroup:com.apple.addressbook:.</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/wiki/roadmap</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-icc/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/FOOF/v1</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.EvernoteCopyLinkOfSelectedNote</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/amin</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Create New Mail Account.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/Presenter</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/mashayekh (tosan)</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Play Ringtone.scpt</string>
+		<string>ODLBSearchTemplateItem:8BF6ECC9-1A7A-48F7-8EDC-CD7434E2763B</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Call with Dialectic.scpt</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Flip Horizontal.scpt</string>
+		<string>ODLBPathItem:/Applications/Movie Tools/Split Sides of Conversation.app</string>
+		<string>ODLBBookmarkGroup:296</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/build/test/classes</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/passwords</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-g++40/Info.plist.app</string>
+		<string>ODLBScriptAction:de.heikowitte.LaunchBar.action.QueryCocoaDocs</string>
+		<string>ODLBPathItem:/Applications/Speed Download 5/Speed Download Uninstaller.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/internal docs/cygwin-goodies</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/studios/for Organizations</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/QTI Assessment Delivery Engine</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/Image - Info to Comment.scpt</string>
+		<string>ODLBPathItem:~/angular-1.3.14</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/plan for beygi/SIMORQ</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Tell Blocks/Using Terms Clause.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Font Book/Create collection from/Style name.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Trainings/Backend trainings (Responses).gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/hamkharid</string>
+		<string>ODLBStringTransformationAction:base64DecodedString</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Abolhassani(CMS)</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-llvm/Info.plist.app</string>
+		<string>ODLBPathItem:~/Library/Scripts/Enable|Disable Accounts.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Actions/Disable Folder Actions.scpt</string>
+		<string>ODLBSearchTemplateItem:https://ja.wiktionary.org/?search=*</string>
+		<string>ODLBJobTitleGroup:com.apple.addressbook:------</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/mashayekh (tosan)</string>
+		<string>ODLBSearchTemplateItem:http://www.example.com/search?q=*</string>
+		<string>ODLBPathItem:/System/Library/CoreServices/Installer.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Cirqle/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/SocialServices</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-g++42/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Ops Plans</string>
+		<string>ODLBPathItem:/Applications/Toast 11 Titanium</string>
+		<string>ODLBPathItem:~/Library/Favorites/192.168.0.120.inetloc</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Chaawrub/SHP_RPT_CBI_State_139212.gsheet</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2016/Tax decleration 2016</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/PN</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-g++/Info.plist.app</string>
+		<string>ODLBServiceItem:com.deezer.Deezer - Create a New Deezer Folder</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/gardeshgari/loyalty/first proposal</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/internal docs</string>
+		<string>ODLBSharingServiceAction:com.apple.share.System.add-to-aperture</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2013</string>
+		<string>ODLBPathItem:/Applications/Microsoft Outlook.app.installBackup</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/sayan card</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2016</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/Butterfleye/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Irisa/قرارداد خدمات کارشناسی.doc</string>
+		<string>ODLBPathItem:/Developer/Documentation/DocSets/com.apple.ADC_Reference_Library.DeveloperTools.docset/Contents/Resources/Documents/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/index.html</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/eMobility</string>
+		<string>ODLBPathItem:/System/Applications/Image Capture.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/maskan</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-clang-32/Info.plist.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tehran university/ecm</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/open - show comments in dialog.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/libexec/qdbusviewer-qt5.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Repeat Routines/Process Every Item.scpt</string>
+		<string>ODLBServiceItem:com.mailplaneapp.Mailplane3 - Mailplane 3: Send File</string>
+		<string>ODLBServiceItem:com.pixelglow.graphviz.gui - Graphviz/Open File</string>
+		<string>ODLBPathItem:/usr/local/Cellar/python/2.7.13/Python Launcher.app</string>
+		<string>ODLBServiceItem:com.evernote.Evernote - Add to Evernote</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/Mobile Event Manager</string>
+		<string>ODLBSearchTemplateItem:29E9C3D6-1B16-44BC-985B-CB948CBE89F6</string>
+		<string>ODLBSharingServiceAction:com.flexibits.fantastical2.mac.share-extension</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/References</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesPreviousSong</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Public/10K Bootcamp MP3s/Week-5-MP3</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America</string>
+		<string>ODLBSharingServiceAction:com.apple.share.Video.upload-Vimeo</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/logo &amp; stationary</string>
+		<string>ODLBClearTextInputHistoryAction</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Tender information</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/photo/Fereshteh</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/plan for beygi</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Folder Actions Handlers/Moving Folder Window.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/AndisheAra/قرارداد نرم افزاری.doc</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/libexec/Designer.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/سازمان سرمایه گذاری و کمکهای اقتصادی و فنی ایران</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/Re-design FoundersBuddy.com/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/رکورد ۱۰ هزار رو آگوست ۲۰۱۴ زدیم.PNG</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CopyScreenshotOfSelectedArea</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.OpenSafariTopSites</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/AppStore.ir/🗄- Ansar's backup</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Talia/ویفر</string>
+		<string>ODLBPathItem:~/gotfiles</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Copy.scpt</string>
+		<string>ODLBPathItem:/Applications/Mail.app</string>
+		<string>ODLBPathItem:/Applications/Utilities/QuickTime Player 7.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/World Steel Org</string>
+		<string>ODLBSearchTemplateItem:EAA54B2E-8B53-4746-8B34-377F902C50FE</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/startoop</string>
+		<string>ODLBPathItem:/Library/Scripts/VoiceOver/Unread Message Count.applescript</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/wiki</string>
+		<string>ODLBUserAccountItem:502:admin</string>
+		<string>ODLBPathItem:/Library/PreferencePanes/Flash Player.prefPane</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Medium Volume (50%).scpt</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Green Color Label.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/git/2.3.1/share/git-gui/lib/Git Gui.app</string>
+		<string>ODLBCalendarItem:6AAD4309-4D5B-4603-BDC4-991EEB8D38C6</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/ama</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Gold4SMS/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/OHB/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2017</string>
+		<string>ODLBServiceItem:com.apple.Grab - Capture Selection from Screen</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tehran university/edu total sys</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 1 Btn Cancel.scpt</string>
+		<string>ODLBSearchTemplateItem:3EC55F32-EC44-4F18-805F-A97A6BDECBA1</string>
+		<string>ODLBSharingServiceAction:com.apple.share.Twitter.set-profile-image</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/FOOF/v2</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Ops Plans/2013</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/carane/archive/tadbir portal/جذب و استخدام/Forms</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/⛔️ Classified ⛔️/Financials - Rubako v.2</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.GetMail</string>
+		<string>ODLBPathItem:/Library/Scripts/UI Element Scripts/Key Down-Up.applescript</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/Re-design FoundersBuddy.com/Dev</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/logo &amp; stationary/stationary</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Media Pouch/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Library/Mobile Documents/com~apple~CloudDocs/aText/AdvancedSync/E6615843-6B9D-4F9B-8897-4A0FAF5D9D6E/0A6C22E3-70FD-4DF5-839A-8B76532BC3C7.atext</string>
+		<string>ODLBPathItem:/System/Applications/Reminders.app</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-g++/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Marketing/Presentations</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Create New LDAP Server.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core/src/test/java/com/mindcracy/dao</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/New Entourage Mail Message.scpt</string>
+		<string>ODLBSearchTemplateItem:http://www.ask.com/web?q=*</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/FIZ Karlsruhe</string>
+		<string>ODLBPlaylist:9835A0969846023F</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references/Cards/pasargad/java/lib</string>
+		<string>ODLBSearchTemplateItem:5163A415-5FBF-47C7-9811-F6D4FA62EB63</string>
+		<string>ODLBPathItem:/Applications/Xcode.app/Contents/Applications</string>
+		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/About "Print Window" Scripts.scpt</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesNextSong</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_07</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Actions/Attach Script to Folder.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/NanoParto</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tehran university</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/iTunes - Update All Podcasts.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Rubako Images:PSDs</string>
+		<string>ODLBSearchTemplateItem:http://www.alltheweb.com/search?cat=img&amp;q=*</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - ChineseTextConverter/Convert Selected Traditional Chinese File</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.8.0_1/libexec/pixeltool-qt5.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Get Mail.scpt</string>
+		<string>ODLBUserAccountItem:700:scan-nix</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/rahshahr</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/Image - Flip Vertical.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/بازطراحی سایت</string>
+		<string>ODLBPathItem:/Applications/MacVim.app</string>
+		<string>ODLBSearchTemplateItem:F21D8D11-FB08-48D6-A4E3-446A391D9D71</string>
+		<string>ODLBSearchTemplateItem:http://www.versiontracker.com/php/qs.php?str=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/TUI/GMP_IAS_Zone_Deployment_Document_0.1_NL_Region</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/ansar</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Projects/archive</string>
+		<string>ODLBPathItem:/Applications/Mail Scripts</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/tehran university</string>
+		<string>ODLBPathItem:~/Applications (Parallels)</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Rule Actions/Sample Rule Action Script.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core/src/test/resources/com</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/ansar</string>
+		<string>ODLBServiceItem:com.apple.Grab - Capture Screen using Timer</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/saho/e-voucher</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/Medfacts</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/rubako.ir</string>
+		<string>ODLBPathItem:/Developer/Documentation/DocSets/com.apple.ADC_Reference_Library.DeveloperTools.docset/Contents/Resources/Documents/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/toc.html</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Text Input - 3 Btns.scpt</string>
+		<string>ODLBSearchTemplateItem:B47E5DE0-5959-4920-8BF4-37D2DFA9A07E</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Get Mail in Background.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/internal docs/cygwin-goodies</string>
+		<string>ODLBPathItem:/Applications/Utilities/krisp/krisp Uninstaller.app</string>
+		<string>ODLBPathItem:/usr/local/Cellar/git/2.0.4/share/git-gui/lib/Git Gui.app</string>
+		<string>ODLBShowKindAction</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Database Utility.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Update.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/000 Reloaded</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/Paused/Hamkharid/Email newsletter subscribers</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Pragmatic Bookshelf/Manage Your Project Portfolio</string>
+		<string>ODLBPathItem:/Library/Scripts/Font Book/Delete empty collections.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/libexec/qml.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 3 Btns 2 Actions.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Actions/Remove Folder Actions.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Repeat Routines/Special Case First Item.scpt</string>
+		<string>ODLBPathItem:/Applications/Adobe Device Central CS5/Adobe Device Central CS5.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/SearchWorkings</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Yours Sincerely.txt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/Write Error to Log.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/libexec/qml-qt5.app</string>
+		<string>ODLBCalendarItem:15369D4D-44CA-417C-A291-55EC9B2274D6</string>
+		<string>ODLBPathItem:/Applications/Atlassian Confluence/Atlassian Confluence Evaluation Uninstaller.app</string>
+		<string>ODLBSearchWikimediaAction:fa.wikiquote</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./ShatelBox/Dev</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Proposals - Rubako v.3/SEO for Twol24</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/ideas &amp; proposals/Liquid waste mgmt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/استودیوها</string>
+		<string>ODLBCalendarItem:BE0F99FA-C719-4C53-A07F-3FDA08F11F7D</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/ama</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Presentation</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Speak Sender and Subject.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/YNAB/Business~17D55727.ynab4</string>
+		<string>ODLBServiceItem:com.sparrowmailapp.sparrow - Mail/New Email With Selection</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Entourage Calendar View.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/olumpezeshki</string>
+		<string>ODLBSearchTemplateItem:64F2F5EF-7D65-488C-A11B-368479A5BCFF</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Clip Gallery.app</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Microsoft Document Connection.app</string>
+		<string>ODLBServiceItem:com.creaceed.mas.prizmo2 - Prizmo: Create Contact</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR/on-boarding</string>
+		<string>ODLBServiceItem:com.mailplaneapp.Mailplane3 - Mailplane 3: Send Message To</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Ometria</string>
+		<string>ODLBSearchTemplateItem:0F503A7F-8657-42B4-A7F9-BD770BDAE003</string>
+		<string>ODLBPathItem:/Applications/MacPorts/Python 2.7/Build Applet.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Events</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Card/CME-Presentation</string>
+		<string>ODLBPathItem:/Applications/News.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/keshavarzi bank</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Chart Converter.app</string>
+		<string>ODLBPathItem:/Applications/Image Capture.app</string>
+		<string>ODLBServiceItem:com.apple.FontBook - Font Book/Create Font Library From Text</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Card/Switch</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/⇧ Shift.txt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Tehran univ</string>
+		<string>ODLBUserAccountItem:201:Guest</string>
+		<string>ODLBSearchTemplateItem:http://www.alltheweb.com/search?cat=web&amp;q=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/tic</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/excel prototypes by Sara Rezaeean</string>
+		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?composerTerm=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./AngelClipper/AngelList.gsheet</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/park</string>
+		<string>ODLBPathItem:/System/Library/CoreServices</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Evernote – New Note With Selected Email.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./BirdsEarly/Pitch deck resources</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Adesso</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/Butterfleye/Dev</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Images:PSDs/StartupVitamin-Bundle/02 Innovate or die</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-watchos-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Add.scpt</string>
+		<string>ODLBServiceItem:com.apple.Terminal - New Terminal Tab at Folder</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2014/1 developer</string>
+		<string>ODLBSharingServiceAction:com.apple.share.System.add-to-safari-reading-list</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/for intorducing ourselves</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Lusini</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.EvernoteNewNoteWithSelectedEmail</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-g++42/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_10</string>
+		<string>ODLBCalendarItem:A32F3AFF-ADF7-46F3-91D2-2BB68DE9A75B</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/⌃ Control.txt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Irisa/Exir-favicons</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Conduit</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Innovation in Motion</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/tejarat exchange</string>
+		<string>ODLBPlaylist:F6236D7E59A61D38</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/BurnSideDigital/ACM server resources.gdoc</string>
+		<string>ODLBScriptAction:com.renaghan.launchbar.JIRA</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Chaawrub/Hardware</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/For Sytac/Sytac Timesheet template-2015.gsheet</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Screenshots/1Vla.jpg</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/3llideas</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core/src/main/java/com</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/sedasima</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Proposals - Rubako v.3</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/360 Treasury Systems</string>
+		<string>ODLBSharingServiceAction:com.apple.Notes.SharingExtension</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/Recommendations</string>
+		<string>ODLBPathItem:/Library/Scripts/Font Book/Create Italic collection.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/MongoDB Ltd</string>
+		<string>ODLBServiceItem:(null) - Dial With iSoftPhone</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako</string>
+		<string>ODLBSearchTemplateItem:ED6DA4EF-D9C1-416B-A7C4-764FD40856E3</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Marketing/Trifork logo</string>
+		<string>ODLBUserAccountItem:503:_mongo</string>
+		<string>ODLBPathItem:/Developer/Documentation/DocSets/com.apple.ADC_Reference_Library.DeveloperTools.docset/Contents/Resources/Documents/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/Articles/SymbolVisibility.html</string>
+		<string>ODLBUserAccountItem:137848053:smeijerm-admin</string>
+		<string>ODLBSearchTemplateItem:https://www.torrentz.eu/search?q=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Bamdad Azizi</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-g++40/Info.plist.app</string>
+		<string>ODLBPathItem:~/Dropbox (Business)</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Folder Actions Handlers/Opening Folder.scpt</string>
+		<string>ODLBCategory:Apple Lossless Audio File</string>
+		<string>ODLBServiceItem:com.apple.FolderActionsSetup - Folder Actions Setup</string>
+		<string>ODLBPlaylist:AB971553E9FE1B57</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/Reza Rahimi (ADP)</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Ops Plans/Mobile</string>
+		<string>ODLBServiceItem:com.apple.Stickies - Make Sticky</string>
+		<string>ODLBServiceItem:org.grunenberg.EasyFind - EasyFind: Find Selection...</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/gardeshgari</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/String Comparison/Considering Clause.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Image Manipulation/Rotate Clockwise.scpt</string>
+		<string>ODLBSharingServiceAction:com.apple.share.Video.upload-Tudou</string>
+		<string>ODLBPathItem:/Applications/Phones</string>
+		<string>ODLBCalendarItem:434D9A8A-DB94-417E-9114-32125A421F48</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/analysis</string>
+		<string>ODLBWorkflowServiceItem:com.apple.services.setDesktopPicture - Set Desktop Picture</string>
+		<string>ODLBPathItem:/Library/Scripts/UI Element Scripts/Probe Menu Bar.applescript</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Soundcloud</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Gray Color Label.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/images/old logo &amp; stationary</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Talia/لیست تهیه کنندگان خط.gsheet</string>
+		<string>ODLBPathItem:/System/Library/CoreServices/Folder Actions Setup.app</string>
+		<string>ODLBServiceItem:com.apple.ScriptEditor2 - Script Editor/Make New AppleScript</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/internal docs/Roles at Rubako</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/New TextEdit Document.scpt</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Additional Tools/Microsoft Language Register/Microsoft Language Register.app</string>
+		<string>ODLBPathItem:~/crashplan-ashkrosh.sock</string>
+		<string>ODLBPathItem:/Applications/Nikon Software/ViewNX 2/ViewNX 2.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/parsian</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./ShatelBox/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/group buying for Turkey</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/financial processing</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Orange Color Label.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Image Manipulation/Scale.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Competitors/Competitors List.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/Interest &amp; Target Sheet.gsheet</string>
+		<string>ODLBPathItem:/Applications/Mission Control.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/🔥🔥🔥 IranTransfers.money/Dev</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/final proposal</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./BirdsEarly/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/current.scpt</string>
+		<string>ODLBCalendarItem:F2123F2E-842C-4FF3-8D11-75D6678003CD</string>
+		<string>ODLBPathItem:/Applications/Utilities/Grapher.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Conditionals/if-then ... else &lt;selection&gt; end.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Moneysupermarket.com</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/rahshahr</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/Short goo.gl.applescript</string>
+		<string>ODLBPlaylist:38E9DB313AE9AF70</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/internal docs/Rubako new style docs</string>
+		<string>ODLBUserAccountItem:501:macports</string>
+		<string>ODLBPathItem:/Applications/Adobe Bridge CS5/Adobe Bridge CS5.app</string>
+		<string>ODLBSearchTemplateItem:2D3F3405-E2C2-4353-BC40-46A4A97D6D4B</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Consultancy Report</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Rule Actions/Open Apple Website.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/carane/archive</string>
+		<string>ODLBServiceItem:com.culturedcode.things - Things/New To-do Containing Selection as Title</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - Convert Text to Full Width</string>
+		<string>ODLBServiceItem:com.apple.BluetoothFileExchange - Send File To Bluetooth Device</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Radio Angoor/radio_angoor.tar.gz</string>
+		<string>ODLBCalendarItem:FD827DBF-8875-4A3F-AFE6-B40519B74C56</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.8.0_1/libexec/Linguist-qt5.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Comment Tags.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/orumieh university</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-ios-clang/Info.plist.app</string>
+		<string>ODLBSearchTemplateItem:EC301A2F-AD0D-4409-B942-85C4651E1466</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-g++/Info.plist.app</string>
+		<string>ODLBSearchTemplateItem:http://www.altavista.com/web/results?q=*</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tejarat exchange</string>
+		<string>ODLBPathItem:~/Library/Favorites/192.168.0.22.afploc</string>
+		<string>ODLBSearchTemplateItem:64A86411-FCF0-40E9-BC34-5E7FA2202381</string>
+		<string>ODLBScriptAction:net.pustina.LaunchBar.action.evernote</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Create New Mailing List Mailbox.scpt</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/iChat Away.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/AppStore.ir/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Iterate Items/Items of Finder Selection.scpt</string>
+		<string>ODLBPathItem:/Applications/Cisco/Uninstall AnyConnect DART.app</string>
+		<string>ODLBSharingServiceAction:com.apple.share.System.add-to-iphoto</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references/Financial &amp; Valuation solution</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2016/CTO</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/🔥🔥 Lookma/Dev</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Hamkharid/database</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Remove Messages From Sender or Thread.scpt</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesPause</string>
+		<string>ODLBPathItem:/System/Applications/Stickies.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/prenagha/launchbar/MailMate.applescript</string>
+		<string>ODLBSearchTemplateItem:0141DA5F-A554-42C3-AE9F-C21201C1887A</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/hamkharid/design</string>
+		<string>ODLBPathItem:~/RightFont</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2014</string>
+		<string>ODLBPathItem:/Developer/Documentation/DocSets/com.apple.ADC_Reference_Library.DeveloperTools.docset/Contents/Resources/Documents/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/Articles/CPPROverview.html</string>
+		<string>ODLBPathItem:/Applications/iWork '09</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./TwinBoard</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_05</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-tvos-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Public/10K Bootcamp MP3s/Week-3-MP3</string>
+		<string>ODLBPathItem:~/Music</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/Trifork Elasticsearch</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/EduCenter</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/tejarat</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Rotate Left.scpt</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Commit.scpt</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Daylite dial with Phone Amego.scpt</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/sleep.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/dadekavan</string>
+		<string>ODLBSearchTemplateItem:A6B9342F-2F64-42CF-83F2-DB92B3FC0150</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/🔥🔥🔥 Predictable.io/Dev</string>
+		<string>ODLBAddSnippetAction</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2016</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Learning Center/Marketing</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Action Clauses/Transaction Clause.scpt</string>
+		<string>ODLBPlaylist:9B18548782471CA3</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Asia-Pacific</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Templates/Excel templates</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/libexec/Designer-qt5.app</string>
+		<string>ODLBServiceItem:com.yazsoft.SpeedDownload - Speed Download/Send File To Rapidshare</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 1 Btn.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.7.0/libexec/qml-qt5.app</string>
+		<string>ODLBServiceItem:com.apple.finder - Finder/Show Info</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Secure Empty Trash.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/studios/studio poster/Desyrel</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Daily English/MSE1 (Avaltc.com)</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Purple Color Label.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/pn/loyalty proposal/final contract</string>
+		<string>ODLBPathItem:/Applications/Adobe Media Player.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Proposals - Rubako v.3/BurnsideDigital (summary of qualifications).pdf </string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Cloudfinder</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-watchos-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/trickster.txt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Text Input - 2 Btns.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/shahrdari</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Philips/Approved Timesheets/05-2016</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/References/Websites</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR</string>
+		<string>ODLBCalendarItem:F70B9B95-238A-4FDA-8652-00AEE2DC2254</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/orumieh university/ecm</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Rotate 180°.scpt</string>
+		<string>ODLBScriptAction:com.renaghan.launchbar.Today</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/saae</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/EduReader</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Philips/Philips logo</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Actions/Enable Folder Actions.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Ops Plans/Eindhoven</string>
+		<string>ODLBCategory:AAC Audio File</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Persgroep</string>
+		<string>ODLBServiceItem:com.apple.dt.Xcode - Open Quickly in Xcode</string>
+		<string>ODLBServiceItem:com.stclairsoft.DefaultFolderX.service - Add to Default Folder X Favorites</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/95_12</string>
+		<string>ODLBSearchTemplateItem:https://de.wikipedia.org/?search=*</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-tvos-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/isiran</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./TwinBoard/HA_Profit  Loss_2015-08_AM_20150925.gsheet</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/tic/data-model</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Images:PSDs/StartupVitamin-Bundle/05 Think bigger</string>
+		<string>ODLBURLItem:https://frieslandcampina.atlassian.net/wiki/spaces/DAC/index.action</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Timesheets/Before 1396</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/maskan</string>
+		<string>ODLBServiceItem:com.apple.ScriptEditor2 - Script Editor/Get Result of AppleScript</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Talia/چوبی</string>
+		<string>ODLBSearchTemplateItem:http://www.alltheweb.com/search?cat=vid&amp;q=*</string>
+		<string>ODLBSearchTemplateItem:53FEDDE0-056A-4371-845C-83475173A7A4</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sematec/Quizes/Java</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Images:PSDs/StartupVitamin-Bundle/04 Life is short</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/Misc ⁉️</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./WunderThings/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Bento Search.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Holstee (farsi)/Dev</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/test/arrays</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/blog</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 1 Btn OK.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/close - close sub-folders.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Ysura gmbh</string>
+		<string>ODLBPathItem:/Applications/Utilities/Audio MIDI Setup.app</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - Convert Text to Half Width</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Current Time (24-hour).txt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako/bitlock</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/TIC consulting</string>
+		<string>ODLBPathItem:/System/Library/PreferencePanes/Speech.prefPane</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tehran university/campus card</string>
+		<string>ODLBWorkflowServiceItem:com.apple.services.encodeSelectedVideoFiles - Encode Selected Video Files</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Swisscom</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-g++-32/Info.plist.app</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - ChineseTextConverter/Convert Selected Simplified Chinese Text</string>
+		<string>ODLBSearchTemplateItem:http://www.technorati.com/search/*</string>
+		<string>ODLBServiceItem:com.apple.SpotlightService - SEARCH_WITH_SPOTLIGHT</string>
+		<string>ODLBPathItem:/Applications/Utilities/Migration Assistant.app</string>
+		<string>ODLBPathItem:/Applications/Nikon Software/Camera Control Pro 2</string>
+		<string>ODLBServiceItem:com.apple.speech.SpeechService - Speech/Stop Speaking</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/macs</string>
+		<string>ODLBSearchTemplateItem:http://msxml.excite.com/info.xcite/search/web/*</string>
+		<string>ODLBSearchTemplateItem:https://de.wiktionary.org/?search=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/⛔️ Classified ⛔️/legal stuff - Rubako v.1</string>
+		<string>ODLBSearchTemplateItem:6D91E593-A694-4627-AB08-4040C9B06F92</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/sayan card</string>
+		<string>ODLBPathItem:~/Calibre Library</string>
+		<string>ODLBPathItem:/Developer/Applications/Utilities/Accessibility Tools</string>
+		<string>ODLBPathItem:~/Public</string>
+		<string>ODLBTransmitFavoriteItem:1612B394-C65C-4CDB-A1B3-AD0CF78DCF4C.favoriteMetadata</string>
+		<string>ODLBServiceItem:com.creaceed.mas.prizmo2 - Prizmo: Create Text</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Sync Devices.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/sharif students</string>
+		<string>ODLBServiceItem:com.mailplaneapp.Mailplane3 - Mailplane 3: Send Selection</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Blue Color Label.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/excel prototypes by Sara Rezaeean/Valuation Model/Discounted Cashflow Valuation</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Speak In Range.scpt</string>
+		<string>ODLBWorkflowServiceItem:(null) - Dial With iSoftPhone</string>
+		<string>ODLBPathItem:~/projects/edu/django_Ecommerce_source</string>
+		<string>ODLBPathItem:/usr/local/Cellar/terminal-notifier/1.6.2/terminal-notifier.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Add to Things.scpt</string>
+		<string>ODLBBookmarkGroup:1</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Action Clauses/Ignoring App Responses.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tejarat</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/libexec/Assistant-qt5.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/bitly.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/HR &amp; On-boarding</string>
+		<string>ODLBPathItem:/Developer/Applications/Audio/AU Lab.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Fonts/Museo fonts</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Software</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Radio Angoor</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Count Messages in All Mailboxes.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-clang-32/Info.plist.app</string>
+		<string>ODLBCalendarItem:F800B086-F9AD-4151-8020-C4746D247816</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Entourage Mail View.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/legal stuff/shoray e anformatik (sent)/ezharname</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako/icoffee</string>
+		<string>ODLBSearchTemplateItem:AD5BB7D2-0137-4E6D-88D5-811199B2EBB4</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CopyScreenshotOfSelectedWindowWithoutShadow</string>
+		<string>ODLBUserAccountItem:502:fereshteh</string>
+		<string>ODLBPathItem:/usr/local/Cellar/git/2.3.2/share/git-gui/lib/Git Gui.app</string>
+		<string>ODLBServiceItem:com.skype.skype - Skype/Send Message</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/ghavvamin</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesBackTrack</string>
+		<string>ODLBSearchTemplateItem:CCCD903D-638D-4A24-B630-EF8A7609FDAD</string>
+		<string>ODLBServiceItem:com.pixelglow.graphviz.gui - Graphviz/Draw as Graph</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/parsian</string>
+		<string>ODLBSearchTemplateItem:D497E81F-BC3B-4675-99E0-08DD944243B2</string>
+		<string>ODLBSearchTemplateItem:http://www.alltheweb.com/search?cat=mp3&amp;q=*</string>
+		<string>ODLBPathItem:/Applications/Home.app</string>
+		<string>ODLBPathItem:/Library/Scripts/UI Element Scripts/Get User Name.applescript</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/internal docs/jira help</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Delete.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/ashkan/CEO</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tehran university/final invoice</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Image Manipulation/Resize.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Easy Connect AS</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references/Cards/Loyalty/Rubako loyalty platform/functional</string>
+		<string>ODLBServiceItem:com.skype.skype - Skype/Add Contact</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/hr/resume</string>
+		<string>ODLBServiceItem:com.apple.dt.Instruments - Allocations &amp; Leaks</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./WunderThings/Dev</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/Companies I contacted.gsheet</string>
+		<string>ODLBServiceItem:cx.c3.theunarchiver - The Unarchiver/Unarchive To...</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/images/lamp logo (final version by Stelian)/cropped</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Office Reminders.app</string>
+		<string>ODLBServiceItem:com.apple.chud.ia32help - ISA Reference/Lookup x86 Instruction</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR/resumes</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/olumpezeshki</string>
+		<string>ODLBPathItem:/Developer/Applications/Utilities/Python 2.6/Build Applet.app</string>
+		<string>ODLBSearchTemplateItem:http://www.oanda.com/currency/classic-converter?exch=USD&amp;expr=EUR&amp;value=*</string>
+		<string>ODLBServiceItem:com.apple.Grab - Take Screenshot</string>
+		<string>ODLBPathItem:/Applications/Nikon Software/ViewNX 2</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./BirdsEarly/Macro activities.gsheet</string>
+		<string>ODLBSharingServiceAction:com.apple.reminders.sharingextension</string>
+		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/Print Window.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/en bank</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesPlayPause</string>
+		<string>ODLBPathItem:/Applications/DVD Player.app</string>
+		<string>ODLBPlaylist:0381B36851ECFEC9</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR/vacancy texts</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/modules/dashboard</string>
+		<string>ODLBPathItem:/Applications/NewTek/LightWave3D11.0/support/3rdparty_support/GoZ/LightWaveModeler</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/iChat Available.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/old platform/Most important 20% issues.gsheet</string>
+		<string>ODLBPathItem:/Applications/Utilities</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Chaawrub/Lean Dashboard (Chaawrub).gsheet</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/TUI/Timesheets</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Avina turns into 4.screenflow/Media</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/wiki (Virtual Assistant)/Top to do list Apps.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/dev stuff</string>
+		<string>ODLBWorkflowServiceItem:com.apple.services.addToiTunesAsSpokenTrack - Add to iTunes as a Spoken Track</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/ashkan/DutchWorks</string>
+		<string>ODLBPathItem:/System/Library/CoreServices/Network Setup Assistant.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Decrease Volume.scpt</string>
+		<string>ODLBPathItem:/System/Library/PreferencePanes/Ink.prefPane</string>
+		<string>ODLBPathItem:/Library/Scripts/Font Book/Create Font Sample.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Chaawrub/مدل فروش سال 93.gsheet</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CopySenderOfSelectedMailMessage</string>
+		<string>ODLBServiceItem:com.apple.ImageCaptureService - Import Image</string>
+		<string>ODLBServiceItem:com.apple.mail - Mail/New Note With Selection</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/open letters</string>
+		<string>ODLBSearchTemplateItem:6AAA7775-297F-460C-8CEF-2AFA7D6134AF</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-llvm/Info.plist.app</string>
+		<string>ODLBPathItem:/Developer/Documentation/DocSets/com.apple.ADC_Reference_Library.DeveloperTools.docset/Contents/Resources/Documents/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/Articles/CompatibleLibs.html</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/نامه به بچه ها</string>
+		<string>ODLBSearchWikimediaAction:fa.wikipedia</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Rotate Right.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/final proposal really!</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/keepU Media</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Gold4SMS</string>
+		<string>ODLBServiceItem:com.apple.mail - Mail/New Email With Selection</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/build/classes</string>
+		<string>ODLBCalendarItem:E2F4F429-F3EE-44C9-934D-24EC37D5BB54</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Synergetics NV</string>
+		<string>ODLBServiceItem:com.culturedcode.things - Things/New To-do Containing Selection as Note</string>
+		<string>ODLBPathItem:~/Movies</string>
+		<string>ODLBServiceItem:com.evernote.Evernote - ENApplicationServiceMenuItemTitle</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Trainings/Resources.gsheet</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesFastForward</string>
+		<string>ODLBServiceItem:com.blackpixel.versions - Open Repository URL</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_08</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/Message and OK.scpt</string>
+		<string>ODLBCalendarItem:79634A64-94ED-486C-9958-EC3D15A8C5A3</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Avina turns into 4.screenflow</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Cirqle/Alpha Roadmap.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/carane</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-ios-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/park</string>
+		<string>ODLBServiceItem:com.ranchero.NetNewsWire - Subscribe in NetNewsWire</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Hamkharid/infographics</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/ghavvamin</string>
+		<string>ODLBPathItem:/Library/Scripts/UI Element Scripts/Set Output Volume.applescript</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/pn/e-voucher proposal</string>
+		<string>ODLBServiceItem:com.apple.Safari - Add to Reading List</string>
+		<string>ODLBTowerRepositoryItem:~/Projects/ictu/self-healer</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/wiki/vision</string>
+		<string>ODLBSearchTemplateItem:05FA4085-DBB7-4D9B-9CA3-9AEA1F347161</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_03</string>
+		<string>ODLBPathItem:~/CloudStation</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/Message and Cancel.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Chelab</string>
+		<string>ODLBPathItem:/Applications/Cisco/Cisco AnyConnect DART.app</string>
+		<string>ODLBSearchTemplateItem:3210098C-9980-4ABF-8388-77A3F4CEA6DB</string>
+		<string>ODLBCalendarItem:76575340-577C-44BC-BBE5-6B51D01CCC8F</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/dadekavan</string>
+		<string>ODLBPathItem:/Applications/Movie Tools/Marker Editor.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Send iMessage.scpt</string>
+		<string>ODLBCalendarItem:FD6E6A89-DE31-4BA8-8A19-8AFF3CC28074</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/OHB/Dev</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Pre-Sales/Zwijsen</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sematec/Syllabuses for sending</string>
+		<string>ODLBCalendarItem:DC65CDB0-F136-4836-817B-01B09337B576</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/logo</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Entourage Custom Views.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/excel prototypes by Sara Rezaeean/All-in-one Valuation Models</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Marketing docs</string>
+		<string>ODLBPathItem:/Applications/Utilities/Bluetooth File Exchange.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Current Date (ISO Format).txt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako/ahmadAhmad</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Quicksilver dial with Phone Amego.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Timesheet.gsheet</string>
+		<string>ODLBServiceItem:com.apple.TextEdit - Open Selected File in TextEdit</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Database Daemon.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/things.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/libexec/pixeltool.app</string>
+		<string>ODLBServiceItem:com.goagentx.GoAgentX - Add to GoAgentX Rules using Running Profiles</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/tic/domain modeling</string>
+		<string>ODLBPathItem:/Developer/Documentation/DocSets/com.apple.ADC_Reference_Library.DeveloperTools.docset/Contents/Resources/Documents/documentation/DeveloperTools/Conceptual/CppRuntimeEnv/Articles/LibCPPDeployment.html</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Hamayesh Sazan</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.GetMailInBackground</string>
+		<string>ODLBSearchTemplateItem:BF119A93-6BFF-4995-9B0F-91542DF1AD84</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Reza Rahimi (ADP)</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/visa &amp; passport/fereshteh</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/logo &amp; stationary/old logo &amp; stationary</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/blog/posts</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Toggle Mute.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2015</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/old platform</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/Salary reverse eng for FrieslandCampina.gsheet</string>
+		<string>ODLBSearchTemplateItem:EF3656D2-4C4F-454C-848C-444B59A5BB5E</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/About these scripts....scpt</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Motion:video/Slide_Projector/(Footage)</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core/src/test/java/com</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/NetStairs/vision(sample)</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-icc/Info.plist.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/Message if not Cancel.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/AppStore.ir/Dev</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_04/-4493.pdf</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Work Order</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-clang/Info.plist.app</string>
+		<string>ODLBServiceItem:com.apple.chud.em64thelp - ISA Reference/Lookup EM64T Instruction</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/Chai.io 🍵/Dev</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/saae</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/libexec/Linguist-qt5.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/Voyager GIS</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Philips/Dev</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/asre-ertebat</string>
+		<string>ODLBPathItem:~/data</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/modules/phone (call center)</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/Montash (TUI)/Contractors Expense Claim Form (B).gsheet</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/Add To Instapaper.scpt</string>
+		<string>ODLBCalendarItem:5420FAE6-D04F-4C1B-A848-7C9E889BE7AC</string>
+		<string>ODLBPathItem:/usr/local/Cellar/git/2.3.0/share/git-gui/lib/Git Gui.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Crazy Message Text.scpt</string>
+		<string>ODLBPathItem:~/Library/Scripts/Address Book Scripts/Search Addresses….scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Card/Sipa platform</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Run Terminal Command.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Trainings/TDD</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/خرید خانه.gsheet</string>
+		<string>ODLBPathItem:/Applications/Game Center.app</string>
+		<string>ODLBPathItem:~/Dropbox/1password.backups</string>
+		<string>ODLBPathItem:/Applications/Xcode.app/Contents/Applications/Application Loader.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Current Time (AM:PM).txt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Sequence</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/iCoffee</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/Atomic Learning</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/World Economic Forum</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Revert.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Hamkharid/banners</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/Image - Rotate Right.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/tehran university/edu total sys/final proposal</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./TwinBoard/Twinboard revenue projection.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Hamkharid/Email newsletter subscribers</string>
+		<string>ODLBWorkflowServiceItem:com.apple.QuickTime.service.encodeSelectedAudioFiles - Encode Selected Audio Files</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/src/arrays</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2019</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/convert - PostScript to PDF.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Public/10K Bootcamp MP3s/Week-4-MP3/bonus</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Checkout.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/pn/loyalty proposal/first proposal</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/Chai.io 🍵/⛔️ Classified ⛔️</string>
+		<string>ODLBServiceItem:com.apple.chud.ppchelp - ISA Reference/Lookup PowerPC Instruction</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Images:PSDs/StartupVitamin-Bundle/03 Move fast</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CopyScreenshotOfSelectedWindow</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Scout24 Holding GmbH</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/naghsh</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/Message and Return.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/images/mockups</string>
+		<string>ODLBSharingServiceAction:com.apple.share.SinaWeibo.post</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Card</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - ChineseTextConverter/Convert Selected Traditional Chinese Text</string>
+		<string>ODLBNetworkLocationItem:4123F962-124E-47CE-8079-3D7D08B8C177</string>
+		<string>ODLBSearchTemplateItem:FB3841FD-C461-4A66-A86B-EC23BF92AA88</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.7.0/libexec/pixeltool-qt5.app</string>
+		<string>ODLBServiceItem:com.novamedia.PhonePlugInsServer - PhonePlugIns DialNumber</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Text Input - 1 Btn.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/⛔️ Classified ⛔️/$ Dashboard!.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/خرید ماشین.gsheet</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Philips/Approved Timesheets/06-2016</string>
+		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?artistTerm=*</string>
+		<string>ODLBSearchTemplateItem:96C00D63-66CD-4AB0-AD9C-48F35767F03F</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/alo iran</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Images &amp; PSD/Washed-Colors-Flowers</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Red Color Label.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/Marketfish</string>
+		<string>ODLBSearchTemplateItem:http://trac.macports.org/search?q=*&amp;noquickjump=1&amp;portsummarysearch=on&amp;ticket=on&amp;changeset=on&amp;milestone=on&amp;wiki=on</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Daily English/MSE1 (Avaltc.com)/Audio-Video</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/saae/e-voucher</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Image Manipulation/Rotate Counter-Clockwise.scpt</string>
+		<string>ODLBPathItem:/Developer/Applications/Utilities/Bluetooth</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/photo/Ashkan</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 2 Btn.scpt</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - ChineseTextConverter/Convert Selected Simplified Chinese File</string>
+		<string>ODLBSearchTemplateItem:https://ja.wikipedia.org/?search=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/PersinaLuxury</string>
+		<string>ODLBPathItem:/Applications/Movie Tools/Split Movie Tracks.app</string>
+		<string>ODLBPathItem:/Applications/Run VMWare Fusion (Lazy).app</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.8.0_1/libexec/Designer-qt5.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Conditionals/Condition for Each List Item.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Turn on Logging.scpt</string>
+		<string>ODLBServiceItem:com.twitter.twitter-mac - Open as Twitter Username</string>
+		<string>ODLBCalendarItem:E8011868-BBB3-435E-9A57-7FB988201EC0</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/iranfile</string>
+		<string>ODLBPathItem:/usr/local/Cellar/git/2.2.1/share/git-gui/lib/Git Gui.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy</string>
+		<string>ODLBServiceItem:com.apple.Terminal - New Terminal at Folder</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Action Clauses/Timeout Clause.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Fereshteh/Liwa-Doqum-Sabic Refinery</string>
+		<string>ODLBCalendarItem:8A595DFB-219A-4C5A-86E0-F497A7CACDC2</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/Dynasonix</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/about rubako</string>
+		<string>ODLBServiceItem:com.novamedia.PhonePlugInsServer - PhonePlugIns SendSMS</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.8.0_1/libexec/qdbusviewer-qt5.app</string>
+		<string>ODLBSearchTemplateItem:http://www.altavista.com/image/results?q=*</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/AndisheAra</string>
+		<string>ODLBCalendarItem:AD5A695C-15EE-48FF-B4F7-25C3596B8259</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Rockshore Ltd</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-clang-32/Info.plist.app</string>
+		<string>ODLBPathItem:/Applications/Utilities/Boot Camp Assistant.app</string>
+		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?term=*</string>
+		<string>ODLBSearchTemplateItem:0AF9A2AF-3F67-40FF-8F0B-9180BFAA02E9</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Media Pouch</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Office Setup Assistant.app</string>
+		<string>ODLBPathItem:/Developer/Applications/Utilities</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-g++42/Info.plist.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Entourage Notes View.scpt</string>
+		<string>ODLBServiceItem:com.mailplaneapp.Mailplane3 - Mailplane 3: Search Messages</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Status.scpt</string>
+		<string>ODLBPathItem:/Developer/Applications</string>
+		<string>ODLBServiceItem:com.apple.Terminal - Open man Page in Terminal</string>
+		<string>ODLBPathItem:/Applications/NewTek/LightWave3D11.0/support/3rdparty_support/GoZ/LightWaveLayout</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/For Sytac</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Hello Clipboard.txt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amirhossein khani</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2015</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/visa &amp; passport/ashkan</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/For Sytac/2014</string>
+		<string>ODLBServiceItem:com.apple.Automator - Create Workflow</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/saderat bank</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /VPN/get_iran_ip.ovpn</string>
+		<string>ODLBServiceItem:com.apple.dt.Xcode - Find in Xcode</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.EvernoteNewNoteWithText</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Public/10K Bootcamp MP3s/Week-4-MP3</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Create New Message.scpt</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Show Type and Creator.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Card/Clearing &amp; Settlement</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/alad (khadamat informatic)</string>
+		<string>ODLBServiceItem:com.apple.mail - Mail/New Email To Address</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Pre-Sales/Cookie Law Service</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/🔥🔥🔥 IranTransfers.money/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/orumieh university/edu total sys</string>
+		<string>ODLBPathItem:/Applications/Utilities/Adobe AIR Uninstaller.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Flip Vertical.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Pre-Sales/Noordhoff</string>
+		<string>ODLBServiceItem:com.skype.skype - Skype/Send SMS</string>
+		<string>ODLBPathItem:~/Library/Favorites/192.168.0.116.inetloc</string>
+		<string>ODLBScriptAction:net.linzner.LaunchBar.action.ConnectAirpods</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Resumes</string>
+		<string>ODLBPathItem:~/Library/Scripts/Address Book Scripts/Export Addresses….scpt</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CallWithSkype</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/keshavarzi bank</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/photo/Fereshteh/new</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/sanat afarin</string>
+		<string>ODLBPathItem:/Applications/Paragon NTFS for Mac OS X</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_06</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Learning Center/Linux</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Images &amp; PSD/InVision-Mockuuups-STARTERKIT</string>
+		<string>ODLBServiceItem:com.pixelresearchlabs.Ringer - Make Ringtone with Ringer</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Entourage Tasks View.scpt</string>
+		<string>ODLBServiceItem:com.apple.Grab - Capture Full Screen</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Irisa</string>
+		<string>ODLBPathItem:/Applications/Adobe/Adobe Help.app</string>
+		<string>ODLBSearchTemplateItem:F31DED8D-DAC4-40B9-B195-1E0607671B0B</string>
+		<string>ODLBPathItem:/Applications/Speed Download 5</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/perspolis</string>
+		<string>ODLBPathItem:/Library/Scripts/UI Element Scripts/Probe Window.applescript</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Cirqle/About payment in Cirqle.gdoc</string>
+		<string>ODLBSearchTemplateItem:081FFCFF-5B19-4656-B1B1-088461F9E16B</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/⛔️ Classified ⛔️/1Password backups</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references/Cards</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Conditionals/if-then &lt;selection&gt; else ... end.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Old videos from Rubako/sasaaaaaaan.mp4</string>
+		<string>ODLBCalendarItem:8F030798-8D90-44A3-ABFC-245EE76F1083</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Summarize Message.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/passwords/Sharable</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./PodcastMotor/Copy of Podcast.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/orumieh university</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Trainings</string>
+		<string>ODLBPathItem:/Applications/Nikon Software/Nikon Message Center 2</string>
+		<string>ODLBCalendarItem:94EA0311-A40A-48A0-A77E-4FE5868D2B4B</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Cirqle/Everything about linkshare</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Display All Accounts And Preferences.scpt</string>
+		<string>ODLBPathItem:/Applications/Adobe Extension Manager CS5/Adobe Extension Manager CS5.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Prime Research</string>
+		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Images:PSDs/StartupVitamin-Bundle/01 Passion never fails</string>
+		<string>ODLBPathItem:~/Library</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/sdfasdfadfsafasdfa.txt</string>
+		<string>ODLBSearchTemplateItem:79425581-D288-460A-A5A8-14BC9FE66B23</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/BurnSideDigital/Performance report</string>
+		<string>ODLBPathItem:~/gotfiles.git</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/Image - Rotate Left.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/NOKIA gate5 GmbH</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Negaran</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Paste in Frontmost Application.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Apps</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Lorem Ipsum.txt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/wiki (Virtual Assistant)/Reports</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/Image - Flip Horizontal.scpt</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/excel prototypes by Sara Rezaeean/Valuation Model/EVA, CFROI and Other Value Enhancement Strategies</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/legal stuff/shoray e anformatik (sent)/madarek fiziki/formhaye malit</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Set Yellow Color Label.scpt</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/⌘ Command.txt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/libexec/Linguist.app</string>
+		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?albumTerm=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/General Ledger for CC transactions.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/World Intellectual Property Organization (WIPO)</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.8.0_1/libexec/Assistant-qt5.app</string>
+		<string>ODLBSearchTemplateItem:DEF71EE7-77E4-4B80-86DF-393AE3C9BAD8</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core/src/main/java/com/mindcracy/aop</string>
+		<string>ODLBPathItem:/Applications/pzizz.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/amirhossein khani</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/legal stuff/shoray e anformatik (sent)</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Training</string>
+		<string>ODLBServiceItem:com.macpaw.CleanMyMac2 - Securely Erase with CleanMyMac</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/seda o sima/email proposal</string>
+		<string>ODLBCalendarItem:5C212478-31D9-4E82-AA8F-4B983483C163</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesRewind</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/deliverables</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2018</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/MongoDB</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/🔥🔥🔥 Predictable.io/Proposals</string>
+		<string>ODLBServiceItem:com.apple.FileMerge - FileMerge/Compare To Master</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./PodcastMotor</string>
+		<string>ODLBPathItem:/Applications/MacPorts/Python 2.6/Build Applet.app</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesPlay</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Manage SMTP Servers.scpt</string>
+		<string>ODLBServiceItem:org.kevincallahan.Accessorizer - Accessorizer/Accessorizer Action Panel</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Folder Actions Handlers/Removing Folder Items.scpt</string>
+		<string>ODLBPathItem:/Applications/Utilities/Adobe Flash Player Install Manager.app</string>
+		<string>ODLBPathItem:/Applications/Development-tools/AppleScript</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Gold4SMS/Dev</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/raees</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako/barid</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-llvm/Info.plist.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/maskan/e-voucher</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Irisa/جناب آقاي مهندس مولوی.doc</string>
+		<string>ODLBCalendarItem:4A1A9FD3-6CA7-4B11-9538-E2763E8A372D</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-ios-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/modules/email</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Jouve S.A</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-g++-32/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Chaawrub/Security concerns</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sematec/Quizes</string>
+		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/Convert To PostScript.scpt</string>
+		<string>ODLBSearchTemplateItem:EC14BC18-6AF3-4651-916E-D01EDB6CAF65</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Kevin Domain Model.gdraw</string>
+		<string>ODLBServiceItem:com.macpaw.CleanMyMac2 - Scan for Large and Old Files</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/build/classes/arrays</string>
+		<string>ODLBSearchTemplateItem:5B148375-C713-478B-A4F8-B38957871117</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.EvernoteNewNoteWithFile</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/modules</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/⛔️ Classified ⛔️/Highrise backup (before canceling)</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.RunTerminalCommand</string>
+		<string>ODLBSearchTemplateItem:7300054B-E960-4A2A-9A82-051B6502C232</string>
+		<string>ODLBPathItem:/Applications/Development-tools/jprofiler6/bin</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/ideas &amp; proposals</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/carane</string>
+		<string>ODLBSearchTemplateItem:http://www.cocoabuilder.com/search/archive/xcode?words=*</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2014</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references/NFC</string>
+		<string>ODLBServiceItem:com.droplr.droplr-mac - Share with Droplr</string>
+		<string>ODLBSharingServiceAction:com.apple.share.Video.upload-image-Flickr</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/screen saver.scpt</string>
+		<string>ODLBCompanyGroup:com.apple.addressbook:.ant</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Query</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/rahbar</string>
+		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/سوغاتیها (سفر اول از هلند به ایران).gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Open Market LTD</string>
+		<string>ODLBSearchTemplateItem:C446B332-9D31-443F-80DC-88DDCCCBFBFA</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Casumo</string>
+		<string>ODLBServiceItem:com.macpaw.CleanMyMac2 - Erase with CleanMyMac</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 3 Btn.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/libexec/qdbusviewer.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/references/Green power</string>
+		<string>ODLBJobTitleGroup:com.apple.addressbook:-</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/mindcracy</string>
+		<string>ODLBCompanyGroup:com.apple.addressbook:.</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Folder Actions Handlers/Adding To Folder.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/studios</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Entourage Address Book View.scpt</string>
+		<string>ODLBCalendarItem:EAD74E90-8DFF-4479-826D-8696F7593F29</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.AddToThings</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/build/test/classes/arrays</string>
+		<string>ODLBPathItem:/Applications/Utilities/X11.app</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Open Safari Top Sites.scpt</string>
+		<string>ODLBScriptAction:de.heikowitte.LaunchBar.action.GetLocalIPAddress</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Conditionals/if-then &lt;selection&gt; end.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /Learning Center/UX:UI</string>
+		<string>ODLBServiceItem:com.flexibits.fantastical2.mac - Send to Fantastical</string>
+		<string>ODLBServiceItem:com.apple.Terminal - Search man Page Index in Terminal</string>
+		<string>ODLBPathItem:/System/Library/PreferencePanes/DigiHubDiscs.prefPane</string>
+		<string>ODLBSearchTemplateItem:http://www.oanda.com/currency/classic-converter?exch=EUR&amp;expr=USD&amp;value=*</string>
+		<string>ODLBPathItem:/Developer/Applications/Audio</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Irisa/1386-08-29 WFM Project Issues.pdf</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Folder Actions Handlers/Closing Folder Window.scpt</string>
+		<string>ODLBServiceItem:org.grunenberg.EasyFind - EasyFind: Find In Path...</string>
+		<string>ODLBCalendarItem:F0C847AB-2808-4211-AFA4-99EE21D681F1</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/Negaran</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/All Buddies - Team Folder 🙌 /wiki (FoundersBuddy)/FUs</string>
+		<string>ODLBBookmarkGroup:62B6C3A1-386A-483C-B0BD-7917C21F7234</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Reset Color Label.scpt</string>
+		<string>ODLBSearchTemplateItem:http://www.altavista.com/audio/results?q=*</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/asre-ertebat</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/mindcracy/architecture/appengine-core/src/main/java/com/mindcracy/dao</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/References/NL</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/saho</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/libexec/pixeltool-qt5.app</string>
+		<string>ODLBPathItem:/Applications/Chess.app</string>
+		<string>ODLBPathItem:/System/Library/CoreServices/Ticket Viewer.app</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Tax/2018</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Conversations That Matter</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Family/visa &amp; passport/Vida</string>
+		<string>ODLBSearchTemplateItem:4876A48D-5579-458A-9BD6-AE7DDBDC00BB</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/orumieh university/campus card</string>
+		<string>ODLBServiceItem:com.apple.Preview - Preview/Open images</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/build</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Sleep.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/shahrdari</string>
+		<string>ODLBServiceItem:com.apple.Safari - Search With %WebSearchProvider@</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Marketing/Final Collateral</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Increase Volume.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Iterate Items/Files of Chosen Folder.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/online marketing service</string>
+		<string>ODLBCalendarItem:810F5D1B-F0DB-4F11-8473-D8501E344777</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Aptech</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/tamintelecom</string>
+		<string>ODLBPlaylist:804B7BD7998388AC</string>
+		<string>ODLBPathItem:/Applications/Microsoft Teams.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./BirdsEarly/Keywords.gsheet</string>
+		<string>ODLBCategory:AppleScript</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/For Sytac/2015</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sematec/Quizes/Oracle</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Move.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/About "Convert" Scripts.scpt</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Entourage callfrom.scpt</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/Rate Song.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./WunderThings/Анна</string>
+		<string>ODLBPathItem:/Applications/Cisco/Uninstall AnyConnect.app</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/add - new item alert.scpt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/No Message.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Hamkharid v1</string>
+		<string>ODLBServiceItem:com.apple.speech.SpeechService - Speech/Start Speaking Text</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - Convert Text from Simplified to Traditional Chinese</string>
+		<string>ODLBServiceItem:cx.c3.thearchivebrowser - The Archive Browser/Browse Archive</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako/KosarAppUI</string>
+		<string>ODLBSearchTemplateItem:C70AE711-04B5-432A-B129-52EB40737A99</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesUpdateAllPodcasts</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Current Date &amp; Time.txt</string>
+		<string>ODLBSearchTemplateItem:BC0A3E72-5B57-4CCB-BEAC-29FA5A2D3E60</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/سازمان سرمایه گذاری و کمکهای اقتصادی و فنی ایران</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/CentraSpheres/Dev</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Repeat Routines/Special Case First &amp; Last.scpt</string>
+		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CopyAsTinyURL</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2014/motivations</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/SlideJoy Clone/Dev</string>
+		<string>ODLBServiceItem:com.apple.FontBook - Font Book/Create Collection From Text</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/libexec/Assistant.app</string>
+		<string>ODLBPathItem:/Library/Scripts/VoiceOver/VoiceOver Screenshot To Mail.applescript</string>
+		<string>ODLBOnePasswordItem:8F415B2AE78343769966D059EC8362CE</string>
+		<string>ODLBPathItem:/System/Library/CoreServices/HelpViewer.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/nardis</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_09</string>
+		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - Convert Text from Traditional to Simplified Chinese</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Entourage diddial.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Pre-Sales/Andriessen</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Sales &amp; contract docs</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Iterate Items/Images of Chosen Folder.scpt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/2014/2 technical manager</string>
+		<string>ODLBPathItem:/Library/Scripts/Mail Scripts/Get Source of Selected Message.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/iranfile</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Trifork AS and Trifork GmbH</string>
+		<string>ODLBNetworkLocationItem:29297855-FA67-47AD-A8DA-85DF05D4A0F6</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Chaawrub/Contact info.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/Endomondo</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Meelogic Consulting AG</string>
+		<string>ODLBPathItem:~/confluence-home</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/iranfile/business  model</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/Card/CMS</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt5/5.5.1/mkspecs/macx-g++40/Info.plist.app</string>
+		<string>ODLBSearchWikimediaAction:fa.wiktionary</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Receipts_Invoices/94_04</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/images/Rubako 3D (Cinema 4D project by Remco)</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/saderat bank</string>
+		<string>ODLBPathItem:/Applications/Nimble Commander Pro.app</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/rubako.ir redesign</string>
+		<string>ODLBPathItem:/Applications/TeamViewer 6</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/Task Timer.scpt</string>
+		<string>ODLBCalendarItem:9EE981A6-3A45-48DC-B5FD-6906F428EAAA</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Cirqle/Iman's todo.gsheet</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/⌥ Option.txt</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 3 Btns 3 Actions.scpt</string>
+		<string>ODLBPathItem:@/Contents/Resources/Actions/Open Trash.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/hr</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-g++-32/Info.plist.app</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/excel prototypes by Sara Rezaeean/Valuation Model/Acquisition Valuation</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/getSnappyLeads/Dev</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_2/mkspecs/macx-icc/Info.plist.app</string>
+		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-clang/Info.plist.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/modules/chat</string>
+		<string>ODLBPathItem:/Applications/Utilities/VoiceOver Utility.app</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Asia-Pacific/Learning Media Limited - CWA Unit</string>
+		<string>ODLBPathItem:/Applications/Keep.app</string>
+		<string>ODLBSearchTemplateItem:02534F88-0AEA-4ECA-8D04-7C6D7D701F4F</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/NanoParto</string>
+		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/Image - Add Icon.scpt</string>
+		<string>ODLBSearchTemplateItem:6E22FC87-A7F8-47AE-841D-CB1C8202DF9A</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Melexis</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/OLD</string>
+		<string>ODLBPathItem:/Library/Scripts/Font Book/Create collection from/Copyright.scpt</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/saho</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Repeat Routines/Special Case Last Item.scpt</string>
+		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=*</string>
+		<string>ODLBPathItem:/Applications/NewTek/LightWave3D11.0</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Ongoing Projects 🚀/TUI/GMP_IAS_Zone_Deployment_Document_0.1_NL_Region</string>
+		<string>ODLBSearchTemplateItem:http://www.macosxhints.com/search.php?query=*&amp;type=stories&amp;mode=search&amp;keyType=all</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/Public/10K Bootcamp MP3s/Week-2-MP3</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/raees</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/JIBE Inc</string>
+		<string>ODLBServiceItem:com.apple.Automator - Create Service</string>
+		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 2 Btns 2 Actions.scpt</string>
+		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Enclose in “Typographic Quotes”.txt</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)/YNAB/Miki &amp; Diki living~B33F027B.ynab4</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Sales/Fashion Companies Market Research.gsheet</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/presentations</string>
+		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Speak CallerID.scpt</string>
+		<string>ODLBPathItem:/Developer/Applications/Utilities/MacPython 2.5/Build Applet.app</string>
+		<string>ODLBPathItem:~/Dropbox (Personal)</string>
+		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office</string>
+		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products</string>
+		<string>ODLBSearchTemplateItem:5D7F93A3-C463-481F-9891-D93D6CF0527F</string>
+		<string>ODLBPathItem:~/Documents/mfs/Rubako/ideas &amp; proposals/Stream replication of SSO</string>
+		<string>ODLBServiceItem:com.prosofteng.DGAgent - Drive Genius Secure Erase</string>
+		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/BurnSideDigital/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:/System/Library/PreferencePanes/ParentalControls.prefPane</string>
+	</array>
+	<key>itemIdentifierVersion</key>
+	<integer>4294967303</integer>
+	<key>rules</key>
+	<array>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+			<key>subfolderLevels</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBOnePasswordRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBReminderListsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedSpecificPlaces</key>
+			<array>
+				<string>/Applications</string>
+			</array>
+			<key>className</key>
+			<string>ODLBApplicationsRule</string>
+			<key>useSpotlightIndex</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBManagedSearchTemplatesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBActionsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBSnippetsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBThemesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBPrefPanesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBWorkflowsRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Desktop</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBTransmitRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBContactsRule</string>
+			<key>includeCompanies</key>
+			<integer>0</integer>
+			<key>includeDepartments</key>
+			<integer>0</integer>
+			<key>includeGroups</key>
+			<integer>0</integer>
+			<key>includeJobTitles</key>
+			<integer>0</integer>
+			<key>includeMiddleName</key>
+			<integer>0</integer>
+			<key>includePreviousRecipients</key>
+			<integer>0</integer>
+			<key>includeTitle</key>
+			<integer>0</integer>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBServicesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBCustomSearchTemplatesRule</string>
+			<key>templates</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>A9</string>
+					<key>templateURL</key>
+					<string>http://www.a9.com/*</string>
+					<key>uuid</key>
+					<string>64F2F5EF-7D65-488C-A11B-368479A5BCFF</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>alter</string>
+					<key>templateURL</key>
+					<string>http://alternativeto.net/SearchResult.aspx?profile=all&amp;search=*</string>
+					<key>uuid</key>
+					<string>0245E581-DA8B-4C05-A327-377109088856</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Apache Commons Docs</string>
+					<key>templateURL</key>
+					<string>http://www.google.com/search?btnI&amp;q=site%3Ahttp%3A%2F%2Fcommons.apache.org%2F+*</string>
+					<key>uuid</key>
+					<string>69621BF1-A685-4B32-9DEC-EC60EDA3CC1C</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>API</string>
+					<key>templateURL</key>
+					<string>http://www.programmableweb.com/category/all/apis?search_id=145855&amp;keyword=*</string>
+					<key>uuid</key>
+					<string>6530EE6C-E1EB-4F79-81F0-6241A3E22CC5</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Ask Jeeves</string>
+					<key>templateURL</key>
+					<string>http://web.ask.com/web?q=*</string>
+					<key>uuid</key>
+					<string>B47E5DE0-5959-4920-8BF4-37D2DFA9A07E</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>AWS Customers</string>
+					<key>templateURL</key>
+					<string>https://insights.corp.amazon.com/search/*</string>
+					<key>uuid</key>
+					<string>2276C2C7-8C04-43E9-9CC7-617AB2DD6EC7</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>AWS Wiki</string>
+					<key>templateURL</key>
+					<string>https://is.amazon.com/search/all?q=*</string>
+					<key>uuid</key>
+					<string>B8C21337-771E-4907-8113-B0F331623CC9</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>bdl1</string>
+					<key>templateURL</key>
+					<string>https://it-ebooks-search.info/search?q=*</string>
+					<key>uuid</key>
+					<string>0D98EEF2-1AEB-4926-AE79-4C204037A152</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>bdl2</string>
+					<key>templateURL</key>
+					<string>http://www.foxebook.net/?s=*</string>
+					<key>uuid</key>
+					<string>65725E85-2AD9-4642-9E7D-905C0E95BA21</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Convert EUR to USD</string>
+					<key>templateURL</key>
+					<string>http://www.oanda.com/convert/classic?exch=EUR&amp;expr=USD&amp;value=*</string>
+					<key>uuid</key>
+					<string>0AF9A2AF-3F67-40FF-8F0B-9180BFAA02E9</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Convert USD to EUR</string>
+					<key>templateURL</key>
+					<string>http://www.oanda.com/convert/classic?exch=USD&amp;expr=EUR&amp;value=*</string>
+					<key>uuid</key>
+					<string>6E22FC87-A7F8-47AE-841D-CB1C8202DF9A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CrunchBase</string>
+					<key>templateURL</key>
+					<string>http://www.crunchbase.com/search?query=*</string>
+					<key>uuid</key>
+					<string>ACCF5E0B-FFAF-4E47-8688-8A1E6DFA5D94</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Cuil</string>
+					<key>templateURL</key>
+					<string>http://www.cuil.com/search?q=*</string>
+					<key>uuid</key>
+					<string>29E9C3D6-1B16-44BC-985B-CB948CBE89F6</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dict.cc</string>
+					<key>templateURL</key>
+					<string>http://www.dict.cc/?s=*</string>
+					<key>uuid</key>
+					<string>0141DA5F-A554-42C3-AE9F-C21201C1887A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>djpack</string>
+					<key>templateURL</key>
+					<string>https://www.djangopackages.com/search/?q=*</string>
+					<key>uuid</key>
+					<string>F31DED8D-DAC4-40B9-B195-1E0607671B0B</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dl0</string>
+					<key>templateURL</key>
+					<string>https://avxhm.is?q=*&amp;commit=Go</string>
+					<key>uuid</key>
+					<string>734FB208-DDE3-4663-A952-00517377FFF6</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dns</string>
+					<key>templateURL</key>
+					<string>http://www.intodns.com/*</string>
+					<key>uuid</key>
+					<string>3217705D-8C64-4E5F-9A7F-F29BABADEAC3</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dns2</string>
+					<key>templateURL</key>
+					<string>https://www.whatsmydns.net/#CNAME/*</string>
+					<key>uuid</key>
+					<string>6B6E4851-9581-4E41-8051-69EE4F551AF4</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>DockerHub</string>
+					<key>templateURL</key>
+					<string>https://hub.docker.com/search/?isAutomated=0&amp;isOfficial=0&amp;page=1&amp;pullCount=0&amp;q=*&amp;starCount=0</string>
+					<key>uuid</key>
+					<string>BEBF7DA9-DB63-4B9B-A76D-EA201500FA1E</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>dribl</string>
+					<key>templateURL</key>
+					<string>http://dribbble.com/search?q=*</string>
+					<key>uuid</key>
+					<string>35FC8B24-1570-439F-B514-CEEB52A7138A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Dutch to English</string>
+					<key>templateURL</key>
+					<string>https://glosbe.com/nl/en/*</string>
+					<key>uuid</key>
+					<string>055D722C-A752-415C-B708-23956E8274CF</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Dutch Verbs</string>
+					<key>templateURL</key>
+					<string>https://www.verbix.com/webverbix/go.php?T1=*&amp;Submit=Go&amp;D1=24&amp;H1=124</string>
+					<key>uuid</key>
+					<string>7993E9D8-4C07-43D6-AA7C-12C76D079822</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>English to Dutch</string>
+					<key>templateURL</key>
+					<string>https://glosbe.com/en/nl/*</string>
+					<key>uuid</key>
+					<string>12C2B691-33CF-4504-855D-87D0075236CA</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>gem</string>
+					<key>templateURL</key>
+					<string>http://rubygems.org/search?query=*</string>
+					<key>uuid</key>
+					<string>F085596A-CEA5-4092-9896-1CD6535D2935</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Giphy</string>
+					<key>templateURL</key>
+					<string>http://giphy.com/search/*</string>
+					<key>uuid</key>
+					<string>32D23EB8-9EE3-42F9-A77C-F0C6CF87960E</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Gist Search</string>
+					<key>templateURL</key>
+					<string>https://github.com/search?utf8=%E2%9C%93&amp;q=*&amp;repo=&amp;langOverride=&amp;start_value=1&amp;type=Everything&amp;language=</string>
+					<key>uuid</key>
+					<string>A1E1E9E8-699C-43AE-BE25-E01646699126</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Git Memory Profile</string>
+					<key>templateURL</key>
+					<string>https://gitmemory.com/*</string>
+					<key>uuid</key>
+					<string>834B9F73-71FA-4146-8666-AE6835FAF7F7</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>GitHub Search</string>
+					<key>templateURL</key>
+					<string>http://github.com/search?q=*&amp;type=Everything&amp;repo=&amp;langOverride=&amp;start_value=1</string>
+					<key>uuid</key>
+					<string>4BA9B368-190B-4DB6-A70C-BE5017125896</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Gmail</string>
+					<key>templateURL</key>
+					<string>https://mail.google.com/mail/u/0/#search/*</string>
+					<key>uuid</key>
+					<string>B95CB185-ACDA-45BA-B18F-18632F68DE16</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Google Docs</string>
+					<key>templateURL</key>
+					<string>https://docs.google.com/?pli=1#search/*</string>
+					<key>uuid</key>
+					<string>E6BB0EFB-CE80-4FE8-BF4D-27E51C3F6895</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Google Video</string>
+					<key>templateURL</key>
+					<string>http://video.google.com/videosearch?q=*</string>
+					<key>uuid</key>
+					<string>277A4BB7-8047-45DB-B5D8-4B2EF24E9862</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Groovy Docs</string>
+					<key>templateURL</key>
+					<string>http://www.google.com/search?btnI&amp;q=site%3Ahttp%3A%2F%2Fgroovy.codehaus.org%2F+*</string>
+					<key>uuid</key>
+					<string>4876A48D-5579-458A-9BD6-AE7DDBDC00BB</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>http</string>
+					<key>templateURL</key>
+					<string>http://httpstat.us/*</string>
+					<key>uuid</key>
+					<string>2AC76211-1430-49C9-831E-0351ADC97F34</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>hyper dict</string>
+					<key>templateURL</key>
+					<string>http://www.hyperdictionary.com/search.aspx?Dict=&amp;define=*</string>
+					<key>uuid</key>
+					<string>D381772F-1CE1-4C2F-8AA3-1E7C6D1B97AF</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>iconf</string>
+					<key>templateURL</key>
+					<string>https://www.iconfinder.com/search/?q=designer%3AField5+*</string>
+					<key>uuid</key>
+					<string>BDC01E41-DCB3-4F8A-802E-B37E9648746E</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>IMDB</string>
+					<key>templateURL</key>
+					<string>http://www.imdb.com/find?s=tt&amp;q=*</string>
+					<key>uuid</key>
+					<string>4B920776-7075-42DA-B63C-8F389B386FED</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>JavaDoc</string>
+					<key>templateURL</key>
+					<string>http://www.google.com/search?q=site:http://docs.oracle.com/javase/8/docs/api/+*</string>
+					<key>uuid</key>
+					<string>4F677A92-FCF8-418D-AF32-296E90603801</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>JavaScript Docs</string>
+					<key>templateURL</key>
+					<string>http://www.google.com/search?btnI&amp;q=site%3Ahttps%3A%2F%2Fdeveloper.mozilla.org+*</string>
+					<key>uuid</key>
+					<string>42981317-DE41-48B1-B77D-0D6090778088</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Krugle</string>
+					<key>templateURL</key>
+					<string>http://www.krugle.org/document/?query=*</string>
+					<key>uuid</key>
+					<string>BF119A93-6BFF-4995-9B0F-91542DF1AD84</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>kumo</string>
+					<key>templateURL</key>
+					<string>https://kumo-knowledge-ui-iad-prod.amazon.com/#q=*</string>
+					<key>uuid</key>
+					<string>63FA3A78-4797-4EE1-A50D-87D8EAE58581</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>LEO English-German Dictionary</string>
+					<key>templateURL</key>
+					<string>http://www.crunchbase.com/search?query=*</string>
+					<key>uuid</key>
+					<string>FB3841FD-C461-4A66-A86B-EC23BF92AA88</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Lycos</string>
+					<key>templateURL</key>
+					<string>http://search.lycos.com/?query=*</string>
+					<key>uuid</key>
+					<string>AD5BB7D2-0137-4E6D-88D5-811199B2EBB4</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>macdl</string>
+					<key>templateURL</key>
+					<string>https://www.macbed.com/?s=*</string>
+					<key>uuid</key>
+					<string>4A44BD4C-ACB4-4C2A-9B14-E6D4A429A4D9</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>MacUpdate</string>
+					<key>templateURL</key>
+					<string>https://www.macupdate.com/find/mac/context%3D*</string>
+					<key>uuid</key>
+					<string>A5C12C90-9FFB-4F0C-A6EF-210441BB13EF</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>nc</string>
+					<key>templateURL</key>
+					<string>https://www.namecheap.com/domains/registration/results/?domain=*</string>
+					<key>uuid</key>
+					<string>EF59FD04-46AD-4F01-9C44-FBB7D37879BB</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>ObDev Forums</string>
+					<key>templateURL</key>
+					<string>http://forums.obdev.at/search.php?keywords=*</string>
+					<key>uuid</key>
+					<string>BB30EC07-3850-4795-B028-C9A994351E5E</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>ppl</string>
+					<key>templateURL</key>
+					<string>https://phonetool.amazon.com/search?filter_type=All+fields&amp;query=*&amp;use_fuzzy_search=true</string>
+					<key>uuid</key>
+					<string>3551A203-AB3B-4C3A-9379-61065F7E701F</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>ProductHunt</string>
+					<key>templateURL</key>
+					<string>https://www.producthunt.com/search?q=*</string>
+					<key>uuid</key>
+					<string>106D4EB3-894E-4334-B734-3C5F15F552D4</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>psd1</string>
+					<key>templateURL</key>
+					<string>http://365psd.com/?s=*</string>
+					<key>uuid</key>
+					<string>DC73EE5F-0330-4860-97AD-FDD49E48481A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>pypi</string>
+					<key>templateURL</key>
+					<string>https://pypi.python.org/pypi?%3Aaction=search&amp;term=*&amp;submit=search</string>
+					<key>uuid</key>
+					<string>3D5F7FFE-100A-42E1-A0EE-4EACF4CABA3A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>rdoc</string>
+					<key>templateURL</key>
+					<string>http://ruby-doc.com/search.html?cx=011815814100681837392%3Awnccv6st5qk&amp;q=*&amp;sa=Search&amp;cof=FORID%3A9</string>
+					<key>uuid</key>
+					<string>210A743F-5A5D-43E7-B4D1-06B52AB24C50</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>redis</string>
+					<key>templateURL</key>
+					<string>http://redis.io/commands/*</string>
+					<key>uuid</key>
+					<string>2B1488B3-C33A-492F-BB31-7C1C5FBEA298</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search iTunes Store</string>
+					<key>templateURL</key>
+					<string>itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/?term=*</string>
+					<key>uuid</key>
+					<string>3EC55F32-EC44-4F18-805F-A97A6BDECBA1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search MSN</string>
+					<key>templateURL</key>
+					<string>http://search.msn.com/results.aspx?q=*</string>
+					<key>uuid</key>
+					<string>F21D8D11-FB08-48D6-A4E3-446A391D9D71</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search MSN Images</string>
+					<key>templateURL</key>
+					<string>http://search.msn.com/images/results.aspx?q=*</string>
+					<key>uuid</key>
+					<string>05FA4085-DBB7-4D9B-9CA3-9AEA1F347161</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search MSN News</string>
+					<key>templateURL</key>
+					<string>http://search.msn.com/news/results.aspx?q=*</string>
+					<key>uuid</key>
+					<string>6AAA7775-297F-460C-8CEF-2AFA7D6134AF</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search on LinkedIn</string>
+					<key>templateURL</key>
+					<string>https://www.google.com/search?btnI&amp;q=*+LinkedIn</string>
+					<key>uuid</key>
+					<string>924D3414-2879-4981-8933-7C9195D740C1</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search Python Code</string>
+					<key>templateURL</key>
+					<string>http://nullege.com/codes/search?cq=*</string>
+					<key>uuid</key>
+					<string>C702123A-D89B-45DB-8554-9B324E6363E3</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search Twitter</string>
+					<key>templateURL</key>
+					<string>http://twitter.com/#search?q=*</string>
+					<key>uuid</key>
+					<string>A8F69772-FC39-4241-B1F4-F833FAD93309</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Search Twitter Account</string>
+					<key>templateURL</key>
+					<string>http://twitter.com/search/users?q=*&amp;amp;category=people&amp;amp;source=users</string>
+					<key>uuid</key>
+					<string>2FB5E51F-F91E-4011-A617-A6B767B11A6A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>stak</string>
+					<key>templateURL</key>
+					<string>http://stackexchange.com/search?q=*</string>
+					<key>uuid</key>
+					<string>22675E7E-2E1A-4041-99DE-9B9EDF139AAC</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Technorati Blog Finder</string>
+					<key>templateURL</key>
+					<string>http://www.technorati.com/blogs/*</string>
+					<key>uuid</key>
+					<string>BC0A3E72-5B57-4CCB-BEAC-29FA5A2D3E60</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Technorati Explore</string>
+					<key>templateURL</key>
+					<string>http://www.technorati.com/explore/*</string>
+					<key>uuid</key>
+					<string>5D7F93A3-C463-481F-9891-D93D6CF0527F</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Technorati Tags</string>
+					<key>templateURL</key>
+					<string>http://www.technorati.com/tags/*</string>
+					<key>uuid</key>
+					<string>5163A415-5FBF-47C7-9811-F6D4FA62EB63</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>torrent0</string>
+					<key>templateURL</key>
+					<string>https://torrentz2.eu/search?f=*</string>
+					<key>uuid</key>
+					<string>56D955A6-2FF7-40B9-A5BE-36824C4598B9</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>ugurus</string>
+					<key>templateURL</key>
+					<string>https://members.ugurus.com/drive/?order=DESC&amp;term=*</string>
+					<key>uuid</key>
+					<string>2A24AF7A-5195-4D07-B5FB-42E0B16F97EE</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Vim Plugins</string>
+					<key>templateURL</key>
+					<string>http://vimawesome.com/?q=*</string>
+					<key>uuid</key>
+					<string>A160C736-0112-4D15-B3FF-8285E93E6C8A</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Vivisimo</string>
+					<key>templateURL</key>
+					<string>http://vivisimo.com/search?query=*</string>
+					<key>uuid</key>
+					<string>0F503A7F-8657-42B4-A7F9-BD770BDAE003</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Wikipedia Deutsch</string>
+					<key>templateURL</key>
+					<string>http://de.wikipedia.org/?search=*</string>
+					<key>uuid</key>
+					<string>7300054B-E960-4A2A-9A82-051B6502C232</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Wikipedia Japan</string>
+					<key>templateURL</key>
+					<string>http://ja.wikipedia.org/?search=*</string>
+					<key>uuid</key>
+					<string>D497E81F-BC3B-4675-99E0-08DD944243B2</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Wiktionary</string>
+					<key>templateURL</key>
+					<string>http://en.wiktionary.org/?search=*</string>
+					<key>uuid</key>
+					<string>A5679D92-D92C-4371-964F-A7174B3EE60C</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Wiktionary Deutsch</string>
+					<key>templateURL</key>
+					<string>http://de.wiktionary.org/?search=*</string>
+					<key>uuid</key>
+					<string>6D91E593-A694-4627-AB08-4040C9B06F92</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Wiktionary Japan</string>
+					<key>templateURL</key>
+					<string>http://ja.wiktionary.org/?search=*</string>
+					<key>uuid</key>
+					<string>53FEDDE0-056A-4371-845C-83475173A7A4</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>xen</string>
+					<key>templateURL</key>
+					<string>https://marketplace.appdirect.com/appwise/search/*</string>
+					<key>uuid</key>
+					<string>DEF71EE7-77E4-4B80-86DF-393AE3C9BAD8</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Yahoo! Audio</string>
+					<key>templateURL</key>
+					<string>http://audio.search.yahoo.com/search/audio?p=*</string>
+					<key>uuid</key>
+					<string>E65CD1E6-9A02-403A-A45E-8A912A9E40D5</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>zir</string>
+					<key>templateURL</key>
+					<string>https://www.google.com/search#btnI=1&amp;q=site:subscene.com+*+farsi</string>
+					<key>uuid</key>
+					<string>C153F520-656F-456C-9347-68F4A83FB737</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBNetworkLocationsRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBSafariCloudTabsRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Downloads</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+		</dict>
+		<dict>
+			<key>aliasName</key>
+			<string>Unix Directories</string>
+			<key>className</key>
+			<string>ODLBListRule</string>
+			<key>list</key>
+			<array>
+				<string>/bin</string>
+				<string>/etc</string>
+				<string>/sbin</string>
+				<string>/tmp</string>
+				<string>/usr</string>
+				<string>/usr/bin</string>
+				<string>/usr/local</string>
+				<string>/usr/local/bin</string>
+				<string>/usr/sbin</string>
+				<string>/var</string>
+			</array>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBCategoriesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBEmojiRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBMountedVolumesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBUserAccountsRule</string>
+		</dict>
+	</array>
+	<key>typeCollections</key>
+	<array>
+		<dict>
+			<key>definition</key>
+			<string>gsheet</string>
+			<key>identifier</key>
+			<string>5</string>
+			<key>name</key>
+			<string>Google Sheets</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>c, cpp, h, java, m, nib, php, php3, php4, pl</string>
+			<key>identifier</key>
+			<string>2</string>
+			<key>name</key>
+			<string>Source Files</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>'CWWP', cwk</string>
+			<key>identifier</key>
+			<string>3</string>
+			<key>name</key>
+			<string>AppleWorks Documents</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>'RTF ', 'SLD8', 'TEXT', 'W6BN', 'W8BN', 'WDBN', 'XLS8', doc, docx, pps, ppsx, ppt, pptx, rtf, txt, xls, xlsx</string>
+			<key>identifier</key>
+			<string>4</string>
+			<key>name</key>
+			<string>MS Office Documents</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>htm, html, htmld</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>name</key>
+			<string>HTML Files</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>19</integer>
+</dict>
+</plist>

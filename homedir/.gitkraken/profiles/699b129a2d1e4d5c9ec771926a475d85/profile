@@ -1,0 +1,25 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "NEW"
+      },
+      {
+        "id": "c147921d-fc47-40a6-a6b1-cdc2ad922df8",
+        "type": "NEW"
+      }
+    ],
+    "selectedTabId": "c147921d-fc47-40a6-a6b1-cdc2ad922df8"
+  },
+  "profileIcon": "Velma-Keif.png",
+  "profileName": "Amazon",
+  "userEmail": "ashkrosh@amazon.com",
+  "userName": "Ashkan Roshanayi",
+  "externalEditor": "Visual Studio Code",
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "defaultTerminal": "iTerm2",
+  "useCustomTerminalCmd": false
+}

@@ -1,0 +1,39 @@
+{
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "7cde8685-8e36-4c19-8a46-90effa873442",
+        "type": "REPO",
+        "repoName": "AnalyticsPractice",
+        "repoPath": "/Users/ashkrosh/Projects/amazon/AnalyticsPractice/"
+      },
+      {
+        "id": "21d4590e-348d-411a-a9d9-77b1a502cac2",
+        "type": "REPO",
+        "repoName": "es-diag-automation",
+        "repoPath": "/Users/ashkrosh/Projects/datachef/es-diag-automation/"
+      }
+    ],
+    "selectedTabId": "21d4590e-348d-411a-a9d9-77b1a502cac2"
+  },
+  "profileIcon": "gravatar",
+  "profileName": "Personal",
+  "userEmail": "ashkan.roshanayi@gmail.com",
+  "userName": "Ashkan Roshanayi",
+  "externalEditor": "Visual Studio Code",
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "defaultTerminal": "iTerm2",
+  "useCustomTerminalCmd": false,
+  "projectGroupNamesByDirectory": {
+    "/Users/ashkrosh/Projects/amazon": "amazon",
+    "/Users/ashkrosh/Projects/datachef": "datachef",
+    "/Users/ashkrosh/Projects/personal": "personal"
+  },
+  "layout": {
+    "RefPanel": {
+      "open": true
+    }
+  }
+}

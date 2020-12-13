@@ -1,0 +1,2 @@
+[Tue Jul 28 2020 14:43:50 GMT+0200 (Central European Summer Time)] Pull Failed: failed to resolve address for git.amazon.com: nodename nor servname provided, or not known
+[Wed Aug 12 2020 13:10:37 GMT+0200 (Central European Summer Time)] Pull Failed: SSH Key not found. Please configure one first in Preferences -> Authentication

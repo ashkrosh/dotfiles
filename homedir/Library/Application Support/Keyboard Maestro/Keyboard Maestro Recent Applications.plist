@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.setapp.DesktopClient</string>
+		<key>Name</key>
+		<string>Setapp</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AppStore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/System/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.koingosw.macpilot-setapp</string>
+		<key>Name</key>
+		<string>MacPilot</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/MacPilot.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>System Preferences</string>
+		<key>NewFile</key>
+		<string>/System/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.finder</string>
+		<key>Name</key>
+		<string>Finder</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.googlecode.iterm2</string>
+		<key>Name</key>
+		<string>iTerm</string>
+		<key>NewFile</key>
+		<string>/Applications/iTerm.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.belightsoft.GetBackup-setapp</string>
+		<key>Name</key>
+		<string>Get Backup Pro</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/Get Backup Pro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.logitech.Logi-Options</string>
+		<key>Name</key>
+		<string>Logi Options</string>
+		<key>NewFile</key>
+		<string>/Applications/Logi Options.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.pqrs.Karabiner-Elements.Preferences</string>
+		<key>Name</key>
+		<string>Karabiner-Elements</string>
+		<key>NewFile</key>
+		<string>/Applications/Karabiner-Elements.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome.canary</string>
+		<key>Name</key>
+		<string>Google Chrome Canary</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome Canary.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.macpaw.CleanMyMac-setapp</string>
+		<key>Name</key>
+		<string>CleanMyMac X</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/CleanMyMac X.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.visualstudio.code.oss</string>
+		<key>Name</key>
+		<string>VSCodium</string>
+		<key>NewFile</key>
+		<string>/Applications/VSCodium.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.FaceTime</string>
+		<key>Name</key>
+		<string>FaceTime</string>
+		<key>NewFile</key>
+		<string>/System/Applications/FaceTime.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Console</string>
+		<key>Name</key>
+		<string>Console</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Utilities/Console.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.NetworkUtility</string>
+		<key>Name</key>
+		<string>Network Utility</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Network Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.culturedcode.ThingsMac</string>
+		<key>Name</key>
+		<string>Things</string>
+		<key>NewFile</key>
+		<string>/Applications/Things3.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.flexibits.fantastical2.mac</string>
+		<key>Name</key>
+		<string>Fantastical</string>
+		<key>NewFile</key>
+		<string>/Applications/Fantastical.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.tinyspeck.slackmacgap</string>
+		<key>Name</key>
+		<string>Slack</string>
+		<key>NewFile</key>
+		<string>/Applications/Slack.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>us.zoom.xos</string>
+		<key>Name</key>
+		<string>zoom.us</string>
+		<key>NewFile</key>
+		<string>/Applications/zoom.us.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.mail</string>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Mail.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.logi.ghub</string>
+		<key>Name</key>
+		<string>Logitech G HUB</string>
+		<key>NewFile</key>
+		<string>/Applications/lghub.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.getdropbox.dropbox</string>
+		<key>Name</key>
+		<string>Dropbox</string>
+		<key>NewFile</key>
+		<string>/Applications/Dropbox.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.coldx.App-for-WhatsApp-setapp</string>
+		<key>Name</key>
+		<string>ChatMate for WhatsApp</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/ChatMate for WhatsApp.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Safari</string>
+		<key>Name</key>
+		<string>Safari</string>
+		<key>NewFile</key>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Terminal</string>
+		<key>Name</key>
+		<string>Terminal</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Utilities/Terminal.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.incrediblebee.Archiver-setapp</string>
+		<key>Name</key>
+		<string>Archiver</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/Archiver.app</string>
+	</dict>
+</array>
+</plist>
