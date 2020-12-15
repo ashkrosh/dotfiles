@@ -4,27 +4,43 @@
 <array>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.setapp.DesktopClient</string>
+		<string>com.apple.finder</string>
 		<key>Name</key>
-		<string>Setapp</string>
+		<string>Finder</string>
 		<key>NewFile</key>
-		<string>/Applications/Setapp.app</string>
+		<string>/System/Library/CoreServices/Finder.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.AppStore</string>
+		<string>com.p5sys.jumpdesktop-setapp</string>
 		<key>Name</key>
-		<string>App Store</string>
+		<string>Jump Desktop</string>
 		<key>NewFile</key>
-		<string>/System/Applications/App Store.app</string>
+		<string>/Applications/Setapp/Jump Desktop.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.koingosw.macpilot-setapp</string>
+		<string>com.culturedcode.ThingsMac</string>
 		<key>Name</key>
-		<string>MacPilot</string>
+		<string>Things</string>
 		<key>NewFile</key>
-		<string>/Applications/Setapp/MacPilot.app</string>
+		<string>/Applications/Things3.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.googlecode.iterm2</string>
+		<key>Name</key>
+		<string>iTerm</string>
+		<key>NewFile</key>
+		<string>/Applications/iTerm.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.incrediblebee.Archiver-setapp</string>
+		<key>Name</key>
+		<string>Archiver</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/Archiver.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -36,19 +52,195 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.finder</string>
+		<string>com.flexibits.fantastical2.mac</string>
 		<key>Name</key>
-		<string>Finder</string>
+		<string>Fantastical</string>
 		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Finder.app</string>
+		<string>/Applications/Fantastical.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.googlecode.iterm2</string>
+		<string>com.apple.Safari</string>
 		<key>Name</key>
-		<string>iTerm</string>
+		<string>Safari</string>
 		<key>NewFile</key>
-		<string>/Applications/iTerm.app</string>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>us.zoom.xos</string>
+		<key>Name</key>
+		<string>zoom.us</string>
+		<key>NewFile</key>
+		<string>/Applications/zoom.us.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.mail</string>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Mail.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome.canary</string>
+		<key>Name</key>
+		<string>Google Chrome Canary</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome Canary.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.bluestacks.BlueStacks</string>
+		<key>Name</key>
+		<string>BlueStacks</string>
+		<key>NewFile</key>
+		<string>/Applications/BlueStacks.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.macpaw.CleanMyMac-setapp</string>
+		<key>Name</key>
+		<string>CleanMyMac X</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/CleanMyMac X.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.tinyspeck.slackmacgap</string>
+		<key>Name</key>
+		<string>Slack</string>
+		<key>NewFile</key>
+		<string>/Applications/Slack.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>at.obdev.LaunchBar.ActionEditor</string>
+		<key>Name</key>
+		<string>Action Editor</string>
+		<key>NewFile</key>
+		<string>/Applications/LaunchBar.app/Contents/Resources/Action Editor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.coldx.App-for-WhatsApp-setapp</string>
+		<key>Name</key>
+		<string>ChatMate for WhatsApp</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/ChatMate for WhatsApp.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.TextEdit</string>
+		<key>Name</key>
+		<string>TextEdit</string>
+		<key>NewFile</key>
+		<string>/System/Applications/TextEdit.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Dictionary</string>
+		<key>Name</key>
+		<string>Dictionary</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Dictionary.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.SystemProfiler</string>
+		<key>Name</key>
+		<string>System Information</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Utilities/System Information.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.visualstudio.code.oss</string>
+		<key>Name</key>
+		<string>VSCodium</string>
+		<key>NewFile</key>
+		<string>/Applications/VSCodium.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AppStore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/System/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.televator.Vimari</string>
+		<key>Name</key>
+		<string>Vimari</string>
+		<key>NewFile</key>
+		<string>/Applications/Vimari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.tampermonkey.SafariApp</string>
+		<key>Name</key>
+		<string>Tampermonkey</string>
+		<key>NewFile</key>
+		<string>/Applications/Tampermonkey.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.amazon.Amazon-Chime</string>
+		<key>Name</key>
+		<string>Amazon Chime</string>
+		<key>NewFile</key>
+		<string>/Applications/Amazon Chime.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AddressBook</string>
+		<key>Name</key>
+		<string>Contacts</string>
+		<key>NewFile</key>
+		<string>/System/Applications/Contacts.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.smileonmymac.pdfpen-setapp</string>
+		<key>Name</key>
+		<string>PDFpen</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp/PDFpen.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.FaceTime</string>
+		<key>Name</key>
+		<string>FaceTime</string>
+		<key>NewFile</key>
+		<string>/System/Applications/FaceTime.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.setapp.DesktopClient</string>
+		<key>Name</key>
+		<string>Setapp</string>
+		<key>NewFile</key>
+		<string>/Applications/Setapp.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -76,38 +268,6 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.google.Chrome.canary</string>
-		<key>Name</key>
-		<string>Google Chrome Canary</string>
-		<key>NewFile</key>
-		<string>/Applications/Google Chrome Canary.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.macpaw.CleanMyMac-setapp</string>
-		<key>Name</key>
-		<string>CleanMyMac X</string>
-		<key>NewFile</key>
-		<string>/Applications/Setapp/CleanMyMac X.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.visualstudio.code.oss</string>
-		<key>Name</key>
-		<string>VSCodium</string>
-		<key>NewFile</key>
-		<string>/Applications/VSCodium.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.FaceTime</string>
-		<key>Name</key>
-		<string>FaceTime</string>
-		<key>NewFile</key>
-		<string>/System/Applications/FaceTime.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.apple.Console</string>
 		<key>Name</key>
 		<string>Console</string>
@@ -121,54 +281,6 @@
 		<string>Network Utility</string>
 		<key>NewFile</key>
 		<string>/System/Library/CoreServices/Applications/Network Utility.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.culturedcode.ThingsMac</string>
-		<key>Name</key>
-		<string>Things</string>
-		<key>NewFile</key>
-		<string>/Applications/Things3.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.flexibits.fantastical2.mac</string>
-		<key>Name</key>
-		<string>Fantastical</string>
-		<key>NewFile</key>
-		<string>/Applications/Fantastical.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.tinyspeck.slackmacgap</string>
-		<key>Name</key>
-		<string>Slack</string>
-		<key>NewFile</key>
-		<string>/Applications/Slack.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>us.zoom.xos</string>
-		<key>Name</key>
-		<string>zoom.us</string>
-		<key>NewFile</key>
-		<string>/Applications/zoom.us.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.mail</string>
-		<key>Name</key>
-		<string>Mail</string>
-		<key>NewFile</key>
-		<string>/System/Applications/Mail.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.stairways.keyboardmaestro.editor</string>
-		<key>Name</key>
-		<string>Keyboard Maestro</string>
-		<key>NewFile</key>
-		<string>/Applications/Keyboard Maestro.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -188,35 +300,11 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>net.coldx.App-for-WhatsApp-setapp</string>
-		<key>Name</key>
-		<string>ChatMate for WhatsApp</string>
-		<key>NewFile</key>
-		<string>/Applications/Setapp/ChatMate for WhatsApp.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.Safari</string>
-		<key>Name</key>
-		<string>Safari</string>
-		<key>NewFile</key>
-		<string>/Applications/Safari.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.apple.Terminal</string>
 		<key>Name</key>
 		<string>Terminal</string>
 		<key>NewFile</key>
 		<string>/System/Applications/Utilities/Terminal.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.incrediblebee.Archiver-setapp</string>
-		<key>Name</key>
-		<string>Archiver</string>
-		<key>NewFile</key>
-		<string>/Applications/Setapp/Archiver.app</string>
 	</dict>
 </array>
 </plist>

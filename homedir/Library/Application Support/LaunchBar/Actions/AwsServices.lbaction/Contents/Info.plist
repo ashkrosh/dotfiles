@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>aws.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.me.thorstenhuhn.LaunchBar.action.AwsServices</string>
+	<key>CFBundleName</key>
+	<string>AWS Services</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAbbreviation</key>
+	<string>aws</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Thorsten Huhn</string>
+		<key>LBEmail</key>
+		<string>thorstenhuhn@me.com</string>
+		<key>LBSummary</key>
+		<string>Browse Amazon Web Services</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/thorstenhuhn/launchbar-AwsServices</string>
+	</dict>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6134</integer>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

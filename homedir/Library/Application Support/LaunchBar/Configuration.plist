@@ -1160,60 +1160,8 @@
 	<key>rules</key>
 	<array>
 		<dict>
-			<key>abbreviatedPath</key>
-			<string>~</string>
-			<key>className</key>
-			<string>ODLBFolderContentsRule</string>
-			<key>subfolderLevels</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBOnePasswordRule</string>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBReminderListsRule</string>
-			<key>enabled</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>abbreviatedSpecificPlaces</key>
-			<array>
-				<string>/Applications</string>
-			</array>
-			<key>className</key>
-			<string>ODLBApplicationsRule</string>
-			<key>useSpotlightIndex</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBManagedSearchTemplatesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBActionsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBSnippetsRule</string>
-			<key>enabled</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
 			<key>className</key>
 			<string>ODLBThemesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBPrefPanesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBWorkflowsRule</string>
 		</dict>
 		<dict>
 			<key>abbreviatedPath</key>
@@ -1222,32 +1170,10 @@
 			<string>ODLBFolderContentsRule</string>
 		</dict>
 		<dict>
+			<key>abbreviatedPath</key>
+			<string>_safariHistoryPath</string>
 			<key>className</key>
-			<string>ODLBTransmitRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBContactsRule</string>
-			<key>includeCompanies</key>
-			<integer>0</integer>
-			<key>includeDepartments</key>
-			<integer>0</integer>
-			<key>includeGroups</key>
-			<integer>0</integer>
-			<key>includeJobTitles</key>
-			<integer>0</integer>
-			<key>includeMiddleName</key>
-			<integer>0</integer>
-			<key>includePreviousRecipients</key>
-			<integer>0</integer>
-			<key>includeTitle</key>
-			<integer>0</integer>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBServicesRule</string>
+			<string>ODLBHistoryRule</string>
 		</dict>
 		<dict>
 			<key>className</key>
@@ -1616,6 +1542,14 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Lucky Google</string>
+					<key>templateURL</key>
+					<string>https://www.google.com/search?btnI&amp;q=*</string>
+					<key>uuid</key>
+					<string>04E88729-4AEF-41A2-AA71-D6F5E9B141AB</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>ObDev Forums</string>
 					<key>templateURL</key>
 					<string>http://forums.obdev.at/search.php?keywords=*</string>
@@ -1865,22 +1799,6 @@
 			</array>
 		</dict>
 		<dict>
-			<key>className</key>
-			<string>ODLBNetworkLocationsRule</string>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBSafariCloudTabsRule</string>
-		</dict>
-		<dict>
-			<key>abbreviatedPath</key>
-			<string>~/Downloads</string>
-			<key>className</key>
-			<string>ODLBFolderContentsRule</string>
-		</dict>
-		<dict>
 			<key>aliasName</key>
 			<string>Unix Directories</string>
 			<key>className</key>
@@ -1901,7 +1819,56 @@
 		</dict>
 		<dict>
 			<key>className</key>
+			<string>ODLBUserAccountsRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>_safariBookmarksPath</string>
+			<key>className</key>
+			<string>ODLBBookmarksRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
 			<string>ODLBCategoriesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBOnePasswordRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBReminderListsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBServicesRule</string>
+		</dict>
+		<dict>
+			<key>aliasName</key>
+			<string>Command Line Tools</string>
+			<key>className</key>
+			<string>ODLBListRule</string>
+			<key>list</key>
+			<array>
+				<string>/usr/bin/cal</string>
+				<string>/bin/date</string>
+				<string>/usr/bin/dig</string>
+				<string>/usr/bin/host</string>
+				<string>/usr/bin/hostinfo</string>
+				<string>/usr/bin/man</string>
+				<string>/usr/sbin/netstat</string>
+				<string>/sbin/ping</string>
+				<string>/usr/bin/sftp</string>
+				<string>/usr/bin/ssh</string>
+				<string>/usr/bin/su</string>
+				<string>/usr/bin/top</string>
+				<string>/usr/sbin/traceroute</string>
+				<string>/usr/bin/uptime</string>
+			</array>
 		</dict>
 		<dict>
 			<key>className</key>
@@ -1909,22 +1876,98 @@
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBMountedVolumesRule</string>
+			<string>ODLBSnippetsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBUserAccountsRule</string>
+			<string>ODLBContactsRule</string>
+			<key>includeCompanies</key>
+			<integer>0</integer>
+			<key>includeDepartments</key>
+			<integer>0</integer>
+			<key>includeGroups</key>
+			<integer>0</integer>
+			<key>includeJobTitles</key>
+			<integer>0</integer>
+			<key>includeMiddleName</key>
+			<integer>0</integer>
+			<key>includePreviousRecipients</key>
+			<integer>0</integer>
+			<key>includeTitle</key>
+			<integer>0</integer>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBPrefPanesRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+			<key>subfolderLevels</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBManagedSearchTemplatesRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedSpecificPlaces</key>
+			<array>
+				<string>/Applications</string>
+			</array>
+			<key>className</key>
+			<string>ODLBApplicationsRule</string>
+			<key>useSpotlightIndex</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBNetworkLocationsRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Downloads</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBActionsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBTransmitRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBWorkflowsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBSafariCloudTabsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBMountedVolumesRule</string>
 		</dict>
 	</array>
 	<key>typeCollections</key>
 	<array>
 		<dict>
 			<key>definition</key>
-			<string>gsheet</string>
+			<string>htm, html, htmld</string>
 			<key>identifier</key>
-			<string>5</string>
+			<string>1</string>
 			<key>name</key>
-			<string>Google Sheets</string>
+			<string>HTML Files</string>
 		</dict>
 		<dict>
 			<key>definition</key>
@@ -1944,19 +1987,19 @@
 		</dict>
 		<dict>
 			<key>definition</key>
+			<string>gsheet</string>
+			<key>identifier</key>
+			<string>5</string>
+			<key>name</key>
+			<string>Google Sheets</string>
+		</dict>
+		<dict>
+			<key>definition</key>
 			<string>'RTF ', 'SLD8', 'TEXT', 'W6BN', 'W8BN', 'WDBN', 'XLS8', doc, docx, pps, ppsx, ppt, pptx, rtf, txt, xls, xlsx</string>
 			<key>identifier</key>
 			<string>4</string>
 			<key>name</key>
 			<string>MS Office Documents</string>
-		</dict>
-		<dict>
-			<key>definition</key>
-			<string>htm, html, htmld</string>
-			<key>identifier</key>
-			<string>1</string>
-			<key>name</key>
-			<string>HTML Files</string>
 		</dict>
 	</array>
 	<key>version</key>

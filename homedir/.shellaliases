@@ -179,7 +179,7 @@ alias amendall="git add . && amend"
 alias wip="commit wip"
 alias gnuke="git clean -df && git reset --hard"
 # buzzphrase commit : used for my presentation decks when I have nothing to say about the commit
-alias bpc='git add -A . && git cam "$(buzzphrase 2)" && git push'
+alias bpc='git add -A . && git commit -m "$(buzzphrase 2)" && git push'
 # switches to 'develop' branch, updates all local branches (nicely using git-up), removes all local branches already merged into 'develop'
 alias gitdev='git checkout develop; git up; git branch --merged develop | grep -v "\* develop" | xargs -n 1 git branch -d; git branch;'
 

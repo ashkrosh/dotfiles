@@ -98,8 +98,8 @@ source ~/.p10k.zsh
 
 #https://github.com/asdf-vm/asdf
 # brew cask install asdf
-# . /usr/local/opt/asdf/asdf.sh
-# . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+source /usr/local/opt/asdf/asdf.sh
+# source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 # fuzzy search by z
 . /usr/local/opt/z/etc/profile.d/z.sh

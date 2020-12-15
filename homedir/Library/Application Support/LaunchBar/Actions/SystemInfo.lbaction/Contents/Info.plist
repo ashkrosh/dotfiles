@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Shows system information</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>at.obdev.LaunchBar.action.SystemInfo</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.apple.SystemProfiler</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>Shows system information</string>
+		<key>LBAuthor</key>
+		<string>Manuel Weiel</string>
+		<key>LBEmail</key>
+		<string>manuel@weiel.eu</string>
+		<key>LBTwitter</key>
+		<string>@xmanuw</string>
+	</dict>
+</dict>
+</plist>
