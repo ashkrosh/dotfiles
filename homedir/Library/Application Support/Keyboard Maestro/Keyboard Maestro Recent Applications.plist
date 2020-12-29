@@ -12,22 +12,6 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.p5sys.jumpdesktop-setapp</string>
-		<key>Name</key>
-		<string>Jump Desktop</string>
-		<key>NewFile</key>
-		<string>/Applications/Setapp/Jump Desktop.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.culturedcode.ThingsMac</string>
-		<key>Name</key>
-		<string>Things</string>
-		<key>NewFile</key>
-		<string>/Applications/Things3.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
 		<string>com.googlecode.iterm2</string>
 		<key>Name</key>
 		<string>iTerm</string>
@@ -36,27 +20,11 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.incrediblebee.Archiver-setapp</string>
+		<string>com.p5sys.jumpdesktop-setapp</string>
 		<key>Name</key>
-		<string>Archiver</string>
+		<string>Jump Desktop</string>
 		<key>NewFile</key>
-		<string>/Applications/Setapp/Archiver.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.systempreferences</string>
-		<key>Name</key>
-		<string>System Preferences</string>
-		<key>NewFile</key>
-		<string>/System/Applications/System Preferences.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.flexibits.fantastical2.mac</string>
-		<key>Name</key>
-		<string>Fantastical</string>
-		<key>NewFile</key>
-		<string>/Applications/Fantastical.app</string>
+		<string>/Applications/Setapp/Jump Desktop.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -68,35 +36,19 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>us.zoom.xos</string>
+		<string>com.tinyspeck.slackmacgap</string>
 		<key>Name</key>
-		<string>zoom.us</string>
+		<string>Slack</string>
 		<key>NewFile</key>
-		<string>/Applications/zoom.us.app</string>
+		<string>/Applications/Slack.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.mail</string>
+		<string>com.google.Chrome</string>
 		<key>Name</key>
-		<string>Mail</string>
+		<string>Google Chrome</string>
 		<key>NewFile</key>
-		<string>/System/Applications/Mail.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.google.Chrome.canary</string>
-		<key>Name</key>
-		<string>Google Chrome Canary</string>
-		<key>NewFile</key>
-		<string>/Applications/Google Chrome Canary.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.bluestacks.BlueStacks</string>
-		<key>Name</key>
-		<string>BlueStacks</string>
-		<key>NewFile</key>
-		<string>/Applications/BlueStacks.app</string>
+		<string>/Applications/Google Chrome.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -108,91 +60,11 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.tinyspeck.slackmacgap</string>
+		<string>com.apple.mail</string>
 		<key>Name</key>
-		<string>Slack</string>
+		<string>Mail</string>
 		<key>NewFile</key>
-		<string>/Applications/Slack.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>at.obdev.LaunchBar.ActionEditor</string>
-		<key>Name</key>
-		<string>Action Editor</string>
-		<key>NewFile</key>
-		<string>/Applications/LaunchBar.app/Contents/Resources/Action Editor.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>net.coldx.App-for-WhatsApp-setapp</string>
-		<key>Name</key>
-		<string>ChatMate for WhatsApp</string>
-		<key>NewFile</key>
-		<string>/Applications/Setapp/ChatMate for WhatsApp.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.TextEdit</string>
-		<key>Name</key>
-		<string>TextEdit</string>
-		<key>NewFile</key>
-		<string>/System/Applications/TextEdit.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.Dictionary</string>
-		<key>Name</key>
-		<string>Dictionary</string>
-		<key>NewFile</key>
-		<string>/System/Applications/Dictionary.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.SystemProfiler</string>
-		<key>Name</key>
-		<string>System Information</string>
-		<key>NewFile</key>
-		<string>/System/Applications/Utilities/System Information.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.visualstudio.code.oss</string>
-		<key>Name</key>
-		<string>VSCodium</string>
-		<key>NewFile</key>
-		<string>/Applications/VSCodium.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.apple.AppStore</string>
-		<key>Name</key>
-		<string>App Store</string>
-		<key>NewFile</key>
-		<string>/System/Applications/App Store.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>net.televator.Vimari</string>
-		<key>Name</key>
-		<string>Vimari</string>
-		<key>NewFile</key>
-		<string>/Applications/Vimari.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>net.tampermonkey.SafariApp</string>
-		<key>Name</key>
-		<string>Tampermonkey</string>
-		<key>NewFile</key>
-		<string>/Applications/Tampermonkey.app</string>
-	</dict>
-	<dict>
-		<key>BundleIdentifier</key>
-		<string>com.amazon.Amazon-Chime</string>
-		<key>Name</key>
-		<string>Amazon Chime</string>
-		<key>NewFile</key>
-		<string>/Applications/Amazon Chime.app</string>
+		<string>/System/Applications/Mail.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -212,43 +84,51 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.stairways.keyboardmaestro.editor</string>
+		<string>com.axosoft.gitkraken</string>
 		<key>Name</key>
-		<string>Keyboard Maestro</string>
+		<string>GitKraken</string>
 		<key>NewFile</key>
-		<string>/Applications/Keyboard Maestro.app</string>
+		<string>/Applications/GitKraken.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.smileonmymac.pdfpen-setapp</string>
+		<string>com.culturedcode.ThingsMac</string>
 		<key>Name</key>
-		<string>PDFpen</string>
+		<string>Things</string>
 		<key>NewFile</key>
-		<string>/Applications/Setapp/PDFpen.app</string>
+		<string>/Applications/Things3.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.FaceTime</string>
+		<string>us.zoom.xos</string>
 		<key>Name</key>
-		<string>FaceTime</string>
+		<string>zoom.us</string>
 		<key>NewFile</key>
-		<string>/System/Applications/FaceTime.app</string>
+		<string>/Applications/zoom.us.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.setapp.DesktopClient</string>
+		<string>com.apple.systempreferences</string>
 		<key>Name</key>
-		<string>Setapp</string>
+		<string>System Preferences</string>
 		<key>NewFile</key>
-		<string>/Applications/Setapp.app</string>
+		<string>/System/Applications/System Preferences.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.belightsoft.GetBackup-setapp</string>
+		<string>com.apple.TextEdit</string>
 		<key>Name</key>
-		<string>Get Backup Pro</string>
+		<string>TextEdit</string>
 		<key>NewFile</key>
-		<string>/Applications/Setapp/Get Backup Pro.app</string>
+		<string>/System/Applications/TextEdit.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>net.televator.Vimari</string>
+		<key>Name</key>
+		<string>Vimari</string>
+		<key>NewFile</key>
+		<string>/Applications/Vimari.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
@@ -260,6 +140,14 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
+		<string>org.pqrs.Karabiner-EventViewer</string>
+		<key>Name</key>
+		<string>Karabiner-EventViewer</string>
+		<key>NewFile</key>
+		<string>/Applications/Karabiner-EventViewer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
 		<string>org.pqrs.Karabiner-Elements.Preferences</string>
 		<key>Name</key>
 		<string>Karabiner-Elements</string>
@@ -268,43 +156,51 @@
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.Console</string>
+		<string>com.littlehj.Pixave</string>
 		<key>Name</key>
-		<string>Console</string>
+		<string>Pixave</string>
 		<key>NewFile</key>
-		<string>/System/Applications/Utilities/Console.app</string>
+		<string>/Applications/Pixave.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.NetworkUtility</string>
+		<string>com.setapp.DesktopClient</string>
 		<key>Name</key>
-		<string>Network Utility</string>
+		<string>Setapp</string>
 		<key>NewFile</key>
-		<string>/System/Library/CoreServices/Applications/Network Utility.app</string>
+		<string>/Applications/Setapp.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.logi.ghub</string>
+		<string>com.apple.AppStore</string>
 		<key>Name</key>
-		<string>Logitech G HUB</string>
+		<string>App Store</string>
 		<key>NewFile</key>
-		<string>/Applications/lghub.app</string>
+		<string>/System/Applications/App Store.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.getdropbox.dropbox</string>
+		<string>com.brettterpstra.marked-setapp</string>
 		<key>Name</key>
-		<string>Dropbox</string>
+		<string>Marked</string>
 		<key>NewFile</key>
-		<string>/Applications/Dropbox.app</string>
+		<string>/Applications/Setapp/Marked.app</string>
 	</dict>
 	<dict>
 		<key>BundleIdentifier</key>
-		<string>com.apple.Terminal</string>
+		<string>com.apple.print.PrinterProxy</string>
 		<key>Name</key>
-		<string>Terminal</string>
+		<string>HP LaserJet MFP M28w (F874A0)</string>
 		<key>NewFile</key>
-		<string>/System/Applications/Utilities/Terminal.app</string>
+		<string>~/Library/Printers/HP LaserJet MFP M28w (F874A0).app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
 	</dict>
 </array>
 </plist>

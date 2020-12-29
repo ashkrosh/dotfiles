@@ -1,7 +1,7 @@
 {
-  "lastUpgradeScriptRun": "v7.4.0",
-  "lastVersion": "7.4.0",
-  "lastReleaseNotesDisplayed": "7.4.0",
+  "lastUpgradeScriptRun": "v7.4.1",
+  "lastVersion": "7.4.1",
+  "lastReleaseNotesDisplayed": "7.4.1",
   "appId": "2f25b66fc7b673e07722075d382e0060bee16571",
   "windowSettings": {
     "x": 1821,
@@ -20,7 +20,7 @@
       "version": "1.0.0",
       "status": "agree_verified"
     },
-    "loginType": "USERNAME_AND_PASSWORD"
+    "loginType": "username_and_password"
   },
   "userId": "4175d741-9312-4462-a843-beb4f56dbd49",
   "licensedFeatures": [
@@ -44,5 +44,18 @@
   "commits": {
     "maxCommitsInGraph": 2000
   },
-  "profileGuid": "d6e5a8ca26e14325a4275fc33b17e16f"
+  "profileGuid": "699b129a2d1e4d5c9ec771926a475d85",
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/ashkrosh/.dotfiles": {
+          "id": "openRepo-/Users/ashkrosh/.dotfiles",
+          "timestamps": [
+            1608147111831
+          ],
+          "total": 1
+        }
+      }
+    }
+  }
 }

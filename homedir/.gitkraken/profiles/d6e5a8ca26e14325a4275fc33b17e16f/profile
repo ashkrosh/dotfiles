@@ -2,19 +2,11 @@
   "tabInfo": {
     "tabs": [
       {
-        "id": "7cde8685-8e36-4c19-8a46-90effa873442",
-        "type": "REPO",
-        "repoName": "AnalyticsPractice",
-        "repoPath": "/Users/ashkrosh/Projects/amazon/AnalyticsPractice/"
-      },
-      {
-        "id": "21d4590e-348d-411a-a9d9-77b1a502cac2",
-        "type": "REPO",
-        "repoName": "es-diag-automation",
-        "repoPath": "/Users/ashkrosh/Projects/datachef/es-diag-automation/"
+        "id": "609c5907-1c95-403a-8483-1d3760a9f367",
+        "type": "NEW"
       }
     ],
-    "selectedTabId": "21d4590e-348d-411a-a9d9-77b1a502cac2"
+    "selectedTabId": "609c5907-1c95-403a-8483-1d3760a9f367"
   },
   "profileIcon": "gravatar",
   "profileName": "Personal",
@@ -29,11 +21,16 @@
   "projectGroupNamesByDirectory": {
     "/Users/ashkrosh/Projects/amazon": "amazon",
     "/Users/ashkrosh/Projects/datachef": "datachef",
-    "/Users/ashkrosh/Projects/personal": "personal"
+    "/Users/ashkrosh/Projects/personal": "personal",
+    "/Users/ashkrosh/.dotfiles": ".dotfiles"
   },
   "layout": {
     "RefPanel": {
       "open": true
+    },
+    "DetailPanel": {
+      "width": 600
     }
-  }
+  },
+  "diffTool": "git-config"
 }

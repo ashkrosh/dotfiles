@@ -2,12 +2,57 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/fr/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](http://keepachangelog.com/fr/1.0.0/) and this project adheres to
+[Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
 
 ## [Unreleased]
 
 - NOTHING
+
+## [4.1.0] — 2020-12-17
+
+### Changed
+
+- Compilation of `highlight`/`lua` (thanks @Tatsh).
+
+## [4.0.3] — 2020-12-17
+
+### Added
+
+- `xsl` support.
+
+## [4.0.2] — 2020-12-16
+
+### Fixed
+
+- Version number in the final binary.
+
+## [4.0.1] — 2020-12-16
+
+### Added
+
+- `tf` support.
+
+### Fixed
+
+- CI (thanks @jeffbyrnes).
+
+## [4.0.0] — 2020-12-15
+ 
+**Big Sur support via integrated Lua and Highlight!  
+Thanks to @tatsh for his amazing work!**
+
+### Added
+
+- `ruby` support.
+- `lisp` support.
+- `automake` support.
+- `powershell` support (thanks @abulgatz).
+
+### Fixed
+
+- CI (thanks @tatsh).
 
 ## [3.1.1] — 2020-09-09
 
@@ -24,14 +69,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - `kts` (kotlin) support.
 - `xsh` support.
-- `pyc` support (decompilation with `uncompyle6` [has to be in `/usr/local/bin`])
+- `pyc` support (decompilation with `uncompyle6` [has to be in `/usr/local/bin`]).
 - `rst` support.
 - `perl` support.
 - `bats` (Bash Automated Testing System) support.
 
 ### Fixed
 
-- `fish` support. 
+- `fish` support.
 - `bat` (Windows Batch) support.
 - `diff` support.
 - `bash` support.
@@ -66,7 +111,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - `jad` support.
 
-
 ## [3.0.0] — 2020-08-16
 
 ### Added
@@ -89,7 +133,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
-- Option to preview file as `RTF`  (thanks @silum).
+- Option to preview file as `RTF` (thanks @silum).
 - `Kotlin/Gradle` (thanks @sonique6784).
 - `C#/Scala` support.
 - `reduce_filesize` plugin by default.
@@ -168,14 +212,12 @@ First version of Anthony GELIBERT.
 
 ### Added
 
-- Added qlcc_debug option.  To enable, use:
-      `defaults write org.n8gray.qlcolorcode qlcc_debug 1`
-To disable, use:
-      `defaults delete org.n8gray.qlcolorcode qlcc_debug`
+- Added qlcc_debug option. To enable, use: `defaults write org.n8gray.qlcolorcode qlcc_debug 1` To disable, use:
+  `defaults delete org.n8gray.qlcolorcode qlcc_debug`
 
 ### Changed
 
-- Stop redirecting `stdout` of `colorize.sh` to `stdin`.  Error output will appear in the console instead of the preview.
+- Stop redirecting `stdout` of `colorize.sh` to `stdin`. Error output will appear in the console instead of the preview.
 
 ### Fixed
 
@@ -185,13 +227,14 @@ To disable, use:
 
 ### Added
 
-- A note about conflict with Xcode 3.2's source code QL plugin. If you're having problems with QLCC on Snow Leopard please read it!
+- A note about conflict with Xcode 3.2's source code QL plugin. If you're having problems with QLCC on Snow Leopard
+  please read it!
 - Support for `Scala`, `Groovy`, `Interactive Data Language`, and `Coldfusion`.
 - Build for `x86_64` in addition to `i386` and `ppc`.
 
 ### Changed
 
-- Upgrade `highlight` from `2.6.6` to `2.12` -- This was long overdue.  It's nice not to have to patch highlight anymore!
+- Upgrade `highlight` from `2.6.6` to `2.12` -- This was long overdue. It's nice not to have to patch highlight anymore!
 
 ### Removed
 
@@ -205,7 +248,9 @@ To disable, use:
 
 ### Added
 
-- Enabled "safe" plain-text handling.  In other words, files like foo.txt will be supported, but not files without extensions.  The only way to handle extensionless files is to handle -everything-.  This can be done, but it requires a more defensive style of operation.
+- Enabled "safe" plain-text handling. In other words, files like foo.txt will be supported, but not files without
+  extensions. The only way to handle extensionless files is to handle -everything-. This can be done, but it requires a
+  more defensive style of operation.
 - Support for `textEncoding` option to set encoding for highlight portion of renderer, with default `UTF-8`.
 - Support for `webkitTextEncoding` option to set encoding for webkit portion of renderer, with default `UTF-8`.
 - Support for `.cs`, `.el`, `.jnlp` (xml), `.e` (eiffel), and `.vb`.
@@ -218,7 +263,7 @@ To disable, use:
 
 ### Added
 
-- `Actionscript`, `Lisp`, `IDL`, `Verilog`, `VHDL`, `XHTML`  (any others I forgot?).
+- `Actionscript`, `Lisp`, `IDL`, `Verilog`, `VHDL`, `XHTML` (any others I forgot?).
 - `.cls` and `.sty` as LaTeX extensions.
 - `maxFileSize` option to keep us from hanging on huge files.
 
@@ -266,7 +311,7 @@ To disable, use:
 
 ### Changed
 
-- Switched from Pygments to Highlight.  This should increase speed-and-language coverage.
+- Switched from Pygments to Highlight. This should increase speed-and-language coverage.
 - Changed `.tex` `UTI` to agree with TeXShop's.
 - (Try to) let the system pick a different plugin if ours fails.
 

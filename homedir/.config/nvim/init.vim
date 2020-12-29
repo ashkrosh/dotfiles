@@ -32,13 +32,17 @@ silent! if plug#begin("$XDG_DATA_HOME/nvim/site/plugin")
 	" Plug 'wincent/command-t', {
     " \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
     " \ }
+
 	" If you already installed fzf using Homebrew, the following should suffice for using fzf in vim:
 	Plug '/usr/local/opt/fzf'
+	set rtp+=/usr/local/opt/fzf
   Plug 'junegunn/fzf.vim'
-  Plug 'junegunn/vim-easy-align'
+  
+	Plug 'junegunn/vim-easy-align'
   Plug 'junegunn/goyo.vim'
-  Plug 'neoclide/coc.nvim'
-  " Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}  -- this was erroring on missing yarn 
+ 
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  
   Plug 'jiangmiao/auto-pairs'       " Provides insert mode auto-completion for quotes, parens, brackets, etc.
   Plug 'wakatime/vim-wakatime'
 	Plug 'matze/vim-move'

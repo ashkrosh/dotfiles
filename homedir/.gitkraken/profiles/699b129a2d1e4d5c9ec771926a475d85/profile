@@ -21,5 +21,10 @@
     "fontFamily": "Monaco"
   },
   "defaultTerminal": "iTerm2",
-  "useCustomTerminalCmd": false
+  "useCustomTerminalCmd": false,
+  "projectGroupNamesByDirectory": {
+    "/Users/ashkrosh/Projects/amazon": "amazon",
+    "/Users/ashkrosh/Projects/datachef": "datachef",
+    "/Users/ashkrosh/Projects/personal": "personal"
+  }
 }

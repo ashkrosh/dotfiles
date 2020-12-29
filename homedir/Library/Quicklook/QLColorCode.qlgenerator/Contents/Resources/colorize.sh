@@ -88,6 +88,12 @@ case ${target} in
     *.m )
         lang=objc
         ;;
+    *.am | *.in )
+        lang=make
+        ;;
+    *.mod )
+        lang=go
+        ;;
     *.pch | *.h )
         if grep -q "@interface" <(${target}) &> /dev/null; then
             lang=objc
@@ -103,7 +109,7 @@ case ${target} in
         lang=py
         plugin=(--plug-in python_ref_python_org)
         ;;
-    *.sh | *.zsh | *.bash | *.csh | *.bashrc | *.zshrc | *.xsh )
+    *.sh | *.zsh | *.bash | *.csh | *.bashrc | *.zshrc | *.xsh | *.bats )
         lang=sh
         plugin=(--plug-in bash_functions)
         ;;
@@ -117,6 +123,9 @@ case ${target} in
     *.kmt )
         lang=scala
         ;;
+    *.adoc )
+        lang=asciidoc
+        ;;
     * )
         lang=${target##*.}
         ;;
@@ -129,11 +138,11 @@ go4it () {
 
     debug "Generating the preview"
     if [ "${thumb}" = "1" ]; then
-        ${reader} | head -n 100 | head -c 20000 | ${cmd} ${cmdOpts} && exit 0
+        ${reader} | head -n 100 | head -c 20000 | ${cmd} -D "${rsrcDir}" ${cmdOpts} && exit 0
     elif [ -n "${maxFileSize}" ]; then
-        ${reader} | head -c ${maxFileSize} | ${cmd} -T "${target}" ${cmdOpts} && exit 0
+        ${reader} | head -c ${maxFileSize} | ${cmd} -D "${rsrcDir}" -T "${target}" ${cmdOpts} && exit 0
     else
-        ${reader} | ${cmd} -T "${target}" ${cmdOpts} && exit 0
+        ${reader} | ${cmd} -D "${rsrcDir}" -T "${target}" ${cmdOpts} && exit 0
     fi
 }
 

@@ -1,51 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-
 <dict>
+	<key>CFBundleIconFile</key>
+	<string>com.sindresorhus.Lungo-setapp</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.rahlir.LungoLaunchbar</string>
 	<key>CFBundleName</key>
 	<string>Drink Lungo</string>
 	<key>CFBundleVersion</key>
 	<string>0.1</string>
-	<key>CFBundleIconFile</key>
-	<string>com.sindresorhus.Lungo-setapp</string>
-
-
-	<key>LBScripts</key>
-	<dict>
-		<key>LBDefaultScript</key>
-		<dict>
-			<key>LBScriptName</key>
-			<string>default.js</string>
-			<key>LBRequiresArgument</key>
-			<false/>
-			<key>LBAcceptedArgumentTypes</key>
-			<array>
-				<string>string</string>
-			</array>
-			<key>LBReturnsResult</key>
-			<false/>
-			<key>LBLiveFeedbackEnabled</key>
-			<false/>
-			<key>LBRunInBackground</key>
-			<false/>
-		</dict>
-	</dict>
-
+	<key>LBArgument</key>
+	<string>How long should the lungo be activated for</string>
 	<key>LBDescription</key>
 	<dict>
+		<key>LBArgument</key>
+		<string>How long should the lungo be activated for</string>
 		<key>LBAuthor</key>
 		<string>Tadeas Uhlir</string>
 		<key>LBEmail</key>
 		<string>tadeas.uhlir@gmail.com</string>
-		<key>LBSummary</key>
-		<string>Toggle Lungo App</string>
-		<key>LBArgument</key>
-		<string>How long should the lungo be activated for</string>
 		<key>LBRequirements</key>
 		<string>Lungo App</string>
+		<key>LBSummary</key>
+		<string>Toggle Lungo App</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Lungo App</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

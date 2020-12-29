@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19G2021</string>
+	<string>20C69</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDocumentTypes</key>
@@ -16,6 +16,7 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>public.source-code</string>
+				<string>public.ruby-script</string>
 				<string>public.yaml</string>
 				<string>public.php-script</string>
 				<string>com.netscape.javascript-source</string>
@@ -80,6 +81,11 @@
 				<string>dyn.ah62d4rv4ge81u65k</string>
 				<string>dyn.ah62d4rv4ge81a8pd</string>
 				<string>dyn.ah62d4rv4ge81e65y</string>
+				<string>dyn.ah62d4rv4ge80n5a</string>
+				<string>dyn.ah62d4rv4ge80w5u</string>
+				<string>dyn.ah62d4rv4ge81k</string>
+				<string>dyn.ah62d4rv4ge80c5k</string>
+				<string>dyn.ah62d4rv4ge80c3dtqq</string>
 				<string>public.perl-script</string>
 				<string>dyn.ah62d4rv4ge80e2pysq</string>
 				<string>public.patch-file</string>
@@ -90,6 +96,10 @@
 				<string>com.apple.xcode.tcsh-script</string>
 				<string>com.apple.xcode.yacc-source</string>
 				<string>com.apple.xcode.zsh-script</string>
+				<string>dyn.ah62d4rv4ge81a63v</string>
+				<string>dyn.ah62d4rv4ge81k3x0qf3hg</string>
+				<string>dyn.ah62d4rv4ge81k3u</string>
+				<string>dyn.ah62d4rv4ge81u65q</string>
 			</array>
 		</dict>
 	</array>
@@ -102,13 +112,13 @@
 	<key>CFBundleName</key>
 	<string>QLColorCode</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.1.1</string>
+	<string>4.1.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3.1.1</string>
+	<string>4.1.0</string>
 	<key>CFPlugInDynamicRegisterFunction</key>
 	<string></string>
 	<key>CFPlugInDynamicRegistration</key>
@@ -130,17 +140,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E801a</string>
+	<string>12C33</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.1</string>
 	<key>DTSDKBuild</key>
-	<string>19G68</string>
+	<string>20C63</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.1</string>
 	<key>DTXcode</key>
-	<string>1170</string>
+	<string>1230</string>
 	<key>DTXcodeBuild</key>
-	<string>11E801a</string>
+	<string>12C33</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
 	<key>QLNeedsToBeRunInMainThread</key>
@@ -1322,6 +1334,25 @@
 		<dict>
 			<key>UTTypeConformsTo</key>
 			<array>
+				<string>dyn.ah62d4rv4ge81k3x0qf3hg</string>
+				<string>dyn.ah62d4rv4ge81k3u</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>TensorFlow files</string>
+			<key>UTTypeIdentifier</key>
+			<string>org.tf.source</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>tfvars</string>
+					<string>tf</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
 				<string>dyn.ah62d4rv4ge80e2p4qz0a</string>
 				<string>dyn.ah62d4rv4ge80e8xq</string>
 			</array>
@@ -1348,6 +1379,7 @@
 				<string>dyn.ah62d4rv4ge81u7k</string>
 				<string>dyn.ah62d4rv4ge81u6pr</string>
 				<string>dyn.ah62d4rv4ge81u6k</string>
+				<string>dyn.ah62d4rv4ge81u65q</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>XSD/XQuery/XSL/XML Source File</string>
@@ -1364,6 +1396,23 @@
 					<string>xu</string>
 					<string>xqm</string>
 					<string>xq</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>dyn.ah62d4rv4ge81a63v</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>PowerShell</string>
+			<key>UTTypeIdentifier</key>
+			<string>org.powershell.source</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>ps1</string>
 				</array>
 			</dict>
 		</dict>

@@ -16,7 +16,9 @@ Pictures
 Public
 
 # Private matters
-.asdf
+hub
+.gitkraken/*
+.asdf/*
 .cisco
 .cups
 .docker
