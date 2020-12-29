@@ -14,6 +14,12 @@
       "/Users/ashkrosh/Projects/personal/alfred-workflow/.git",
       "/Users/ashkrosh/Projects/personal/outlook-sync/.git",
       "/Users/ashkrosh/Projects/personal/visor-for-kitty/.git"
+    ],
+    "/Users/ashkrosh/.dotfiles": [
+      "/Users/ashkrosh/.dotfiles/.git"
     ]
-  }
+  },
+  "localRepoCache": [
+    "/Users/ashkrosh/.dotfiles/.git"
+  ]
 }

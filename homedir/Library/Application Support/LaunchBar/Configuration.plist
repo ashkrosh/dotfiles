@@ -34,6 +34,7 @@
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/internal docs/jira help</string>
 		<string>ODLBPathItem:/Applications/ZoomOutlookPlugin/Uninstall.app</string>
 		<string>ODLBPathItem:/Applications/Utilities/Adobe AIR Application Installer.app</string>
+		<string>ODLBPathItem:/System/Applications/Stocks.app</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/current projetcts/tic/financial</string>
 		<string>ODLBPathItem:/Applications/Microsoft Office 2011/Office/Microsoft Upload Center.app</string>
 		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/Print Window With Subfolders.scpt</string>
@@ -46,7 +47,6 @@
 		<string>ODLBServiceItem:cx.c3.theunarchiver - The Unarchiver/Unarchive To Current Folder</string>
 		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/String Comparison/Ignoring Clause.scpt</string>
 		<string>ODLBSearchTemplateItem:E65CD1E6-9A02-403A-A45E-8A912A9E40D5</string>
-		<string>ODLBPathItem:~/Dropbox</string>
 		<string>ODLBServiceItem:com.goagentx.GoAgentX - Add to GoAgentX Rules using Direct Connection</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/group buying for Turkey</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./Boodschapp</string>
@@ -128,7 +128,6 @@
 		<string>ODLBServiceItem:com.evernote.Evernote - Add to Evernote</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Products/Mobile Event Manager</string>
 		<string>ODLBSearchTemplateItem:29E9C3D6-1B16-44BC-985B-CB948CBE89F6</string>
-		<string>ODLBSharingServiceAction:com.flexibits.fantastical2.mac.share-extension</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/References</string>
 		<string>ODLBScriptAction:at.obdev.LaunchBar.action.iTunesPreviousSong</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Public/10K Bootcamp MP3s/Week-5-MP3</string>
@@ -344,6 +343,7 @@
 		<string>ODLBServiceItem:com.apple.FolderActionsSetup - Folder Actions Setup</string>
 		<string>ODLBPlaylist:AB971553E9FE1B57</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/Reza Rahimi (ADP)</string>
+		<string>ODLBPathItem:/Applications/Suspicious Package.app</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Ops Plans/Mobile</string>
 		<string>ODLBServiceItem:com.apple.Stickies - Make Sticky</string>
 		<string>ODLBServiceItem:org.grunenberg.EasyFind - EasyFind: Find Selection...</string>
@@ -473,6 +473,7 @@
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/shahrdari</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Philips/Approved Timesheets/05-2016</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/References/Websites</string>
+		<string>ODLBPathItem:/System/Applications/News.app</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR</string>
 		<string>ODLBCalendarItem:F70B9B95-238A-4FDA-8652-00AEE2DC2254</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/orumieh university/ecm</string>
@@ -512,6 +513,7 @@
 		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 1 Btn OK.scpt</string>
 		<string>ODLBPathItem:/Library/Scripts/Folder Action Scripts/close - close sub-folders.scpt</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Ysura gmbh</string>
+		<string>ODLBSearchTemplateItem:4BA9B368-190B-4DB6-A70C-BE5017125896</string>
 		<string>ODLBPathItem:/Applications/Utilities/Audio MIDI Setup.app</string>
 		<string>ODLBServiceItem:com.apple.ChineseTextConverterService - Convert Text to Half Width</string>
 		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Current Time (24-hour).txt</string>
@@ -614,6 +616,7 @@
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR/vacancy texts</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/modules/dashboard</string>
 		<string>ODLBPathItem:/Applications/NewTek/LightWave3D11.0/support/3rdparty_support/GoZ/LightWaveModeler</string>
+		<string>ODLBPathItem:/System/Applications/Music.app</string>
 		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/iChat Available.scpt</string>
 		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/old platform/Most important 20% issues.gsheet</string>
@@ -662,7 +665,9 @@
 		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-ios-clang/Info.plist.app</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/park</string>
 		<string>ODLBServiceItem:com.ranchero.NetNewsWire - Subscribe in NetNewsWire</string>
+		<string>ODLBPathItem:/System/Applications/Photos.app</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Hamkharid/infographics</string>
+		<string>ODLBUserAccountItem:501:ashkrosh</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/ghavvamin</string>
 		<string>ODLBPathItem:/Library/Scripts/UI Element Scripts/Set Output Volume.applescript</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/pn/e-voucher proposal</string>
@@ -750,6 +755,7 @@
 		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Current Time (AM:PM).txt</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/Sequence</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/⛔️ Classified ⛔️</string>
+		<string>ODLBPathItem:/System/Applications/Utilities/Screenshot.app</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/iCoffee</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/North America/Atomic Learning</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/World Economic Forum</string>
@@ -785,6 +791,7 @@
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/⛔️ Classified ⛔️/$ Dashboard!.gsheet</string>
 		<string>ODLBPathItem:~/Google Drive/Personal 🙋🏻‍♂️/خرید ماشین.gsheet</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Philips/Approved Timesheets/06-2016</string>
+		<string>ODLBPathItem:/Volumes/WhatsApp Installer</string>
 		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?artistTerm=*</string>
 		<string>ODLBSearchTemplateItem:96C00D63-66CD-4AB0-AD9C-48F35767F03F</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/alo iran</string>
@@ -869,6 +876,7 @@
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Resumes</string>
 		<string>ODLBPathItem:~/Library/Scripts/Address Book Scripts/Export Addresses….scpt</string>
 		<string>ODLBScriptAction:at.obdev.LaunchBar.action.CallWithSkype</string>
+		<string>ODLBSearchTemplateItem:A1E1E9E8-699C-43AE-BE25-E01646699126</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/keshavarzi bank</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Family/photo/Fereshteh/new</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/sanat afarin</string>
@@ -1142,6 +1150,7 @@
 		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Dialogs/Dialog - 2 Btns 2 Actions.scpt</string>
 		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Snippets/Enclose in “Typographic Quotes”.txt</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/YNAB/Miki &amp; Diki living~B33F027B.ynab4</string>
+		<string>ODLBPathItem:/System/Applications/Podcasts.app</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Virtual Assitant 👩🏻‍🏫/Sales/Fashion Companies Market Research.gsheet</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/presentations</string>
 		<string>ODLBPathItem:~/Library/Scripts/Phone Amego Scripts/Speak CallerID.scpt</string>
@@ -1161,19 +1170,117 @@
 	<array>
 		<dict>
 			<key>className</key>
-			<string>ODLBThemesRule</string>
+			<string>ODLBMountedVolumesRule</string>
 		</dict>
 		<dict>
-			<key>abbreviatedPath</key>
-			<string>~/Desktop</string>
 			<key>className</key>
-			<string>ODLBFolderContentsRule</string>
+			<string>ODLBEmojiRule</string>
 		</dict>
 		<dict>
 			<key>abbreviatedPath</key>
 			<string>_safariHistoryPath</string>
 			<key>className</key>
 			<string>ODLBHistoryRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBReminderListsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBOnePasswordRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBWorkflowsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+			<key>subfolderLevels</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBThemesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBPrefPanesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBServicesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBActionsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBTransmitRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Dropbox</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+			<key>excludeAliases</key>
+			<integer>1</integer>
+			<key>skipQualifiers</key>
+			<array>
+				<string>./- Family/[ARCHIVED] - Family</string>
+				<string>./*** Migration</string>
+				<string>./- Founded/[ARCHIVED] - Business</string>
+				<string>./Apps</string>
+				<string>./Exports/MyVault.hvault</string>
+				<string>./Fereshteh</string>
+				<string>./Screenshots</string>
+			</array>
+			<key>subfolderLevels</key>
+			<integer>3</integer>
+			<key>typeCollectionIdentifier</key>
+			<string>@folder</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBDockRule</string>
+			<key>includeApplications</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBSnippetsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBNetworkLocationsRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBSafariCloudTabsRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedSpecificPlaces</key>
+			<array>
+				<string>/Applications</string>
+			</array>
+			<key>className</key>
+			<string>ODLBApplicationsRule</string>
+			<key>useSpotlightIndex</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>className</key>
@@ -1510,6 +1617,14 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>Lucky Google</string>
+					<key>templateURL</key>
+					<string>https://www.google.com/search?btnI&amp;q=*</string>
+					<key>uuid</key>
+					<string>04E88729-4AEF-41A2-AA71-D6F5E9B141AB</string>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>Lycos</string>
 					<key>templateURL</key>
 					<string>http://search.lycos.com/?query=*</string>
@@ -1526,27 +1641,11 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>MacUpdate</string>
-					<key>templateURL</key>
-					<string>https://www.macupdate.com/find/mac/context%3D*</string>
-					<key>uuid</key>
-					<string>A5C12C90-9FFB-4F0C-A6EF-210441BB13EF</string>
-				</dict>
-				<dict>
-					<key>name</key>
 					<string>nc</string>
 					<key>templateURL</key>
 					<string>https://www.namecheap.com/domains/registration/results/?domain=*</string>
 					<key>uuid</key>
 					<string>EF59FD04-46AD-4F01-9C44-FBB7D37879BB</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>Lucky Google</string>
-					<key>templateURL</key>
-					<string>https://www.google.com/search?btnI&amp;q=*</string>
-					<key>uuid</key>
-					<string>04E88729-4AEF-41A2-AA71-D6F5E9B141AB</string>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -1799,6 +1898,58 @@
 			</array>
 		</dict>
 		<dict>
+			<key>className</key>
+			<string>ODLBCategoriesRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Desktop</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>_safariBookmarksPath</string>
+			<key>className</key>
+			<string>ODLBBookmarksRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBUserAccountsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBManagedSearchTemplatesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBContactsRule</string>
+			<key>includeCompanies</key>
+			<integer>0</integer>
+			<key>includeDepartments</key>
+			<integer>0</integer>
+			<key>includeGroups</key>
+			<integer>0</integer>
+			<key>includeJobTitles</key>
+			<integer>0</integer>
+			<key>includeMiddleName</key>
+			<integer>0</integer>
+			<key>includePreviousRecipients</key>
+			<integer>0</integer>
+			<key>includeTitle</key>
+			<integer>0</integer>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Downloads</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+		</dict>
+		<dict>
 			<key>aliasName</key>
 			<string>Unix Directories</string>
 			<key>className</key>
@@ -1816,36 +1967,6 @@
 				<string>/usr/sbin</string>
 				<string>/var</string>
 			</array>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBUserAccountsRule</string>
-		</dict>
-		<dict>
-			<key>abbreviatedPath</key>
-			<string>_safariBookmarksPath</string>
-			<key>className</key>
-			<string>ODLBBookmarksRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBCategoriesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBOnePasswordRule</string>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBReminderListsRule</string>
-			<key>enabled</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBServicesRule</string>
 		</dict>
 		<dict>
 			<key>aliasName</key>
@@ -1870,94 +1991,6 @@
 				<string>/usr/bin/uptime</string>
 			</array>
 		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBEmojiRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBSnippetsRule</string>
-			<key>enabled</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBContactsRule</string>
-			<key>includeCompanies</key>
-			<integer>0</integer>
-			<key>includeDepartments</key>
-			<integer>0</integer>
-			<key>includeGroups</key>
-			<integer>0</integer>
-			<key>includeJobTitles</key>
-			<integer>0</integer>
-			<key>includeMiddleName</key>
-			<integer>0</integer>
-			<key>includePreviousRecipients</key>
-			<integer>0</integer>
-			<key>includeTitle</key>
-			<integer>0</integer>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBPrefPanesRule</string>
-		</dict>
-		<dict>
-			<key>abbreviatedPath</key>
-			<string>~</string>
-			<key>className</key>
-			<string>ODLBFolderContentsRule</string>
-			<key>subfolderLevels</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBManagedSearchTemplatesRule</string>
-		</dict>
-		<dict>
-			<key>abbreviatedSpecificPlaces</key>
-			<array>
-				<string>/Applications</string>
-			</array>
-			<key>className</key>
-			<string>ODLBApplicationsRule</string>
-			<key>useSpotlightIndex</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBNetworkLocationsRule</string>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>abbreviatedPath</key>
-			<string>~/Downloads</string>
-			<key>className</key>
-			<string>ODLBFolderContentsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBActionsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBTransmitRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBWorkflowsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBSafariCloudTabsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBMountedVolumesRule</string>
-		</dict>
 	</array>
 	<key>typeCollections</key>
 	<array>
@@ -1979,14 +2012,6 @@
 		</dict>
 		<dict>
 			<key>definition</key>
-			<string>'CWWP', cwk</string>
-			<key>identifier</key>
-			<string>3</string>
-			<key>name</key>
-			<string>AppleWorks Documents</string>
-		</dict>
-		<dict>
-			<key>definition</key>
 			<string>gsheet</string>
 			<key>identifier</key>
 			<string>5</string>
@@ -2000,6 +2025,14 @@
 			<string>4</string>
 			<key>name</key>
 			<string>MS Office Documents</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>'CWWP', cwk</string>
+			<key>identifier</key>
+			<string>3</string>
+			<key>name</key>
+			<string>AppleWorks Documents</string>
 		</dict>
 	</array>
 	<key>version</key>

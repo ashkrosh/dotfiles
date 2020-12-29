@@ -17,6 +17,12 @@ POWERLEVEL9K_SHOW_CHANGESET=true
 POWERLEVEL9K_TIME_FOREGROUND='208'
 
 
+# Choose between one [code, code-insiders or codium]
+# The following line will make the plugin to open VS Code Insiders
+# Invalid entries will be ignored, no aliases will be added
+VSCODE=codium
+
+
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
 
@@ -37,27 +43,10 @@ export ZSH_DISABLE_COMPFIX="true"
 # antibody bundle < $HOME/.zsh_plugins.txt
 
 # Static loading plugins is faster. Just remember to run 'zubndle' after adding your plugin to .zsh_plugins.txt
-source $HOME/.zplugins
+. $HOME/.zplugins
 
 # Makes sure the auto-completions are case insensitive - http://tinyurl.com/y286kgcp
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
-
-
-##########################################################
-# NVM
-##########################################################
-# source /usr/local/opt/nvm/nvm.sh
-#
-# autoload -U add-zsh-hook
-# load-nvmrc() {
-#   if [[ -f .nvmrc && -r .nvmrc ]]; then
-#     nvm use &> /dev/null
-#   elif [[ $(nvm version) != $(nvm version default)  ]]; then
-#     nvm use default &> /dev/null
-#   fi
-# }
-# add-zsh-hook chpwd load-nvmrc
-# load-nvmrc
 
 ##########################################################
 # Misc settings
@@ -99,7 +88,7 @@ source ~/.p10k.zsh
 #https://github.com/asdf-vm/asdf
 # brew cask install asdf
 source /usr/local/opt/asdf/asdf.sh
-# source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 # fuzzy search by z
 . /usr/local/opt/z/etc/profile.d/z.sh

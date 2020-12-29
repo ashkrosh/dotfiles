@@ -25,6 +25,37 @@ module.exports = {
     url: {
       host: "smile.amazon.com"
     }
+  },
+
+  {    
+    match: "amazon.de*",
+    url: {
+      host: "smile.amazon.de"
+    }
+  },
+
+  {
+    // https://github.com/johnste/finicky/issues/96
+    // Redirect all https://slack.com/app_redirect?team=team=apegroup&channel=random 
+    // to slack://channel?team=apegroup&id=random
+    match: ({ url }) => url.host.includes("slack.com") && url.pathname.includes("app_redirect"),
+    url({ url }) {
+      const team = url.search.split('&').filter(part => part.startsWith('team'));
+      var channel = "" + url.search.split('&').filter(part => part.startsWith('channel'));
+      var id = channel.replace("channel", "id");
+
+      return {
+          protocol: "slack",
+          username: "",
+          password: "",
+          host: "channel",
+          port: null,
+          pathname: "",
+          search : team + '&' + id,
+          hash: ""
+      }
+      
+    }
   }
 ],
 
@@ -47,7 +78,7 @@ handlers: [
   },
   {
     // Open LinkedIn and Sales Navigator in Google Chrome
-    match: "https://*.LinkedIn.com/*",
+    match: "https://*.Linkedin.com/*",
     browser: "Google Chrome"
   }
 ]   

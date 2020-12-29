@@ -7,7 +7,9 @@
       },
       {
         "id": "c147921d-fc47-40a6-a6b1-cdc2ad922df8",
-        "type": "NEW"
+        "type": "REPO",
+        "repoName": ".dotfiles",
+        "repoPath": "/Users/ashkrosh/.dotfiles/"
       }
     ],
     "selectedTabId": "c147921d-fc47-40a6-a6b1-cdc2ad922df8"
@@ -25,6 +27,7 @@
   "projectGroupNamesByDirectory": {
     "/Users/ashkrosh/Projects/amazon": "amazon",
     "/Users/ashkrosh/Projects/datachef": "datachef",
-    "/Users/ashkrosh/Projects/personal": "personal"
+    "/Users/ashkrosh/Projects/personal": "personal",
+    "/Users/ashkrosh/.dotfiles": ".dotfiles"
   }
 }

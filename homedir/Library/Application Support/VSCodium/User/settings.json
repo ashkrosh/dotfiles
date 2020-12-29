@@ -1,6 +1,6 @@
 {
-    "window.zoomLevel": 2,
-    "workbench.colorTheme": "Monokai Pro",
-    "workbench.iconTheme": "Monokai Pro Icons",
-    "git.allowForcePush": true
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Ayu Mirage",
+    "git.allowForcePush": true,
+    "workbench.iconTheme": "ayu"
 }
