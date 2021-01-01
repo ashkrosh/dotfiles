@@ -19,7 +19,8 @@ caarlos0/ports
 
 
 # Themes
-romkatv/powerlevel10k
+denysdovhan/spaceship-prompt
+# romkatv/powerlevel10k
 # hiroru/senpai-zsh
 # subnixr/minimal
 # jackharrisonsherlock/common

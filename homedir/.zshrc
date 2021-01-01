@@ -83,7 +83,7 @@ fi;
 # fpath=(/usr/local/share/zsh-completions $fpath)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-source ~/.p10k.zsh
+# source ~/.p10k.zsh
 
 #https://github.com/asdf-vm/asdf
 # brew cask install asdf
@@ -106,5 +106,5 @@ eval "$(thefuck --alias)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
-# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

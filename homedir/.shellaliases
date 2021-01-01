@@ -163,10 +163,10 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias cdb='cd $(brew --prefix)'
 alias cdd="cd $HOME/.dotfiles"
-alias cdl="cd $HOME/Library"
+alias cdlib="cd $HOME/Library"
 alias cdp="cd $HOME/Projects/"
-alias dl="cd $HOME/Downloads"
-alias dt="cd $HOME/Desktop"
+alias cdl="cd $HOME/Downloads"
+alias cds="cd $HOME/Desktop"
 alias croot='cd "$(git rev-parse --show-toplevel)"'
 
 
@@ -193,15 +193,16 @@ alias egrep='egrep --color=auto'
 
 
 # alias pubkey="pbcopy < $HOME/.ssh/id_rsa.pub"
-alias ppubkey="pbcopy < $HOME/.ssh/personal.pub"
-alias apubkey="pbcopy < $HOME/.ssh/amazon.pub"
+alias pubkey="pbcopy < $HOME/.ssh/personal.pub | echo '=> Personal public key copied to pasteboard.'"
+alias apubkey="pbcopy < $HOME/.ssh/amazon.pub | echo '=> AWS public key copied to pasteboard.'"
+# alias pubkey="cat $HOME/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 # alias mate='mate "`pwd`"'
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias zbundle="antibody bundle < $HOME/.zsh_plugins.txt > $HOME/.zplugins"
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
-alias killch="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+alias killch="ps -aux | grep '[C]hrome Helper (Renderer)' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 # Gzip-enabled `curl`
 alias gurl='curl --compressed'
 # Get week number
@@ -241,7 +242,7 @@ alias bzip='bzip2'
 alias topc='top -o cpu'
 alias topm='top -o vsize'
 alias ping='ping -a'
-alias ps='ps auxc'
+alias ps='ps -auxc'
 alias e='$EDITOR $@'
 alias sl="screen -ls"
 # alias fuck='eval $(thefuck $(fc -ln -1))'
@@ -270,4 +271,5 @@ alias todos='ack --nobreak --nocolor "(TODO|FIXME):"|sed -E "s/(.*:[[:digit:]]+)
 alias ql="qlmanage -px &>/dev/null"
 
 # Send attachments via MailPlane. example: mp file1 file2 [...]
-alias mp='open -a Mailplane'
+# alias mp='open -a Mailplane'
+
