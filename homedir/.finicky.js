@@ -80,6 +80,11 @@ handlers: [
     // Open LinkedIn and Sales Navigator in Google Chrome
     match: "https://*.Linkedin.com/*",
     browser: "Google Chrome"
+  },
+  {
+    // Open Notion links in native app
+    match: "https://www.notion.so/datachef/*",
+    browser: "Notion",
   }
 ]   
 
