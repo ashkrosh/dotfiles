@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Campaign</key>
+	<string>App Store Crossgrade</string>
+	<key>E-Mail</key>
+	<string>ashkan.roshanayi@gmail.com</string>
+	<key>Name</key>
+	<string>Ashkan Roshanayi</string>
+	<key>Signature</key>
+	<data>
+	TvgnZwh20eVwhDPutqahXDIhA+DQSKl2H3G9tvInU2kbGsMfWjQus1hdU9AzDxNdef85
+	m38yVLp6CF6SzdqbMONOWzt4oGmgIC71/N5wg/RNq8flECHR1hVt/Ox2dw+mXW4MmeNg
+	OfYA1IfTdNdQia6bURnG0jxVDPgngM+pt/k=
+	</data>
+	<key>Unix Timestamp</key>
+	<string>1532519404</string>
+</dict>
+</plist>

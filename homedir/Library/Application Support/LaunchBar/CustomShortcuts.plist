@@ -5,7 +5,12 @@
 	<key>itemIdentifierVersion</key>
 	<integer>4294967303</integer>
 	<key>shortcuts</key>
-	<dict/>
+	<dict>
+		<key>ODLBSearchTemplateItem:924D3414-2879-4981-8933-7C9195D740C1</key>
+		<string>ss</string>
+		<key>ODLBServiceItem:com.twopeoplesoftware.Instant-Translate-setapp - Translate with Mate Translate</key>
+		<string>mtr</string>
+	</dict>
 	<key>version</key>
 	<integer>1</integer>
 </dict>

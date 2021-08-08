@@ -135,6 +135,7 @@
 		<string>ODLBSharingServiceAction:com.apple.share.Video.upload-Vimeo</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/logo &amp; stationary</string>
 		<string>ODLBClearTextInputHistoryAction</string>
+		<string>ODLBPathItem:~/Dropbox/Movies/Alive Inside (2014) [1080p]</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/Tender information</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Family/photo/Fereshteh</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Tosan/plan for beygi</string>
@@ -151,11 +152,13 @@
 		<string>ODLBPathItem:~/gotfiles</string>
 		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/SVN Copy.scpt</string>
 		<string>ODLBPathItem:/Applications/Mail.app</string>
+		<string>ODLBPathItem:~/Dropbox/HelloSign/Requested signatures</string>
 		<string>ODLBPathItem:/Applications/Utilities/QuickTime Player 7.app</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/World Steel Org</string>
 		<string>ODLBSearchTemplateItem:EAA54B2E-8B53-4746-8B34-377F902C50FE</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/startoop</string>
 		<string>ODLBPathItem:/Library/Scripts/VoiceOver/Unread Message Count.applescript</string>
+		<string>ODLBPathItem:~/Dropbox/Movies/Perfect Strangers (f8ffc267d3bd.ant.amazon.com's conflicted copy 2020-06-19)</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/wiki</string>
 		<string>ODLBUserAccountItem:502:admin</string>
 		<string>ODLBPathItem:/Library/PreferencePanes/Flash Player.prefPane</string>
@@ -326,6 +329,7 @@
 		<string>ODLBSharingServiceAction:com.apple.Notes.SharingExtension</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Job application/Recommendations</string>
 		<string>ODLBPathItem:/Library/Scripts/Font Book/Create Italic collection.scpt</string>
+		<string>ODLBPathItem:~/Dropbox/HelloSign/Received</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Europe/MongoDB Ltd</string>
 		<string>ODLBServiceItem:(null) - Dial With iSoftPhone</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/Sample projects done by Rubako</string>
@@ -379,6 +383,7 @@
 		<string>ODLBPathItem:/Applications/Mission Control.app</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/IceBox ☃️/🔥🔥🔥 IranTransfers.money/Dev</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/amin/business valuation/final proposal</string>
+		<string>ODLBPathItem:~/Dropbox/HelloSign</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Terminated. 💩./BirdsEarly/⛔️ Classified ⛔️</string>
 		<string>ODLBPathItem:~/Library/Application Support/LaunchBar/Actions/current.scpt</string>
 		<string>ODLBCalendarItem:F2123F2E-842C-4FF3-8D11-75D6678003CD</string>
@@ -475,6 +480,7 @@
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/References/Websites</string>
 		<string>ODLBPathItem:/System/Applications/News.app</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Livecom/HR</string>
+		<string>ODLBPathItem:~/Dropbox/HelloSign/Signed and returned by you</string>
 		<string>ODLBCalendarItem:F70B9B95-238A-4FDA-8652-00AEE2DC2254</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/archive/orumieh university/ecm</string>
 		<string>ODLBPathItem:@/Contents/Resources/Actions/Rotate 180°.scpt</string>
@@ -501,6 +507,7 @@
 		<string>ODLBServiceItem:com.apple.ScriptEditor2 - Script Editor/Get Result of AppleScript</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Talia/چوبی</string>
 		<string>ODLBSearchTemplateItem:http://www.alltheweb.com/search?cat=vid&amp;q=*</string>
+		<string>ODLBPathItem:~/Dropbox/HelloSign/Declined requests</string>
 		<string>ODLBSearchTemplateItem:53FEDDE0-056A-4371-845C-83475173A7A4</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sematec/Quizes/Java</string>
 		<string>ODLBPathItem:~/Dropbox (FoundersBuddy)/FoundersBuddy Team Folder/Images:PSDs/StartupVitamin-Bundle/04 Life is short</string>
@@ -660,12 +667,14 @@
 		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Error Handlers/Message and OK.scpt</string>
 		<string>ODLBCalendarItem:79634A64-94ED-486C-9958-EC3D15A8C5A3</string>
 		<string>ODLBPathItem:~/Dropbox (Personal)/Family/Avina turns into 4.screenflow</string>
+		<string>ODLBPathItem:~/Dropbox/Content/Daily English</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Cirqle/Alpha Roadmap.gsheet</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/carane</string>
 		<string>ODLBPathItem:/usr/local/Cellar/qt/5.8.0_1/mkspecs/macx-ios-clang/Info.plist.app</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/park</string>
 		<string>ODLBServiceItem:com.ranchero.NetNewsWire - Subscribe in NetNewsWire</string>
 		<string>ODLBPathItem:/System/Applications/Photos.app</string>
+		<string>ODLBPathItem:~/Dropbox/Movies/Alive Inside (2014) [1080p] (f8ffc267d3bd.ant.amazon.com's conflicted copy 2020-06-19)</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Successfully Delivered  ✅/Hamkharid/infographics</string>
 		<string>ODLBUserAccountItem:501:ashkrosh</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/ghavvamin</string>
@@ -972,6 +981,7 @@
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sematec/Quizes</string>
 		<string>ODLBPathItem:/Library/Scripts/Printing Scripts/Convert To PostScript.scpt</string>
 		<string>ODLBSearchTemplateItem:EC14BC18-6AF3-4651-916E-D01EDB6CAF65</string>
+		<string>ODLBPathItem:~/Dropbox/Movies/Wild Tales (f8ffc267d3bd.ant.amazon.com's conflicted copy 2020-06-19)</string>
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Sytac/Kevin Domain Model.gdraw</string>
 		<string>ODLBServiceItem:com.macpaw.CleanMyMac2 - Scan for Large and Old Files</string>
 		<string>ODLBPathItem:~/Documents/mfs/Rubako/hr/resume/3-Proficient/Darioush Jalali/build/classes/arrays</string>
@@ -1138,6 +1148,7 @@
 		<string>ODLBPathItem:~/Google Drive/References [Archival] 🗂/Trifork/Templates/OLD</string>
 		<string>ODLBPathItem:/Library/Scripts/Font Book/Create collection from/Copyright.scpt</string>
 		<string>ODLBPathItem:~/Google Drive/FoundersBuddy 🎰/Rubako/projects &amp; proposals/saho</string>
+		<string>ODLBPathItem:~/Dropbox/HelloSign/Sent</string>
 		<string>ODLBPathItem:/Library/Scripts/Script Editor Scripts/Repeat Routines/Special Case Last Item.scpt</string>
 		<string>ODLBSearchTemplateItem:itms://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=*</string>
 		<string>ODLBPathItem:/Applications/NewTek/LightWave3D11.0</string>
@@ -1174,31 +1185,25 @@
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBEmojiRule</string>
-		</dict>
-		<dict>
-			<key>abbreviatedPath</key>
-			<string>_safariHistoryPath</string>
-			<key>className</key>
-			<string>ODLBHistoryRule</string>
+			<string>ODLBSafariCloudTabsRule</string>
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBReminderListsRule</string>
+			<string>ODLBManagedSearchTemplatesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBTransmitRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBSnippetsRule</string>
 			<key>enabled</key>
 			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBOnePasswordRule</string>
-			<key>subsearchOnly</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBWorkflowsRule</string>
-			<key>enabled</key>
-			<integer>0</integer>
+			<string>ODLBServicesRule</string>
 		</dict>
 		<dict>
 			<key>abbreviatedPath</key>
@@ -1210,76 +1215,51 @@
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBThemesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBPrefPanesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBServicesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBActionsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBTransmitRule</string>
-		</dict>
-		<dict>
-			<key>abbreviatedPath</key>
-			<string>~/Dropbox</string>
-			<key>className</key>
-			<string>ODLBFolderContentsRule</string>
-			<key>excludeAliases</key>
-			<integer>1</integer>
-			<key>skipQualifiers</key>
-			<array>
-				<string>./- Family/[ARCHIVED] - Family</string>
-				<string>./*** Migration</string>
-				<string>./- Founded/[ARCHIVED] - Business</string>
-				<string>./Apps</string>
-				<string>./Exports/MyVault.hvault</string>
-				<string>./Fereshteh</string>
-				<string>./Screenshots</string>
-			</array>
-			<key>subfolderLevels</key>
-			<integer>3</integer>
-			<key>typeCollectionIdentifier</key>
-			<string>@folder</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBDockRule</string>
-			<key>includeApplications</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBSnippetsRule</string>
-			<key>enabled</key>
+			<string>ODLBContactsRule</string>
+			<key>includeCompanies</key>
 			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBNetworkLocationsRule</string>
+			<key>includeDepartments</key>
+			<integer>0</integer>
+			<key>includeGroups</key>
+			<integer>0</integer>
+			<key>includeJobTitles</key>
+			<integer>0</integer>
+			<key>includeMiddleName</key>
+			<integer>0</integer>
+			<key>includePreviousRecipients</key>
+			<integer>0</integer>
+			<key>includeTitle</key>
+			<integer>0</integer>
 			<key>subsearchOnly</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBSafariCloudTabsRule</string>
+			<string>ODLBCategoriesRule</string>
 		</dict>
 		<dict>
-			<key>abbreviatedSpecificPlaces</key>
-			<array>
-				<string>/Applications</string>
-			</array>
+			<key>aliasName</key>
+			<string>Unix Directories</string>
 			<key>className</key>
-			<string>ODLBApplicationsRule</string>
-			<key>useSpotlightIndex</key>
+			<string>ODLBListRule</string>
+			<key>list</key>
+			<array>
+				<string>/bin</string>
+				<string>/etc</string>
+				<string>/sbin</string>
+				<string>/tmp</string>
+				<string>/usr</string>
+				<string>/usr/bin</string>
+				<string>/usr/local</string>
+				<string>/usr/local/bin</string>
+				<string>/usr/sbin</string>
+				<string>/var</string>
+			</array>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBNetworkLocationsRule</string>
+			<key>subsearchOnly</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
@@ -1899,9 +1879,13 @@
 		</dict>
 		<dict>
 			<key>className</key>
-			<string>ODLBCategoriesRule</string>
-			<key>enabled</key>
-			<integer>0</integer>
+			<string>ODLBEmojiRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>_chromeBookmarksPath</string>
+			<key>className</key>
+			<string>ODLBBookmarksRule</string>
 		</dict>
 		<dict>
 			<key>abbreviatedPath</key>
@@ -1910,63 +1894,110 @@
 			<string>ODLBFolderContentsRule</string>
 		</dict>
 		<dict>
-			<key>abbreviatedPath</key>
-			<string>_safariBookmarksPath</string>
+			<key>abbreviatedSpecificPlaces</key>
+			<array>
+				<string>/Applications</string>
+			</array>
 			<key>className</key>
-			<string>ODLBBookmarksRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBUserAccountsRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBManagedSearchTemplatesRule</string>
-		</dict>
-		<dict>
-			<key>className</key>
-			<string>ODLBContactsRule</string>
-			<key>includeCompanies</key>
-			<integer>0</integer>
-			<key>includeDepartments</key>
-			<integer>0</integer>
-			<key>includeGroups</key>
-			<integer>0</integer>
-			<key>includeJobTitles</key>
-			<integer>0</integer>
-			<key>includeMiddleName</key>
-			<integer>0</integer>
-			<key>includePreviousRecipients</key>
-			<integer>0</integer>
-			<key>includeTitle</key>
-			<integer>0</integer>
-			<key>subsearchOnly</key>
+			<string>ODLBApplicationsRule</string>
+			<key>useSpotlightIndex</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBPrefPanesRule</string>
 		</dict>
 		<dict>
 			<key>abbreviatedPath</key>
 			<string>~/Downloads</string>
 			<key>className</key>
 			<string>ODLBFolderContentsRule</string>
+			<key>subfolderLevels</key>
+			<integer>3</integer>
+			<key>typeCollectionIdentifier</key>
+			<string>@any</string>
 		</dict>
 		<dict>
-			<key>aliasName</key>
-			<string>Unix Directories</string>
 			<key>className</key>
-			<string>ODLBListRule</string>
-			<key>list</key>
+			<string>ODLBOnePasswordRule</string>
+			<key>subsearchOnly</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>_chromeHistoryPath</string>
+			<key>className</key>
+			<string>ODLBHistoryRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBWorkflowsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>~/Dropbox</string>
+			<key>className</key>
+			<string>ODLBFolderContentsRule</string>
+			<key>excludeAliases</key>
+			<integer>1</integer>
+			<key>skipQualifiers</key>
 			<array>
-				<string>/bin</string>
-				<string>/etc</string>
-				<string>/sbin</string>
-				<string>/tmp</string>
-				<string>/usr</string>
-				<string>/usr/bin</string>
-				<string>/usr/local</string>
-				<string>/usr/local/bin</string>
-				<string>/usr/sbin</string>
-				<string>/var</string>
+				<string>./- Family/[ARCHIVED] - Family</string>
+				<string>./*** Migration</string>
+				<string>./- Founded/[ARCHIVED] - Business</string>
+				<string>./Apps</string>
+				<string>./Exports/MyVault.hvault</string>
+				<string>./Fereshteh</string>
+				<string>./Screenshots</string>
 			</array>
+			<key>subfolderLevels</key>
+			<integer>1</integer>
+			<key>typeCollectionIdentifier</key>
+			<string>@folder</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBThemesRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBActionsRule</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBUserAccountsRule</string>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>_safariHistoryPath</string>
+			<key>className</key>
+			<string>ODLBHistoryRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>abbreviatedPath</key>
+			<string>_safariBookmarksPath</string>
+			<key>className</key>
+			<string>ODLBBookmarksRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBReminderListsRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>ODLBDockRule</string>
+			<key>enabled</key>
+			<integer>0</integer>
+			<key>includeApplications</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>aliasName</key>
@@ -1996,30 +2027,6 @@
 	<array>
 		<dict>
 			<key>definition</key>
-			<string>htm, html, htmld</string>
-			<key>identifier</key>
-			<string>1</string>
-			<key>name</key>
-			<string>HTML Files</string>
-		</dict>
-		<dict>
-			<key>definition</key>
-			<string>c, cpp, h, java, m, nib, php, php3, php4, pl</string>
-			<key>identifier</key>
-			<string>2</string>
-			<key>name</key>
-			<string>Source Files</string>
-		</dict>
-		<dict>
-			<key>definition</key>
-			<string>gsheet</string>
-			<key>identifier</key>
-			<string>5</string>
-			<key>name</key>
-			<string>Google Sheets</string>
-		</dict>
-		<dict>
-			<key>definition</key>
 			<string>'RTF ', 'SLD8', 'TEXT', 'W6BN', 'W8BN', 'WDBN', 'XLS8', doc, docx, pps, ppsx, ppt, pptx, rtf, txt, xls, xlsx</string>
 			<key>identifier</key>
 			<string>4</string>
@@ -2033,6 +2040,30 @@
 			<string>3</string>
 			<key>name</key>
 			<string>AppleWorks Documents</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>htm, html, htmld</string>
+			<key>identifier</key>
+			<string>1</string>
+			<key>name</key>
+			<string>HTML Files</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>gsheet</string>
+			<key>identifier</key>
+			<string>5</string>
+			<key>name</key>
+			<string>Google Sheets</string>
+		</dict>
+		<dict>
+			<key>definition</key>
+			<string>c, cpp, h, java, m, nib, php, php3, php4, pl</string>
+			<key>identifier</key>
+			<string>2</string>
+			<key>name</key>
+			<string>Source Files</string>
 		</dict>
 	</array>
 	<key>version</key>
