@@ -197,15 +197,15 @@ RUBY_CONFIGURE_OPTS="--with-openssl-dir=`brew --prefix openssl` --with-readline-
 require_brew ruby
 # set zsh as the user login shell
 CURRENTSHELL=$(dscl . -read /Users/$USER UserShell | awk '{print $2}')
-if [[ "$CURRENTSHELL" != "/usr/local/bin/zsh" ]]; then
-  bot "setting newer homebrew zsh (/usr/local/bin/zsh) as your shell (password required)"
-  # sudo bash -c 'echo "/usr/local/bin/zsh" >> /etc/shells'
-  # chsh -s /usr/local/bin/zsh
-  sudo dscl . -change /Users/$USER UserShell $SHELL /usr/local/bin/zsh > /dev/null 2>&1
+if [[ "$CURRENTSHELL" != "/opt/homebrew/bin/zsh" ]]; then
+  bot "setting newer homebrew zsh (/opt/homebrew/bin/zsh) as your shell (password required)"
+  # sudo bash -c 'echo "/opt/homebrew/bin/zsh" >> /etc/shells'
+  # chsh -s /opt/homebrew/bin/zsh
+  sudo dscl . -change /Users/$USER UserShell $SHELL /opt/homebrew/bin/zsh > /dev/null 2>&1
   ok
 fi
 
-# UPDATE: I use antibody to install oh-my-zsh and poowerlevel10k thenno need to clone these repoositories directly.
+# UPDATE: I use antidote to install oh-my-zsh and poowerlevel10k thenno need to clone these repoositories directly.
 # Clone oh-my-zsh if doesn't exist
 # if [[ ! -d "./oh-my-zsh/oh-my-zsh.sh" ]]; then
 # 	git clone https://github.com/robbyrussell/oh-my-zsh.git oh-my-zsh
