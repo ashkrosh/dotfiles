@@ -1,8 +1,22 @@
 # Uncomment for profiling:
 # zmodload zsh/zprof
 
+source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
+
+
+# Lazy-load antidote and generate the static load file only when needed
+zsh_plugins=${ZDOTDIR:-$HOME}/.zsh_plugins
+if [[ ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
+  (
+    source /path-to-antidote/antidote.zsh
+    antidote bundle <${zsh_plugins}.txt >${zsh_plugins}.zsh
+  )
+fi
+source ${zsh_plugins}.zsh
+
+
 # Path to your oh-my-zsh configuration.
-export ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
+export ZSH="$(antinode home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
 # Set powerlevel10k prompt
 POWERLEVEL9K_MODE='awesome-fontconfig'
@@ -38,12 +52,9 @@ export DISABLE_AUTO_TITLE="true"
 # fix permission issues - see https://github.com/ohmyzsh/ohmyzsh/issues/6835#issuecomment-390216875
 export ZSH_DISABLE_COMPFIX="true"
 
-# Dynamic loading plugins
-# source <(antibody init)
-# antibody bundle < $HOME/.zsh_plugins.txt
 
 # Static loading plugins is faster. Just remember to run 'zubndle' after adding your plugin to .zsh_plugins.txt
-. $HOME/.zplugins
+# . $HOME/.zplugins
 
 # Makes sure the auto-completions are case insensitive - http://tinyurl.com/y286kgcp
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
@@ -86,15 +97,15 @@ fi;
 # source ~/.p10k.zsh
 
 #https://github.com/asdf-vm/asdf
-# brew cask install asdf
-source /usr/local/opt/asdf/asdf.sh
-source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+# brew install asdf
+# source /usr/local/opt/asdf/asdf.sh
+# source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 # fuzzy search by z
 . /usr/local/opt/z/etc/profile.d/z.sh
 
 #https://github.com/nvbn/thefuck
-# brew cask install thefuck
+# brew install thefuck
 eval "$(thefuck --alias)"
 
 
@@ -105,6 +116,4 @@ eval "$(thefuck --alias)"
 # zprof
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fpath+=${ZDOTDIR:-~}/.zsh_functions
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 

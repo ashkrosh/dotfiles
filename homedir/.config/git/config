@@ -2,7 +2,7 @@
 [credential]
 	helper = osxkeychain
 [core]
-	excludesfile = /Users/ashkrosh/.config/git/ignore
+	excludesfile = /Users/ashkan/.config/git/ignore
 [merge]
 	tool = vimdiff
 	conflictStyle = diff3
@@ -10,4 +10,4 @@
 	prompt = false
 [user]
 	name = Ashkan Roshanayi
-	email = ashkan.roshanayi@gmail.com
+	email = ashkan@datachef.co

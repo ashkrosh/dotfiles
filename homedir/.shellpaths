@@ -3,7 +3,7 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 
 ## GNU coreutils comes first in PATH - https://formulae.brew.sh/formula/coreutils
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+# export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 # My Scripts at current directory
 export PATH=.:$PATH

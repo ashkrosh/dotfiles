@@ -1,7 +1,7 @@
 module.exports = {
   brew: [
     'mackup --HEAD',
-    'getantibody/tap/antibody',  // Antibody - fastest zsh plugin manager
+    // 'getantibody/tap/antibody',  // Antibody - fastest zsh plugin manager -- DEPRECIATED
     'awscli',
     // Better altenatives for `find` 
     'ack',  // Ack - http://conqueringthecommandline.com/book/ack_ag

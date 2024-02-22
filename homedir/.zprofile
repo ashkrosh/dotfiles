@@ -94,3 +94,5 @@ typeset -gU cdpath fpath path
 #   /usr/local/{bin,sbin}
 #   $path
 # )
+
+# eval "$(/opt/homebrew/bin/brew shellenv)"

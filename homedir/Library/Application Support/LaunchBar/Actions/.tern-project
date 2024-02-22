@@ -1,5 +1,0 @@
-{
-    "loadEagerly": [
-        "shared/*.js"
-    ]
-}
