@@ -346,21 +346,22 @@ ok
 #   0 = off
 #   1 = on for specific sevices
 #   2 = on for essential services
-sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+running "Enabling Firewall"
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 2
 
 # Enable firewall stealth mode (no response to ICMP / ping requests)
 # Source: https://support.apple.com/kb/PH18642
-sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
+# sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 
 # Enable firewall logging
-sudo defaults write /Library/Preferences/com.apple.alf loggingenabled -int 1
+# sudo defaults write /Library/Preferences/com.apple.alf loggingenabled -int 1
 
 # Do not automatically allow signed software to receive incoming connections
-sudo defaults write /Library/Preferences/com.apple.alf allowsignedenabled -bool false
+# sudo defaults write /Library/Preferences/com.apple.alf allowsignedenabled -bool false
 
 # Log firewall events for 90 days
-sudo perl -p -i -e 's/rotate=seq compress file_max=5M all_max=50M/rotate=utc compress file_max=5M ttl=90/g' "/etc/asl.conf"
-sudo perl -p -i -e 's/appfirewall.log file_max=5M all_max=50M/appfirewall.log rotate=utc compress file_max=5M ttl=90/g' "/etc/asl.conf"
+# sudo perl -p -i -e 's/rotate=seq compress file_max=5M all_max=50M/rotate=utc compress file_max=5M ttl=90/g' "/etc/asl.conf"
+# sudo perl -p -i -e 's/appfirewall.log file_max=5M all_max=50M/appfirewall.log rotate=utc compress file_max=5M ttl=90/g' "/etc/asl.conf"
 
 # Reload the firewall
 # (uncomment if above is not commented out)
@@ -406,20 +407,20 @@ sudo systemsetup -setwakeonnetworkaccess off
 sudo defaults write /Library/Preferences/com.apple.loginwindow GuestEnabled -bool false
 
 # Automatically lock the login keychain for inactivity after 6 hours
-# security set-keychain-settings -t 21600 -l ~/Library/Keychains/login.keychain
+security set-keychain-settings -t 21600 -l ~/Library/Keychains/login.keychain
 
 # Destroy FileVault key when going into standby mode, forcing a re-auth.
 # Source: https://web.archive.org/web/20160114141929/http://training.apple.com/pdf/WP_FileVault2.pdf
 #sudo pmset destroyfvkeyonstandby 1
 
 # Disable Bonjour multicast advertisements
-sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool true
+# sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool true
 
 # Disable diagnostic reports
 sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.SubmitDiagInfo.plist
 
 # Log authentication events for 90 days
-#sudo perl -p -i -e 's/rotate=seq file_max=5M all_max=20M/rotate=utc file_max=5M ttl=90/g' "/etc/asl/com.apple.authd"
+# sudo perl -p -i -e 's/rotate=seq file_max=5M all_max=20M/rotate=utc file_max=5M ttl=90/g' "/etc/asl/com.apple.authd"
 
 # Log installation events for a year
 #sudo perl -p -i -e 's/format=bsd/format=bsd mode=0640 rotate=utc compress file_max=5M ttl=365/g' "/etc/asl/com.apple.install"
@@ -432,15 +433,15 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.SubmitDiagInfo.
 #sudo perl -p -i -e 's|filesz:2M|filesz:10M|g' /private/etc/security/audit_control
 #sudo perl -p -i -e 's|expire-after:10M|expire-after: 30d |g' /private/etc/security/audit_control
 
-# Disable the “Are you sure you want to open this application?” dialog
+running "Disable the Are you sure you want to open this application? dialog"
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
 
-# running "Disable local Time Machine snapshots"
-# sudo tmutil disablelocal;ok
+running "Disable local Time Machine snapshots"
+sudo tmutil disablelocal;ok
 
 # running "Disable hibernation (speeds up entering sleep mode)"
 # sudo pmset -a hibernatemode 0;ok
@@ -452,18 +453,18 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # running "…and make sure it can’t be rewritten"
 # sudo chflags uchg /Private/var/vm/sleepimage;ok
 
-#running "Disable the sudden motion sensor as it’s not useful for SSDs"
+running "Disable the sudden motion sensor as it’s not useful for SSDs"
 sudo pmset -a sms 0;ok
 
 ################################################
 # Optional / Experimental                      #
 ################################################
 
-# running "Set computer name (as done via System Preferences → Sharing)"
-sudo scutil --set ComputerName "Ashkan's MacBook Pro"
-sudo scutil --set HostName "Ashkan's MacBook Pro"
-sudo scutil --set LocalHostName "Ashkan's MacBook Pro"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Ashkan's MacBook Pro"
+running "Set computer name (as done via System Preferences → Sharing)"
+sudo scutil --set ComputerName "Ashkan's Mac"
+sudo scutil --set HostName "Ashkan's Mac"
+sudo scutil --set LocalHostName "Ashkan's Mac"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Ashkan's Mac"
 
 # running "Disable smooth scrolling"
 # (Uncomment if you’re on an older Mac that messes up the animation)
@@ -480,7 +481,7 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 # echo "0x08000100:0" > ~/.CFUserTextEncoding;ok
 
 # running "Stop iTunes from responding to the keyboard media keys"
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null;ok
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null;ok
 
 # running "Show icons for hard drives, servers, and removable media on the desktop"
 # defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -495,16 +496,16 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 # file=/Applications/Dropbox.app/Contents/Resources/emblem-dropbox-uptodate.icns
 # [ -e "${file}" ] && mv -f "${file}" "${file}.bak";ok
 
-# running "Wipe all (default) app icons from the Dock"
+running "Wipe all (default) app icons from the Dock"
 # # This is only really useful when setting up a new Mac, or if you don’t use
 # # the Dock to launch apps.
-# defaults write com.apple.dock persistent-apps -array "";ok
+defaults write com.apple.dock persistent-apps -array "";ok
 
 #running "Enable the 2D Dock"
 #defaults write com.apple.dock no-glass -bool true;ok
 
-#running "Disable the Launchpad gesture (pinch with thumb and three fingers)"
-#defaults write com.apple.dock showLaunchpadGestureEnabled -int 0;ok
+running "Disable the Launchpad gesture (pinch with thumb and three fingers)"
+defaults write com.apple.dock showLaunchpadGestureEnabled -int 0;ok
 
 #running "Add a spacer to the left side of the Dock (where the applications are)"
 #defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}';ok
@@ -521,14 +522,14 @@ bot "Standard System Changes"
 running "allow 'locate' command"
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist > /dev/null 2>&1;ok
 
-running "Set standby delay to 24 hours (default is 1 hour)"
+# running "Set standby delay to 24 hours (default is 1 hour)"
 # sudo pmset -a standbydelay 86400;ok
 
 # running "Disable the sound effects on boot"
 #sudo nvram SystemAudioVolume=" ";ok
 
-# running "Menu bar: disable transparency"
-# defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false;ok
+running "Menu bar: disable transparency"
+defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false;ok
 
 # running "Menu bar: hide the Time Machine, Volume, User, and Bluetooth icons"
 # for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do

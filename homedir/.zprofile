@@ -95,4 +95,4 @@ typeset -gU cdpath fpath path
 #   $path
 # )
 
-# eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)"

@@ -8,7 +8,7 @@ source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 zsh_plugins=${ZDOTDIR:-$HOME}/.zsh_plugins
 if [[ ! ${zsh_plugins}.zsh -nt ${zsh_plugins}.txt ]]; then
   (
-    source /path-to-antidote/antidote.zsh
+    source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
     antidote bundle <${zsh_plugins}.txt >${zsh_plugins}.zsh
   )
 fi
@@ -16,7 +16,7 @@ source ${zsh_plugins}.zsh
 
 
 # Path to your oh-my-zsh configuration.
-export ZSH="$(antinode home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
+export ZSH="$(antidote home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
 # Set powerlevel10k prompt
 POWERLEVEL9K_MODE='awesome-fontconfig'
@@ -97,23 +97,24 @@ fi;
 # source ~/.p10k.zsh
 
 #https://github.com/asdf-vm/asdf
-# brew install asdf
-# source /usr/local/opt/asdf/asdf.sh
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
 # source /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
 
 # fuzzy search by z
-. /usr/local/opt/z/etc/profile.d/z.sh
+source "$HOMEBREW_PREFIX/opt/z/etc/profile.d/z.sh"
 
 #https://github.com/nvbn/thefuck
-# brew install thefuck
 eval "$(thefuck --alias)"
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+
 
 
 # run fortune on new terminal :)
 # fortune
 
+
 # Uncomment for profiling:
 # zprof
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-fpath+=${ZDOTDIR:-~}/.zsh_functions
-
